@@ -1,6 +1,6 @@
 const Drinks = () => {
     return (
-      <main>
+      <main className="Drinks">
           <h1>Drinks</h1>
       </main>
     )

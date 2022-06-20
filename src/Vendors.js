@@ -1,6 +1,6 @@
 const Vendors = () => {
     return (
-      <main>
+      <main className="Vendors">
           <h1>Vendors</h1>
       </main>
     )

@@ -7,7 +7,7 @@ import { Outlet } from 'react-router-dom';
 const Layout = () => {
   return (
     <div className="App">
-        <Header />
+        <Header title="React JS MSF" />
         <Nav />
         <Outlet />
         <Footer />
