@@ -1,9 +1,17 @@
-const Drinks = () => {
-    return (
-      <main className="Drinks">
-          <h1>Drinks</h1>
-      </main>
-    )
-  }
+import Feed from './Feed';
 
-  export default Drinks
+const Drinks = ({ feedItems }) => {
+    return (
+        <main className="Drinks">
+            {feedItems.length ? (
+                <Feed feedItems={feedItems} />
+            ) : (
+                <p style={{ marginTop: "2rem" }}>
+                    No drinks to display.
+                </p>
+            )}
+        </main>
+    )
+}
+
+export default Drinks
