@@ -9,33 +9,18 @@ import Missing from './Missing';
 import { useEffect, useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import api from './api/drinks';
+import useAxiosFetch from './hooks/useAxiosFetch';
+
 //import { DataProvider } from './context/DataContext';
 
 function App() {
 
   const [drinks, setDrinks] = useState([]);
+  const { data, fetchError, isLoading } = useAxiosFetch('http://localhost:35000/drinks');
 
   useEffect(() => {
-    const fetchDrinks = async () => {
-      try {
-        const response = await api.get('/drinks');
-        setDrinks(response.data);
-
-      } catch (err) {
-        if (err.response) {
-          // Not in the 200 response range
-          console.log(err.response.data);
-          console.log(err.response.status);
-          console.log(err.response.headers);
-        } else {
-          console.log(`Error: ${err.message}`);
-        }
-      }
-    }
-
-    fetchDrinks();
-
-  }, [])
+    setDrinks(data);
+  }, [data])
 
   return (
 //    <DataProvider>
@@ -44,7 +29,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="favorites" element={<Favorites />} />
           <Route path="food" element={<Food />} />
-          <Route path="drinks" element={<Drinks feedItems={drinks}/>} />
+          <Route path="drinks" element={<Drinks feedItems={drinks} fetchError={fetchError} isLoading={isLoading} />} />
           <Route path="vendors" element={<Vendors />} />
           <Route path="*" element={<Missing />} />
         </Route>
