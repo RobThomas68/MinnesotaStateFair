@@ -1,18 +1,23 @@
-import { createContext, useState, useEffect } from "react";
-
-
-import api from './api/drinks';
-import useAxios from '../hooks/useAxios';
-
+import { createContext, useState, useEffect } from 'react';
+import useAxiosFetch from '../hooks/useAxiosFetch';
 
 const DataContext = createContext({});
 
 export const DataProvider = ({ children }) => {
-    return (
-        <DataContext.Provider value={{
 
+    const [drinks, setDrinks] = useState([]);
+    const { data, fetchError, isLoading } = useAxiosFetch('http://localhost:35000/drinks');
+
+    useEffect(() => {
+        setDrinks(data);
+      }, [data])
+
+      return (
+        <DataContext.Provider value={{
+            drinks, setDrinks,
+            data, fetchError, isLoading
         }}>
-            { children }
+            {children}
         </DataContext.Provider>
     )
 }

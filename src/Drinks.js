@@ -1,12 +1,17 @@
 import Feed from './Feed';
 
-const Drinks = ({ feedItems, fetchError, isLoading }) => {
+import { useContext } from 'react';
+import DataContext from './context/DataContext';
+
+const Drinks = () => {
+
+    const { data, fetchError, isLoading } = useContext(DataContext);
     return (
         <main className="Drinks">
             {isLoading && <p className="statusMsg">Loading posts...</p>}
             {!isLoading && fetchError && <p className="statusMsg" style={ {color: "red" }}>{fetchError}</p>}
-            {!isLoading && !fetchError && (feedItems.length ? (
-                <Feed feedItems={feedItems} />
+            {!isLoading && !fetchError && (data.length ? (
+                <Feed feedItems={data} />
             ) : (
                 <p style={{ marginTop: "2rem" }}>
                     No drinks to display.
