@@ -1,16 +1,16 @@
 import { useParams, Link } from "react-router-dom";
-import { useContext } from 'react';
-import DataContext from './context/DataContext';
+import { useContext } from "react";
+import DataContext from "./context/DataContext";
 
 const DrinkPage = () => {
-    const { drinks, drinkVendors } = useContext(DataContext);
+    const { drinks, vendors } = useContext(DataContext);
     const { id } = useParams();
-    const drink = drinks.find(drink => (drink.id).toString() === id);
+    const drink = drinks.find((drink) => drink.id.toString() === id);
 
     return (
         <main className="PostPage">
             <article className="post">
-                {drink &&
+                {drink && (
                     <>
                         <h2>{drink.drinkName}</h2>
                         <p>New:{drink.isNew.toString()}</p>
@@ -18,35 +18,32 @@ const DrinkPage = () => {
                         <p>Vendors:{drink.vendorIDs.toString()}</p>
 
                         <ul>
-                        {
-                            drink.vendorIDs.map(function (id) {
-                                const vendor = drinkVendors.find(vendor => vendor.id === id);
-                                return (
-                                    <li>
-                                        <p>{vendor.id}-{vendor.name}</p>
-                                        <p>{vendor.directions}</p>
-                                        <p>({vendor.latitude},{vendor.longitude})</p>
-                                    </li>
-                                );
-                            })
-                        }
+                            {drink.vendorIDs.map(function (id) {
+                                const vendor = vendors.find((vendor) => vendor.id === id);
+                                if (vendor) {
+                                    return (
+                                        <li key={id}>
+                                            <p>{vendor.id}-{vendor.name}</p>
+                                            <p>{vendor.directions}</p>
+                                            <p>({vendor.latitude},{vendor.longitude})
+                                            </p>
+                                        </li>
+                                    );
+                                }
+                            })}
                         </ul>
-
-
                     </>
-                }
-                {!drink &&
+                )}
+                {!drink && (
                     <>
                         <h2>Drink Not Found</h2>
                         <p>Well, that's disappointing.</p>
-                        <p>
-                            <Link to='/'>Visit Our Homepage</Link>
-                        </p>
+                        <p><Link to="/">Visit Our Homepage</Link></p>
                     </>
-                }
+                )}
             </article>
         </main>
-    )
-}
+    );
+};
 
-export default DrinkPage
+export default DrinkPage;

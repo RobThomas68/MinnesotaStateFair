@@ -5,6 +5,7 @@ import Food from './Food';
 import Drinks from './Drinks';
 import DrinkPage from './DrinkPage';
 import Vendors from './Vendors';
+import Map from './Map';
 import Missing from './Missing';
 
 import { Route, Routes } from 'react-router-dom';
@@ -21,6 +22,7 @@ function App() {
           <Route path="drinks" element={<Drinks />} />
           <Route path="drink/:id" element={<DrinkPage/>} />
           <Route path="vendors" element={<Vendors />} />
+          <Route path="map" element={<Map />} />
           <Route path="*" element={<Missing />} />
         </Route>
       </Routes>

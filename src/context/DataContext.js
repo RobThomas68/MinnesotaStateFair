@@ -8,17 +8,17 @@ export const DataProvider = ({ children }) => {
     const [search, setSearch] = useState('');
     const [searchResults, setSearchResults] = useState([]);
     const [drinks, setDrinks] = useState([]);
-    const [drinkVendors, setDrinkVendors] = useState([]);
-    const { data:drink_data, fetchError, isLoading } = useAxiosFetch('http://localhost:35000/drinks');
-    const { data:drink_vendor_data, fetchError:fetchError_vendors, isLoading:isLoading_vendors } = useAxiosFetch('http://localhost:35000/drink_vendors');
+    const [vendors, setVendors] = useState([]);
+    const { data:drinkData, fetchError, isLoading } = useAxiosFetch('http://localhost:35000/drinks');
+    const { data:vendorData, fetchError:fetchErrorVendors, isLoading:isLoadingVendors } = useAxiosFetch('http://localhost:35000/vendors');
 
     const [isOnlyAtFair, setIsOnlyAtFair] = useState(false);
     const [isNew, setIsNew] = useState(false);
 
     useEffect(() => {
-        setDrinks(drink_data);
-        setDrinkVendors(drink_vendor_data);
-      }, [drink_data, drink_vendor_data])
+        setDrinks(drinkData);
+        setVendors(vendorData);
+      }, [drinkData, vendorData])
 
     useEffect(() => {
         const filteredResults = drinks.filter((drink) =>
@@ -41,7 +41,7 @@ export const DataProvider = ({ children }) => {
             isNew, setIsNew,
             fetchError, isLoading,
 
-            drinkVendors, setDrinkVendors
+            vendors, setVendors
         }}>
             {children}
         </DataContext.Provider>

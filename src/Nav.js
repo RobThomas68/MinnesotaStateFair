@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { FaHome, FaStar, FaBeer, FaHamburger, FaLandmark } from 'react-icons/fa'
+import { FaHome, FaStar, FaBeer, FaHamburger, FaLandmark, FaMap } from 'react-icons/fa'
 
 const Nav = () => {
     return (
@@ -10,6 +10,7 @@ const Nav = () => {
           <li><Link to="/food" title="Food"><FaHamburger/></Link></li>
           <li><Link to="/drinks" title="Drinks"><FaBeer/></Link></li>
           <li><Link to="/vendors" title="Vendors"><FaLandmark/></Link></li>
+          <li><Link to="/map" title="Map"><FaMap/></Link></li>
         </ul>
       </nav>
     )
