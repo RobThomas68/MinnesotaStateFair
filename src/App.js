@@ -3,6 +3,7 @@ import Home from './Home';
 import Favorites from './Favorites';
 import Food from './Food';
 import Drinks from './Drinks';
+import DrinkPage from './DrinkPage';
 import Vendors from './Vendors';
 import Missing from './Missing';
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="favorites" element={<Favorites />} />
           <Route path="food" element={<Food />} />
           <Route path="drinks" element={<Drinks />} />
+          <Route path="drink/:id" element={<DrinkPage/>} />
           <Route path="vendors" element={<Vendors />} />
           <Route path="*" element={<Missing />} />
         </Route>

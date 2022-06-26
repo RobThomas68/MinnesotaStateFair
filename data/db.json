@@ -1,0 +1,3326 @@
+{
+	"drinks": [
+		{
+			"id": 0,
+			"drinkName": "Castle Danger Cream Ale",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"113.1",
+				"186.1",
+				"237.1",
+				"255.1",
+				"282.1",
+				"305.1",
+				"33.1",
+				"422.1",
+				"422.2",
+				"422.3",
+				"422.4",
+				"588.1",
+				"59.1",
+				"781.1",
+				"830.1",
+				"94.1"
+			]
+		},
+		{
+			"id": 1,
+			"drinkName": "Crook & Marker Margarita",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"113.1"
+			]
+		},
+		{
+			"id": 2,
+			"drinkName": "Grain Belt Premium",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"113.1",
+				"127.1",
+				"186.1",
+				"218.1",
+				"237.1",
+				"255.1",
+				"305.1",
+				"324.2",
+				"377.1",
+				"59.1",
+				"745.1",
+				"781.1",
+				"830.1"
+			]
+		},
+		{
+			"id": 3,
+			"drinkName": "Leinenkugel's Honey Weiss",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"113.1",
+				"237.1",
+				"305.1",
+				"377.1",
+				"588.1",
+				"698.1"
+			]
+		},
+		{
+			"id": 4,
+			"drinkName": "Leinenkugel's Summer Shandy",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"113.1",
+				"127.1",
+				"186.1",
+				"218.1",
+				"237.1",
+				"255.1",
+				"282.1",
+				"305.1",
+				"33.1",
+				"377.1",
+				"422.1",
+				"422.2",
+				"422.3",
+				"422.4",
+				"444.1",
+				"588.1",
+				"745.1",
+				"830.1",
+				"94.1"
+			]
+		},
+		{
+			"id": 5,
+			"drinkName": "Lift Bridge Farm Girl",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"113.1",
+				"383.1",
+				"60.1",
+				"830.1"
+			]
+		},
+		{
+			"id": 6,
+			"drinkName": "Lift Bridge Mango Blonde",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"113.1",
+				"127.1",
+				"218.1",
+				"422.1",
+				"422.2",
+				"422.3",
+				"422.4",
+				"59.1",
+				"745.1",
+				"830.1",
+				"94.1"
+			]
+		},
+		{
+			"id": 7,
+			"drinkName": "Mike's Harder Lemonade",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"113.1",
+				"33.1",
+				"60.1"
+			]
+		},
+		{
+			"id": 8,
+			"drinkName": "Redbridge (gluten-free)",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"113.1",
+				"781.1"
+			]
+		},
+		{
+			"id": 9,
+			"drinkName": "REDD's Apple Ale",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"113.1",
+				"830.1"
+			]
+		},
+		{
+			"id": 10,
+			"drinkName": "Schell's LoCal Twist",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"113.1",
+				"305.1",
+				"324.2"
+			]
+		},
+		{
+			"id": 11,
+			"drinkName": "Summit Extra Pale Ale",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"113.1",
+				"127.1",
+				"186.1",
+				"237.1",
+				"255.1",
+				"282.1",
+				"282.2",
+				"33.1",
+				"444.1",
+				"588.1",
+				"745.1"
+			]
+		},
+		{
+			"id": 12,
+			"drinkName": "Third Street Minnesota Gold Lager",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"113.1"
+			]
+		},
+		{
+			"id": 13,
+			"drinkName": "White Claw Hard Seltzer Black Cherry",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": true,
+			"vendorIDs": [
+				"113.1",
+				"324.1",
+				"33.1",
+				"422.1",
+				"422.2",
+				"422.3",
+				"422.4",
+				"444.1"
+			]
+		},
+		{
+			"id": 14,
+			"drinkName": "White Claw Hard Seltzer Mango",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": true,
+			"vendorIDs": [
+				"113.1",
+				"324.1",
+				"422.1",
+				"422.2",
+				"422.3",
+				"422.4",
+				"444.1"
+			]
+		},
+		{
+			"id": 15,
+			"drinkName": "612 Great Minnesota Citra-gether IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"127.1"
+			]
+		},
+		{
+			"id": 16,
+			"drinkName": "Bald Man Minnesota Mule Ale",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"127.1"
+			]
+		},
+		{
+			"id": 17,
+			"drinkName": "Cannon River Feisty Red",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"127.1"
+			]
+		},
+		{
+			"id": 18,
+			"drinkName": "Cannon River Feisty White",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"127.1"
+			]
+		},
+		{
+			"id": 19,
+			"drinkName": "Cannon River Sogn Blush",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"127.1",
+				"605.1"
+			]
+		},
+		{
+			"id": 20,
+			"drinkName": "Deschutes Fresh Squeezed IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"127.1",
+				"186.1",
+				"237.1",
+				"255.1",
+				"324.1",
+				"588.1",
+				"698.1",
+				"830.1"
+			]
+		},
+		{
+			"id": 21,
+			"drinkName": "Dreamsicle Hard Malt",
+			"isNew": false,
+			"isOnlyAtFair": true,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"127.1"
+			]
+		},
+		{
+			"id": 22,
+			"drinkName": "Fair State Big Doinks",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"127.1"
+			]
+		},
+		{
+			"id": 23,
+			"drinkName": "Fulton Lonely Blonde",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"127.1",
+				"218.1",
+				"237.1",
+				"282.1",
+				"324.1",
+				"33.1",
+				"698.1",
+				"94.1"
+			]
+		},
+		{
+			"id": 27,
+			"drinkName": "Lupulin Blue Razzmatazz",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"127.1"
+			]
+		},
+		{
+			"id": 28,
+			"drinkName": "Mike's Hard Black Cherry Lemonade",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"127.1",
+				"444.1",
+				"588.1",
+				"781.1",
+				"94.1"
+			]
+		},
+		{
+			"id": 29,
+			"drinkName": "Mike's Hard Lemonade",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"127.1",
+				"237.1",
+				"282.1",
+				"444.1",
+				"781.1",
+				"94.1"
+			]
+		},
+		{
+			"id": 30,
+			"drinkName": "REDD's Wicked Apple Ale",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"127.1",
+				"94.1"
+			]
+		},
+		{
+			"id": 31,
+			"drinkName": "Schell's Oktoberfest",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"127.1",
+				"324.2",
+				"745.1"
+			]
+		},
+		{
+			"id": 32,
+			"drinkName": "Smirnoff Ice Red, White & Berry",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"127.1",
+				"588.1"
+			]
+		},
+		{
+			"id": 34,
+			"drinkName": "Surly Furious IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"127.1",
+				"186.1",
+				"237.1",
+				"33.1",
+				"383.1",
+				"59.1",
+				"698.1",
+				"781.1",
+				"830.1",
+				"94.1"
+			]
+		},
+		{
+			"id": 35,
+			"drinkName": "Tin Whiskers Lowertown Lager",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"127.1"
+			]
+		},
+		{
+			"id": 36,
+			"drinkName": "Truly Spiked & Sparkling Wild Berry",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"127.1"
+			]
+		},
+		{
+			"id": 37,
+			"drinkName": "Waconia Golden Cookies N Cream Ale",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"127.1"
+			]
+		},
+		{
+			"id": 38,
+			"drinkName": "Bent Paddle Toga Party Kanu",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"186.1"
+			]
+		},
+		{
+			"id": 41,
+			"drinkName": "Firestone Walker Mind Haza IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"186.1"
+			]
+		},
+		{
+			"id": 42,
+			"drinkName": "Golden Road Mango Cart",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"186.1"
+			]
+		},
+		{
+			"id": 44,
+			"drinkName": "Gray Duck Bomba Juice Hard Seltzer",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": true,
+			"vendorIDs": [
+				"186.1"
+			]
+		},
+		{
+			"id": 45,
+			"drinkName": "Heinieken 0.0 Non-Alcoholic Beer",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"186.1"
+			]
+		},
+		{
+			"id": 46,
+			"drinkName": "Indeed Pomegranate Pils",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"186.1"
+			]
+		},
+		{
+			"id": 47,
+			"drinkName": "Jack Daniel's Downhome Punch",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"186.1",
+				"33.1"
+			]
+		},
+		{
+			"id": 48,
+			"drinkName": "Kona Big Wave Golden Ale",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"186.1",
+				"218.1",
+				"422.1",
+				"422.2",
+				"422.3",
+				"422.4",
+				"444.1",
+				"94.1"
+			]
+		},
+		{
+			"id": 50,
+			"drinkName": "Paulaner Grapefruit Radler",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"186.1"
+			]
+		},
+		{
+			"id": 51,
+			"drinkName": "Schell's Sangria",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"186.1",
+				"255.1",
+				"324.2",
+				"444.1",
+				"830.1"
+			]
+		},
+		{
+			"id": 53,
+			"drinkName": "Summit Oktoberfest",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"186.1",
+				"237.1",
+				"255.1",
+				"282.1",
+				"282.2",
+				"830.1"
+			]
+		},
+		{
+			"id": 55,
+			"drinkName": "Surly Tangerine Titan",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"186.1"
+			]
+		},
+		{
+			"id": 56,
+			"drinkName": "Utepils Pontoon Afternoon",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"186.1",
+				"830.1"
+			]
+		},
+		{
+			"id": 59,
+			"drinkName": "Hamm's",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"218.1",
+				"237.1",
+				"255.1",
+				"324.1"
+			]
+		},
+		{
+			"id": 63,
+			"drinkName": "White Claw Hard Seltzer",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": true,
+			"vendorIDs": [
+				"218.1",
+				"237.1",
+				"383.1",
+				"588.1",
+				"60.1",
+				"698.1",
+				"745.1"
+			]
+		},
+		{
+			"id": 64,
+			"drinkName": "Bell's Two Hearted Ale",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"237.1",
+				"94.1"
+			]
+		},
+		{
+			"id": 65,
+			"drinkName": "Burning Brothers Pyro (gluten-free)",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"237.1"
+			]
+		},
+		{
+			"id": 67,
+			"drinkName": "Cayman Jack Cocktails",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"237.1"
+			]
+		},
+		{
+			"id": 69,
+			"drinkName": "Fulton Hard Seltzer",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": true,
+			"vendorIDs": [
+				"237.1"
+			]
+		},
+		{
+			"id": 71,
+			"drinkName": "Fulton OMG Seltzer Slushy",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": true,
+			"vendorIDs": [
+				"237.1"
+			]
+		},
+		{
+			"id": 72,
+			"drinkName": "Fulton Prickly Pear IPA",
+			"isNew": false,
+			"isOnlyAtFair": true,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"237.1"
+			]
+		},
+		{
+			"id": 73,
+			"drinkName": "Grain Belt Nordeast",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"237.1",
+				"255.1",
+				"324.1",
+				"422.1",
+				"422.2",
+				"422.3",
+				"422.4",
+				"588.1",
+				"781.1",
+				"94.1"
+			]
+		},
+		{
+			"id": 75,
+			"drinkName": "Gray Duck Hard Seltzer",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": true,
+			"vendorIDs": [
+				"237.1"
+			]
+		},
+		{
+			"id": 80,
+			"drinkName": "Ranch Water Hard Seltzer",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": true,
+			"vendorIDs": [
+				"237.1"
+			]
+		},
+		{
+			"id": 81,
+			"drinkName": "Shiner Bock",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"237.1"
+			]
+		},
+		{
+			"id": 85,
+			"drinkName": "Tipsy Tomato Bloody Mary Cocktail",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"237.1",
+				"282.1",
+				"324.1"
+			]
+		},
+		{
+			"id": 86,
+			"drinkName": "Urban Growler Cowbell Cream Ale",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"237.1",
+				"830.1"
+			]
+		},
+		{
+			"id": 88,
+			"drinkName": "Bent Brewstillery Celegrapetion Ale",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"255.1"
+			]
+		},
+		{
+			"id": 89,
+			"drinkName": "Cannon River Mancini Levee Red",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"255.1"
+			]
+		},
+		{
+			"id": 90,
+			"drinkName": "Cannon River West 7th White",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"255.1"
+			]
+		},
+		{
+			"id": 93,
+			"drinkName": "Fulton Blood Orange Hard Seltzer",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": true,
+			"vendorIDs": [
+				"255.1"
+			]
+		},
+		{
+			"id": 94,
+			"drinkName": "Grain Belt Blu",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"255.1",
+				"324.1",
+				"324.2",
+				"781.1"
+			]
+		},
+		{
+			"id": 99,
+			"drinkName": "Peroni",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"255.1"
+			]
+		},
+		{
+			"id": 100,
+			"drinkName": "Rebel Hard Coffee",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"255.1"
+			]
+		},
+		{
+			"id": 102,
+			"drinkName": "Sociable Cider Werks Rusy Chain Cranberry Apple (gluten-free)",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"255.1"
+			]
+		},
+		{
+			"id": 105,
+			"drinkName": "Aromatic Mike's Hard Lemonade Slushie",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"282.1"
+			]
+		},
+		{
+			"id": 106,
+			"drinkName": "Buzzin Moscow Mule Slushie",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"282.1"
+			]
+		},
+		{
+			"id": 111,
+			"drinkName": "Sociable Cider Werks Beach Cruiser Hard Cider",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"282.1"
+			]
+		},
+		{
+			"id": 112,
+			"drinkName": "Sociable Cider Werks Guava Have It Hard Seltzer",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": true,
+			"vendorIDs": [
+				"282.1"
+			]
+		},
+		{
+			"id": 113,
+			"drinkName": "Summit Berry Bazaar K\u00f6lsch-Style Ale",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"282.1",
+				"282.2"
+			]
+		},
+		{
+			"id": 114,
+			"drinkName": "Summit Cabin Crusher",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"282.1",
+				"282.2",
+				"830.1"
+			]
+		},
+		{
+			"id": 117,
+			"drinkName": "TGI Fridays Cocktails Crafted to Go Moscow Mule",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"282.1"
+			]
+		},
+		{
+			"id": 122,
+			"drinkName": "Summit Keller Pils",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"282.2",
+				"324.1"
+			]
+		},
+		{
+			"id": 124,
+			"drinkName": "Summit S\u00e1ga\u00a0IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"282.2",
+				"422.1",
+				"422.2",
+				"422.3",
+				"422.4"
+			]
+		},
+		{
+			"id": 125,
+			"drinkName": "Summit Slugfest Juicy IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"282.2"
+			]
+		},
+		{
+			"id": 126,
+			"drinkName": "Beaver Island Experimental Hard Iced Tea with Lemon",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"305.1"
+			]
+		},
+		{
+			"id": 127,
+			"drinkName": "Briar Blackberry Rhubarb Wine Cocktail",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"305.1"
+			]
+		},
+		{
+			"id": 129,
+			"drinkName": "Deschutes Squeezy Rider IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"305.1"
+			]
+		},
+		{
+			"id": 130,
+			"drinkName": "FINNEGANS Irish Amber",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"305.1",
+				"745.1"
+			]
+		},
+		{
+			"id": 131,
+			"drinkName": "Garphish Lemmony Lemon Kins Pastry Ale",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"305.1"
+			]
+		},
+		{
+			"id": 133,
+			"drinkName": "Insight Orange Espresso Cream Ale",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"305.1"
+			]
+		},
+		{
+			"id": 134,
+			"drinkName": "Lakefront La Gosa Rita (gluten-free)",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"305.1"
+			]
+		},
+		{
+			"id": 135,
+			"drinkName": "Leinenkugel's Oktoberfest",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"305.1",
+				"377.1"
+			]
+		},
+		{
+			"id": 138,
+			"drinkName": "Lupulin Tropical Fun Pants",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"305.1",
+				"588.1",
+				"830.1",
+				"94.1"
+			]
+		},
+		{
+			"id": 139,
+			"drinkName": "New Belgium Dominga Mimosa Sour",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"305.1",
+				"830.1"
+			]
+		},
+		{
+			"id": 140,
+			"drinkName": "New Belgium Voodoo Ranger V2K IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"305.1"
+			]
+		},
+		{
+			"id": 141,
+			"drinkName": "Parley Lake Wine",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"305.1"
+			]
+		},
+		{
+			"id": 143,
+			"drinkName": "Sociable Cider Werks Training Wheels Hazy Blueberry",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"305.1"
+			]
+		},
+		{
+			"id": 144,
+			"drinkName": "Summit Oasis Crusher Passion Fruit",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"305.1"
+			]
+		},
+		{
+			"id": 145,
+			"drinkName": "Summit Triumphant Session IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"305.1"
+			]
+		},
+		{
+			"id": 146,
+			"drinkName": "Urban Growler \"Hans On\" IPA",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"305.1"
+			]
+		},
+		{
+			"id": 147,
+			"drinkName": "Utepils Receptional",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"305.1",
+				"830.1"
+			]
+		},
+		{
+			"id": 148,
+			"drinkName": "Waconia Strawberry Lemonade Seltzer",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": true,
+			"vendorIDs": [
+				"305.1"
+			]
+		},
+		{
+			"id": 149,
+			"drinkName": "Warpigs Foggy Geezer Hazy IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"305.1",
+				"60.1"
+			]
+		},
+		{
+			"id": 150,
+			"drinkName": "Castle Danger Honey Raspberry Wheat",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"324.1"
+			]
+		},
+		{
+			"id": 151,
+			"drinkName": "Cayman Jack Cuban Mojito",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"324.1"
+			]
+		},
+		{
+			"id": 152,
+			"drinkName": "Cayman Jack Margarita",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"324.1",
+				"33.1",
+				"94.1"
+			]
+		},
+		{
+			"id": 153,
+			"drinkName": "Cayman Jack Moscow Mule",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"324.1"
+			]
+		},
+		{
+			"id": 159,
+			"drinkName": "Modelo Especial",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"324.1",
+				"33.1",
+				"94.1"
+			]
+		},
+		{
+			"id": 160,
+			"drinkName": "Rasmelon Lemonade Slushy",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"324.1"
+			]
+		},
+		{
+			"id": 161,
+			"drinkName": "Rebel Hard Coffee Berry Crisp Latte",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"324.1"
+			]
+		},
+		{
+			"id": 162,
+			"drinkName": "Schell's Cherry-Go-Round",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"324.1",
+				"324.2"
+			]
+		},
+		{
+			"id": 163,
+			"drinkName": "Schell's OAKtoberfest",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"324.1",
+				"324.2"
+			]
+		},
+		{
+			"id": 164,
+			"drinkName": "Sociable Cider Werks Guava Pear at the Fair Slushy",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"324.1"
+			]
+		},
+		{
+			"id": 165,
+			"drinkName": "Sociable Cider Werks Minnesota Maple Mead",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"324.1"
+			]
+		},
+		{
+			"id": 166,
+			"drinkName": "Sociable Cider Werks Passion Berry Cider",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"324.1"
+			]
+		},
+		{
+			"id": 167,
+			"drinkName": "Sociable Cider Werks Pink Lemonade Slushy",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"324.1"
+			]
+		},
+		{
+			"id": 168,
+			"drinkName": "Sociable Cider Werks Mimosa",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"324.1"
+			]
+		},
+		{
+			"id": 170,
+			"drinkName": "Surly LuLu's Juicy MN Midway Hazy",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"324.1"
+			]
+		},
+		{
+			"id": 174,
+			"drinkName": "White Claw Hard Seltzer Raspberry",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": true,
+			"vendorIDs": [
+				"324.1"
+			]
+		},
+		{
+			"id": 177,
+			"drinkName": "Schell's Cream Ale",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"324.2"
+			]
+		},
+		{
+			"id": 180,
+			"drinkName": "Schell's Moondrift Hazy IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"324.2"
+			]
+		},
+		{
+			"id": 184,
+			"drinkName": "Schell's Schandy",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"324.2"
+			]
+		},
+		{
+			"id": 185,
+			"drinkName": "Schell's Blu Topper",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"324.2"
+			]
+		},
+		{
+			"id": 186,
+			"drinkName": "Schell's Sangria Topper",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"324.2"
+			]
+		},
+		{
+			"id": 187,
+			"drinkName": "Schell's Choc'd Up Topper",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"324.2"
+			]
+		},
+		{
+			"id": 188,
+			"drinkName": "Schell's Schandy Topper",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"324.2"
+			]
+		},
+		{
+			"id": 189,
+			"drinkName": "Bent Paddle Summer Luv'n Orange IPA",
+			"isNew": false,
+			"isOnlyAtFair": true,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"33.1"
+			]
+		},
+		{
+			"id": 190,
+			"drinkName": "Big Wood Caramel Apple Craft Seltzer",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": true,
+			"vendorIDs": [
+				"33.1"
+			]
+		},
+		{
+			"id": 191,
+			"drinkName": "Big Wood Chocolate Chip Cookie Beer",
+			"isNew": false,
+			"isOnlyAtFair": true,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"33.1"
+			]
+		},
+		{
+			"id": 194,
+			"drinkName": "Fair State Roselle",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"33.1",
+				"383.1",
+				"830.1"
+			]
+		},
+		{
+			"id": 196,
+			"drinkName": "Indeed Pistachio Cream Ale",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"33.1"
+			]
+		},
+		{
+			"id": 201,
+			"drinkName": "O'Doul's Amber Non-Alcoholic Beer",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"33.1"
+			]
+		},
+		{
+			"id": 202,
+			"drinkName": "Sierra Nevada Hazy Little Thing IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"33.1"
+			]
+		},
+		{
+			"id": 203,
+			"drinkName": "Smirnoff Ice Smash Red, White & Berry",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"33.1"
+			]
+		},
+		{
+			"id": 206,
+			"drinkName": "Truly Energized Colada Slushy",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"33.1"
+			]
+		},
+		{
+			"id": 207,
+			"drinkName": "Twisted Tea",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"33.1"
+			]
+		},
+		{
+			"id": 208,
+			"drinkName": "Utepils Sk\u00f6lsch!",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"33.1",
+				"383.1"
+			]
+		},
+		{
+			"id": 211,
+			"drinkName": "Leinenkugel's Berry Weiss",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"377.1"
+			]
+		},
+		{
+			"id": 212,
+			"drinkName": "Leinenkugel's Canoe Paddler Kolsch",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"377.1"
+			]
+		},
+		{
+			"id": 213,
+			"drinkName": "Leinenkugel's Collaboration Lager",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"377.1"
+			]
+		},
+		{
+			"id": 215,
+			"drinkName": "Leinenkugel's Lemon Haze IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"377.1"
+			]
+		},
+		{
+			"id": 217,
+			"drinkName": "Leinenkugel's Original",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"377.1"
+			]
+		},
+		{
+			"id": 219,
+			"drinkName": "Country Ros\u00e9 Spritzer",
+			"isNew": false,
+			"isOnlyAtFair": true,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"383.1"
+			]
+		},
+		{
+			"id": 221,
+			"drinkName": "Frozen Fruit Punch",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"383.1"
+			]
+		},
+		{
+			"id": 222,
+			"drinkName": "The Freehouse Ginger Shandy",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"383.1"
+			]
+		},
+		{
+			"id": 224,
+			"drinkName": "Loon Juice Honeycrisp Cider",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"383.1",
+				"60.1",
+				"745.1"
+			]
+		},
+		{
+			"id": 225,
+			"drinkName": "Pryes Hazy IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"383.1"
+			]
+		},
+		{
+			"id": 227,
+			"drinkName": "The Freehouse No. 13 Blueberry Blonde",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"383.1"
+			]
+		},
+		{
+			"id": 235,
+			"drinkName": "Lift Bridge Hard Seltzer The Bomb",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": true,
+			"vendorIDs": [
+				"422.1",
+				"422.2",
+				"422.3",
+				"422.4",
+				"59.1",
+				"830.1"
+			]
+		},
+		{
+			"id": 236,
+			"drinkName": "Lupulin Key Lime Hypezig",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"422.1",
+				"422.2",
+				"422.3",
+				"422.4"
+			]
+		},
+		{
+			"id": 237,
+			"drinkName": "Sociable Cider Werks Freewheeler",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"422.1",
+				"422.2",
+				"422.3",
+				"422.4",
+				"94.1"
+			]
+		},
+		{
+			"id": 239,
+			"drinkName": "Surly Grapefruit Supreme",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"422.1",
+				"422.2",
+				"422.3",
+				"422.4",
+				"698.1",
+				"830.1"
+			]
+		},
+		{
+			"id": 278,
+			"drinkName": "Alexis Bailly Country Red",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"423.1"
+			]
+		},
+		{
+			"id": 279,
+			"drinkName": "Alexis Bailly Country White",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"423.1"
+			]
+		},
+		{
+			"id": 280,
+			"drinkName": "Alexis Bailly Country Ros\u00e9",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"423.1"
+			]
+		},
+		{
+			"id": 281,
+			"drinkName": "Alexis Bailly Country Sangria",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"423.1"
+			]
+		},
+		{
+			"id": 282,
+			"drinkName": "Carlos Creek Wine",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"423.1"
+			]
+		},
+		{
+			"id": 283,
+			"drinkName": "Wine Slushies",
+			"isNew": false,
+			"isOnlyAtFair": true,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"423.1"
+			]
+		},
+		{
+			"id": 292,
+			"drinkName": "Arizona Sunrise Hard Seltzer Cherry Punch",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": true,
+			"vendorIDs": [
+				"588.1"
+			]
+		},
+		{
+			"id": 293,
+			"drinkName": "Arizona Sunrise Hard Seltzer Mucho Mango",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": true,
+			"vendorIDs": [
+				"588.1"
+			]
+		},
+		{
+			"id": 301,
+			"drinkName": "New Belgium Voodoo Ranger Juicy Haze IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"588.1"
+			]
+		},
+		{
+			"id": 302,
+			"drinkName": "Smirnoff Ice Grape",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"588.1"
+			]
+		},
+		{
+			"id": 303,
+			"drinkName": "Smirnoff Ice Hurricane Punch",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"588.1"
+			]
+		},
+		{
+			"id": 305,
+			"drinkName": "Smirnoff Spiked Sparkling Seltzer Berry Lemonade",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": true,
+			"vendorIDs": [
+				"588.1",
+				"830.1"
+			]
+		},
+		{
+			"id": 308,
+			"drinkName": "Bauhaus The Shandlot Golden Tea Edition",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"59.1"
+			]
+		},
+		{
+			"id": 309,
+			"drinkName": "Bent Brewstillery Sweat Back Together",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"59.1"
+			]
+		},
+		{
+			"id": 310,
+			"drinkName": "Bent Paddle Clasico Salted Lime Cream Ale",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"59.1"
+			]
+		},
+		{
+			"id": 311,
+			"drinkName": "Bent Paddle Cold Press Black Ale",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"59.1"
+			]
+		},
+		{
+			"id": 312,
+			"drinkName": "BlackStack Local 755 New England IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"59.1"
+			]
+		},
+		{
+			"id": 314,
+			"drinkName": "Eastlake Kirby Pucker Watermelon Paloma",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"59.1"
+			]
+		},
+		{
+			"id": 315,
+			"drinkName": "Fair State Oktoberfest",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"59.1"
+			]
+		},
+		{
+			"id": 316,
+			"drinkName": "Fulton Lemonade Hard Seltzer",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": true,
+			"vendorIDs": [
+				"59.1"
+			]
+		},
+		{
+			"id": 318,
+			"drinkName": "Indeed Mexican Honey Light",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"59.1"
+			]
+		},
+		{
+			"id": 319,
+			"drinkName": "Indeed Mountain Brew",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"59.1"
+			]
+		},
+		{
+			"id": 322,
+			"drinkName": "Lift Bridge Mini Donut Beer",
+			"isNew": false,
+			"isOnlyAtFair": true,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"59.1"
+			]
+		},
+		{
+			"id": 323,
+			"drinkName": "Modist and Dangerous Man MN Brew Together Peaches and Cream Milkshake IPA",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"59.1"
+			]
+		},
+		{
+			"id": 324,
+			"drinkName": "Modist Dreamyard IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"59.1"
+			]
+		},
+		{
+			"id": 325,
+			"drinkName": "Modist Tropical Smoothie Sour",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"59.1"
+			]
+		},
+		{
+			"id": 326,
+			"drinkName": "Steel Toe Size 7",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"59.1"
+			]
+		},
+		{
+			"id": 328,
+			"drinkName": "Surly Grip and Rip IPA",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"59.1"
+			]
+		},
+		{
+			"id": 329,
+			"drinkName": "Sweetland Orchard\u00a0Cherry Rhubarb (gluten-free)",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"59.1"
+			]
+		},
+		{
+			"id": 330,
+			"drinkName": "Sweetland Orchard Minnesota Mule Cider (gluten-free)",
+			"isNew": false,
+			"isOnlyAtFair": true,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"59.1"
+			]
+		},
+		{
+			"id": 331,
+			"drinkName": "Utepils KFAN Unfiltered Blonde Ale",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"59.1"
+			]
+		},
+		{
+			"id": 332,
+			"drinkName": "Wild State Pineapple Cider",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"59.1"
+			]
+		},
+		{
+			"id": 333,
+			"drinkName": "312 Lemonade Shandy",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"60.1"
+			]
+		},
+		{
+			"id": 334,
+			"drinkName": "Allkind Hard Kombucha",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"60.1"
+			]
+		},
+		{
+			"id": 335,
+			"drinkName": "Bent Brewstillery Blondie & Clyde",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"60.1"
+			]
+		},
+		{
+			"id": 336,
+			"drinkName": "Big Wood Cotton Candy Milkshake IPA",
+			"isNew": false,
+			"isOnlyAtFair": true,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"60.1"
+			]
+		},
+		{
+			"id": 337,
+			"drinkName": "Cannon River Flirty Fruity Bubbles",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"60.1"
+			]
+		},
+		{
+			"id": 338,
+			"drinkName": "Cannon River Lavender Lemonade Bubble Trouble",
+			"isNew": false,
+			"isOnlyAtFair": true,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"60.1"
+			]
+		},
+		{
+			"id": 339,
+			"drinkName": "Cannon River Mobster Mule Bubble Trouble",
+			"isNew": false,
+			"isOnlyAtFair": true,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"60.1"
+			]
+		},
+		{
+			"id": 340,
+			"drinkName": "Cannon River Sparkling Edelweiss",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"60.1"
+			]
+		},
+		{
+			"id": 341,
+			"drinkName": "Cannon River St. Pepin White",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"60.1"
+			]
+		},
+		{
+			"id": 342,
+			"drinkName": "Cannon River Strawberry Mint Mojito",
+			"isNew": false,
+			"isOnlyAtFair": true,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"60.1"
+			]
+		},
+		{
+			"id": 343,
+			"drinkName": "Cannon River When Life Hands You Lemons-tini",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"60.1"
+			]
+		},
+		{
+			"id": 344,
+			"drinkName": "Lift Bridge 93X Brotherhood Lager",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"60.1"
+			]
+		},
+		{
+			"id": 348,
+			"drinkName": "Round Lake Brianna",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"60.1"
+			]
+		},
+		{
+			"id": 349,
+			"drinkName": "Round Lake Frontenac Gris",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"60.1"
+			]
+		},
+		{
+			"id": 350,
+			"drinkName": "Round Lake The Heron Red",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"60.1"
+			]
+		},
+		{
+			"id": 351,
+			"drinkName": "Sierra Nevada Wild Little Thing",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"60.1"
+			]
+		},
+		{
+			"id": 352,
+			"drinkName": "Tipsy Tomato Spicy Bloody Mary Cocktail",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"60.1"
+			]
+		},
+		{
+			"id": 355,
+			"drinkName": "Cannon River Mango Sangria Wine Slushie",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"605.1"
+			]
+		},
+		{
+			"id": 357,
+			"drinkName": "Falconer's Lumberjack Hard Cider",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"605.1"
+			]
+		},
+		{
+			"id": 358,
+			"drinkName": "Falconer Vineyard Fros\u00e9 Wine Slushie",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"605.1"
+			]
+		},
+		{
+			"id": 359,
+			"drinkName": "Falconer Vineyard Snowy White",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"605.1"
+			]
+		},
+		{
+			"id": 360,
+			"drinkName": "Forestedge Blueberry Pomegranate Wine Slushie",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"605.1"
+			]
+		},
+		{
+			"id": 361,
+			"drinkName": "Forestedge Kabekona Blush",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"605.1"
+			]
+		},
+		{
+			"id": 362,
+			"drinkName": "Forestedge Rhubarb/Raspberry Blend",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"605.1"
+			]
+		},
+		{
+			"id": 363,
+			"drinkName": "Garvin Heights Petite Pearl",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"605.1"
+			]
+		},
+		{
+			"id": 364,
+			"drinkName": "Garvin Heights Wildberry Bluff",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"605.1"
+			]
+		},
+		{
+			"id": 365,
+			"drinkName": "Parley Lake Brianna Banana Breeze Wine Slushie",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"605.1"
+			]
+		},
+		{
+			"id": 366,
+			"drinkName": "Parley Lake Brianna Breeze",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"605.1"
+			]
+		},
+		{
+			"id": 367,
+			"drinkName": "Parley Lake Lake View White",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"605.1"
+			]
+		},
+		{
+			"id": 368,
+			"drinkName": "Round Lake Skinny Dipping Apple Wine",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"605.1"
+			]
+		},
+		{
+			"id": 369,
+			"drinkName": "Saint Croix Vineyards Frontenac",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"605.1"
+			]
+		},
+		{
+			"id": 370,
+			"drinkName": "Saint Croix Vineyards Frontenac Blanc",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"605.1"
+			]
+		},
+		{
+			"id": 371,
+			"drinkName": "Saint Croix Vineyards Peaches and Gris Wine Slushie",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"605.1"
+			]
+		},
+		{
+			"id": 372,
+			"drinkName": "Winehaven Marquette Reserve",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"605.1"
+			]
+		},
+		{
+			"id": 373,
+			"drinkName": "Winehaven Raspberry Wine Slushie",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"605.1"
+			]
+		},
+		{
+			"id": 374,
+			"drinkName": "Winehaven Strawberry Rhubarb Wine",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"605.1"
+			]
+		},
+		{
+			"id": 375,
+			"drinkName": "Clawgarita",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"698.1"
+			]
+		},
+		{
+			"id": 378,
+			"drinkName": "Glutenberg Blonde Ale (gluten-free)",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"698.1"
+			]
+		},
+		{
+			"id": 380,
+			"drinkName": "Michelada",
+			"isNew": false,
+			"isOnlyAtFair": true,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"698.1"
+			]
+		},
+		{
+			"id": 381,
+			"drinkName": "Original Beergarita",
+			"isNew": false,
+			"isOnlyAtFair": true,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"698.1"
+			]
+		},
+		{
+			"id": 385,
+			"drinkName": "Black Cherry Coco Berry Slushie",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"745.1"
+			]
+		},
+		{
+			"id": 386,
+			"drinkName": "Cannon River Gunflint Red",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"745.1"
+			]
+		},
+		{
+			"id": 387,
+			"drinkName": "Cannon River Sogn Blanc",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"745.1"
+			]
+		},
+		{
+			"id": 388,
+			"drinkName": "Castle Danger Orange Cream Ale",
+			"isNew": false,
+			"isOnlyAtFair": true,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"745.1"
+			]
+		},
+		{
+			"id": 389,
+			"drinkName": "Castle Danger Strawberry Cream Ale",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"745.1"
+			]
+		},
+		{
+			"id": 391,
+			"drinkName": "Fulton 300",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"745.1"
+			]
+		},
+		{
+			"id": 393,
+			"drinkName": "Lakes & Legends Cotton Candy Hard Seltzer",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": true,
+			"vendorIDs": [
+				"745.1"
+			]
+		},
+		{
+			"id": 394,
+			"drinkName": "Lakes & Legends Homegrown Haze Hazy IPA",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"745.1"
+			]
+		},
+		{
+			"id": 399,
+			"drinkName": "Smithwick's",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"745.1"
+			]
+		},
+		{
+			"id": 402,
+			"drinkName": "Alesmith Nut Brown Ale",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 403,
+			"drinkName": "Bear Republic Racer 5 IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 404,
+			"drinkName": "Belching Beaver Peanut Butter Milk Stout",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 405,
+			"drinkName": "Blacklist Dill Pickle Ale",
+			"isNew": false,
+			"isOnlyAtFair": true,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 407,
+			"drinkName": "Clown Shoes Galactica Imperial IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 408,
+			"drinkName": "Coronado Outboard Motor Beer",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 409,
+			"drinkName": "Coronado Weekend Vibes IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 410,
+			"drinkName": "Excelsior Maple Bacon Brown",
+			"isNew": false,
+			"isOnlyAtFair": true,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 411,
+			"drinkName": "Excelsior S'Mores Beer",
+			"isNew": false,
+			"isOnlyAtFair": true,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 415,
+			"drinkName": "Gr\u00fcvi Non-Alcoholic IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 416,
+			"drinkName": "Lake of the Woods Channel Marker Lager",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 417,
+			"drinkName": "Lake of the Woods Forgotten Lake Blueberry Ale",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 418,
+			"drinkName": "Lake of the Woods Lakeside Kolsch",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 419,
+			"drinkName": "Mankato Buoyed Up Mango Shandy",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 420,
+			"drinkName": "Mankato Campfire Lemon Shandy",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 421,
+			"drinkName": "Mankato Orange Solstice Shandy",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 423,
+			"drinkName": "Mike's Hard Cranberry",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 425,
+			"drinkName": "Millstream German Pilsner",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 426,
+			"drinkName": "Millstream Oktoberfest",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 427,
+			"drinkName": "Pipeworks Unicorn Double IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 429,
+			"drinkName": "Round Lake Northstar Fros\u00e9 Blanc",
+			"isNew": false,
+			"isOnlyAtFair": true,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 430,
+			"drinkName": "Round Lake Summer Sunset Fros\u00e9",
+			"isNew": false,
+			"isOnlyAtFair": true,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 431,
+			"drinkName": "Sociable Cider Werks Candy Apple Hard Cider",
+			"isNew": false,
+			"isOnlyAtFair": true,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 432,
+			"drinkName": "Sociable Cider Werks Raspberry Hard Cider",
+			"isNew": false,
+			"isOnlyAtFair": true,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 434,
+			"drinkName": "Third Street Peach Tree Ale",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 435,
+			"drinkName": "White Claw Hard Seltzer Hard Seltzer",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": true,
+			"vendorIDs": [
+				"781.1"
+			]
+		},
+		{
+			"id": 436,
+			"drinkName": "Bent Paddle Kanu",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"830.1"
+			]
+		},
+		{
+			"id": 438,
+			"drinkName": "Clown Shoes Mango American Kolsch",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"830.1"
+			]
+		},
+		{
+			"id": 439,
+			"drinkName": "Coronado Salty Crew Blonde Ale",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"830.1"
+			]
+		},
+		{
+			"id": 440,
+			"drinkName": "Deschutes Fresh Haze IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"830.1"
+			]
+		},
+		{
+			"id": 442,
+			"drinkName": "Excelsior Big Island Blond Ale",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"830.1"
+			]
+		},
+		{
+			"id": 443,
+			"drinkName": "Excelsior Strawberry Cream Ale",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"830.1"
+			]
+		},
+		{
+			"id": 444,
+			"drinkName": "Fair State Hard Water Hibiscus + Orange Zest",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"830.1"
+			]
+		},
+		{
+			"id": 445,
+			"drinkName": "Fair State Hard Water Lemongrass Ginger + Lemon",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"830.1"
+			]
+		},
+		{
+			"id": 447,
+			"drinkName": "FINNEGANS Buddy Stout",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"830.1"
+			]
+		},
+		{
+			"id": 449,
+			"drinkName": "Insight Waffle Dog Breakfast Ale",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"830.1"
+			]
+		},
+		{
+			"id": 450,
+			"drinkName": "Insight Nordic Strawberry Blonde",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"830.1"
+			]
+		},
+		{
+			"id": 453,
+			"drinkName": "Lift Bridge Hard Seltzer Northwoods Juice Box",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": true,
+			"vendorIDs": [
+				"830.1"
+			]
+		},
+		{
+			"id": 454,
+			"drinkName": "Lift Bridge Hard Seltzer St. Croix Berries",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": true,
+			"vendorIDs": [
+				"830.1"
+			]
+		},
+		{
+			"id": 457,
+			"drinkName": "Lupulin Lemon Meringue Pie Ale",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"830.1"
+			]
+		},
+		{
+			"id": 459,
+			"drinkName": "Mankato Triple Berry Cheesecake Lager",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"830.1"
+			]
+		},
+		{
+			"id": 460,
+			"drinkName": "Mankato Mad Butcher",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"830.1"
+			]
+		},
+		{
+			"id": 461,
+			"drinkName": "New Belgium Fat Tire Amber Ale",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"830.1"
+			]
+		},
+		{
+			"id": 463,
+			"drinkName": "New Belgium Voodoo Ranger IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"830.1"
+			]
+		},
+		{
+			"id": 464,
+			"drinkName": "Rebel Hard Coffee Bourbon Caramel Latte",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"830.1"
+			]
+		},
+		{
+			"id": 467,
+			"drinkName": "Smirnoff Ice",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"830.1"
+			]
+		},
+		{
+			"id": 468,
+			"drinkName": "Smirnoff Ice Raspberry",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"830.1"
+			]
+		},
+		{
+			"id": 470,
+			"drinkName": "Smirnoff Spiked Sparkling Seltzer Raspberry Ros\u00e9",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": true,
+			"vendorIDs": [
+				"830.1"
+			]
+		},
+		{
+			"id": 475,
+			"drinkName": "Surly Mapping the Multiverse Hazy IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"830.1"
+			]
+		},
+		{
+			"id": 476,
+			"drinkName": "Third Street Sun Setter Blueberry Shandy",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"830.1"
+			]
+		},
+		{
+			"id": 478,
+			"drinkName": "Urban Growler One Way Fair",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"830.1"
+			]
+		},
+		{
+			"id": 481,
+			"drinkName": "Bauhaus Bolo Blue: Tropical Punch Hard Seltzer",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": true,
+			"vendorIDs": [
+				"94.1"
+			]
+		},
+		{
+			"id": 486,
+			"drinkName": "Fulton Sweet Child of Vine",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"94.1"
+			]
+		},
+		{
+			"id": 488,
+			"drinkName": "Insight Raspberry Pineapple Tart Wheat",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"94.1"
+			]
+		},
+		{
+			"id": 491,
+			"drinkName": "Lift Bridge Key Lime Pie",
+			"isNew": false,
+			"isOnlyAtFair": true,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"94.1"
+			]
+		},
+		{
+			"id": 493,
+			"drinkName": "Lupulin Hooey IPA",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"94.1"
+			]
+		},
+		{
+			"id": 498,
+			"drinkName": "Paulaner Grapefruit-Radler",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"94.1"
+			]
+		},
+		{
+			"id": 501,
+			"drinkName": "Surly Caribbean Dream Passion Fruit Tart Ale",
+			"isNew": true,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"94.1"
+			]
+		},
+		{
+			"id": 503,
+			"drinkName": "Surly Hell",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"94.1"
+			]
+		},
+		{
+			"id": 504,
+			"drinkName": "Truly Spiked & Sparkling Hard Seltzer",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": true,
+			"vendorIDs": [
+				"94.1"
+			]
+		},
+		{
+			"id": 505,
+			"drinkName": "Waconia Chocolate Peanut Butter Porter",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"94.1"
+			]
+		},
+		{
+			"id": 506,
+			"drinkName": "Winehaven Wine",
+			"isNew": false,
+			"isOnlyAtFair": false,
+			"isSeltzer": false,
+			"vendorIDs": [
+				"94.1"
+			]
+		}
+	],
+	"drink_vendors": [
+		{
+			"id": "113.1",
+			"name": "Chicago Dogs",
+			"directions": "In The Garden, east wall",
+			"latitude": 44.9809670647,
+			"longitude": -93.1698435635
+		},
+		{
+			"id": "127.1",
+			"name": "Coasters",
+			"directions": "Southeast corner of Carnes Ave. & Liggett St.",
+			"latitude": 44.9796446589,
+			"longitude": -93.1751284029
+		},
+		{
+			"id": "186.1",
+			"name": "Dino's Gyros",
+			"directions": "North side of Carnes Ave. between Nelson & Underwood streets",
+			"latitude": 44.9800527848,
+			"longitude": -93.1710689442
+		},
+		{
+			"id": "218.1",
+			"name": "RC's BBQ",
+			"directions": "North side of West Dan Patch Ave. between Liggett & Chambers streets",
+			"latitude": 44.980895023,
+			"longitude": -93.1749326909
+		},
+		{
+			"id": "237.1",
+			"name": "Frontier Bar",
+			"directions": "South side of Carnes Ave. between Liggett & Chambers streets",
+			"latitude": 44.9798408959,
+			"longitude": -93.1744216025
+		},
+		{
+			"id": "255.1",
+			"name": "Mancini's al Fresco",
+			"directions": "North side of Carnes Ave. between Nelson & Underwood streets",
+			"latitude": 44.9800364173,
+			"longitude": -93.1716908712
+		},
+		{
+			"id": "282.1",
+			"name": "Shanghaied Henri's",
+			"directions": "At the International Bazaar, north wall",
+			"latitude": 44.9783834101,
+			"longitude": -93.1695849404
+		},
+		{
+			"id": "282.2",
+			"name": "Summit Booth",
+			"directions": "At the International Bazaar, west wall",
+			"latitude": 44.9783922734,
+			"longitude": -93.1695941769
+		},
+		{
+			"id": "305.1",
+			"name": "Hildebrand Concessions",
+			"directions": "In the Grandstand, show side, plaza area",
+			"latitude": 44.981536962,
+			"longitude": -93.1726422346
+		},
+		{
+			"id": "324.1",
+			"name": "LuLu's Public House",
+			"directions": "At West End Market, south of Schilling Amphitheater",
+			"latitude": 44.9813526187,
+			"longitude": -93.1776515173
+		},
+		{
+			"id": "324.2",
+			"name": "Schell's Pavilion",
+			"directions": "At West End Market, south of Schilling Amphitheater",
+			"latitude": 44.9813526187,
+			"longitude": -93.1776515173
+		},
+		{
+			"id": "33.1",
+			"name": "Andy's Grille",
+			"directions": "South side of Carnes Ave. between Chambers & Nelson streets",
+			"latitude": 44.9798224051,
+			"longitude": -93.1743602308
+		},
+		{
+			"id": "377.1",
+			"name": "Leinie Lodge",
+			"directions": "East side of Cooper St. between Dan Patch & Judson avenues, just south of the Leinie Lodge Bandshell",
+			"latitude": 44.9799743741,
+			"longitude": -93.1688275442
+		},
+		{
+			"id": "383.1",
+			"name": "The Blue Barn",
+			"directions": "At West End Market, south of the History & Heritage Center",
+			"latitude": 44.9810468345,
+			"longitude": -93.1762321692
+		},
+		{
+			"id": "422.1",
+			"name": "Aldo's",
+			"directions": "In the Warner Coliseum, west side",
+			"latitude": 44.9779889928,
+			"longitude": -93.1742832596
+		},
+		{
+			"id": "422.2",
+			"name": "Sabino's",
+			"directions": "In the Warner Coliseum, north side",
+			"latitude": 44.9783781013,
+			"longitude": -93.1747543231
+		},
+		{
+			"id": "422.3",
+			"name": "Swine & Spuds",
+			"directions": "In the Warner Coliseum, east side",
+			"latitude": 44.9783523885,
+			"longitude": -93.173895325
+		},
+		{
+			"id": "422.4",
+			"name": "Snack House",
+			"directions": "In the Warner Coliseum, south side",
+			"latitude": 44.9783568201,
+			"longitude": -93.1738306692
+		},
+		{
+			"id": "423.1",
+			"name": "French Creperie",
+			"directions": "North side of Carnes Ave. between Nelson & Underwood streets",
+			"latitude": 44.9800439241,
+			"longitude": -93.1714599577
+		},
+		{
+			"id": "444.1",
+			"name": "Midway Mens Club",
+			"directions": "East side of Underwood St. between Wright & Dan Patch avenues, next to Visitors Plaza",
+			"latitude": 44.9815919281,
+			"longitude": -93.1702869173
+		},
+		{
+			"id": "588.1",
+			"name": "Ragin Cajun",
+			"directions": "In The Garden, west wall",
+			"latitude": 44.9809432911,
+			"longitude": -93.170173
+		},
+		{
+			"id": "59.1",
+			"name": "Ball Park Cafe",
+			"directions": "East side of Underwood St. between Dan Patch & Carnes avenues",
+			"latitude": 44.9805414559,
+			"longitude": -93.1702782964
+		},
+		{
+			"id": "60.1",
+			"name": "The Hideaway Speakeasy",
+			"directions": "In the Veranda, Grandstand upper level, northwest section",
+			"latitude": 44.981259554,
+			"longitude": -93.1740030846
+		},
+		{
+			"id": "605.1",
+			"name": "Minnesota Wine Country",
+			"directions": "West side of Underwood St. between Carnes & Judson avenues",
+			"latitude": 44.9793761007,
+			"longitude": -93.1708441885
+		},
+		{
+			"id": "698.1",
+			"name": "Tejas Express",
+			"directions": "In The Garden, north wall",
+			"latitude": 44.9810407595,
+			"longitude": -93.1697912231
+		},
+		{
+			"id": "745.1",
+			"name": "O'Gara's at the Fair",
+			"directions": "Southwest corner of Dan Patch Ave. & Cosgrove St.",
+			"latitude": 44.9810689928,
+			"longitude": -93.1682579577
+		},
+		{
+			"id": "781.1",
+			"name": "Giggles' Campfire Grill",
+			"directions": "Southeast corner of Lee Ave. & Cooper St. at The North Woods",
+			"latitude": 44.9856217722,
+			"longitude": -93.1690153538
+		},
+		{
+			"id": "830.1",
+			"name": "The Hangar",
+			"directions": "At the North End, southwest section",
+			"latitude": 44.9872933995,
+			"longitude": -93.1701421093
+		},
+		{
+			"id": "94.1",
+			"name": "Cafe Caribe",
+			"directions": "South side of Carnes Ave. between Chambers & Nelson streets",
+			"latitude": 44.9796934076,
+			"longitude": -93.1737675529
+		}
+	]
+}

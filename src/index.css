@@ -139,12 +139,12 @@ body {
   border-bottom: 1px solid lightgray;
 }
 
-.Home .post a {
+.Drinks .post a {
   text-decoration: none;
 }
 
-.Home .post a,
-.Home .post a:visited {
+.Drinks .post a,
+.Drinks .post a:visited {
   color: #000;
 }
 

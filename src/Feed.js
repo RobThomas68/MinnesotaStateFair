@@ -4,7 +4,7 @@ const Feed = ({ feedItems }) => {
     return (
         <>
             {feedItems.map(feedItem => (
-                <FeedItem key={feedItem.index} feedItem={feedItem} />
+                <FeedItem key={feedItem.id} feedItem={feedItem} />
             ))}
         </>
     )
