@@ -20,16 +20,14 @@ const DrinkPage = () => {
                         <ul>
                             {drink.vendorIDs.map(function (id) {
                                 const vendor = vendors.find((vendor) => vendor.id === id);
-                                if (vendor) {
+
                                     return (
                                         <li key={id}>
-                                            <p>{vendor.id}-{vendor.name}</p>
-                                            <p>{vendor.directions}</p>
-                                            <p>({vendor.latitude},{vendor.longitude})
-                                            </p>
+                                            {vendor && <p>{vendor.id}-{vendor.name}</p>}
+                                            {vendor && <p>{vendor.directions}</p>}
+                                            {vendor && <p>({vendor.latitude},{vendor.longitude})</p>}
                                         </li>
                                     );
-                                }
                             })}
                         </ul>
                     </>
