@@ -12,8 +12,8 @@ const FeedItem = ({ feedItem }) => {
     return (
         <article className="post">
             <Link to={`/drink/${feedItem.id}`}>
-                <h3>{feedItem.drinkName}</h3>
-                <p>{feedItem.vendorIDs.toString()}</p>
+                <h3>{feedItem.name}</h3>
+                <p style={{whiteSpace: 'pre-wrap', overflowWrap:'break-word'}}>{feedItem.vendorIDs.toString()}</p>
                 {/* <p>{feedItem.vendorIDs.reduce((str,id) => `${str} ${getVendor(id)}`, '')}</p> */}
                 <p>{itemVendors.join(",")}</p>
             </Link>

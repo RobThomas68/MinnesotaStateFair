@@ -12,7 +12,7 @@ const DrinkPage = () => {
             <article className="post">
                 {drink && (
                     <>
-                        <h2>{drink.drinkName}</h2>
+                        <h2>{drink.name}</h2>
                         <p>New:{drink.isNew.toString()}</p>
                         <p>Only At Fair:{drink.isOnlyAtFair.toString()}</p>
                         <p>Vendors:{drink.vendorIDs.toString()}</p>

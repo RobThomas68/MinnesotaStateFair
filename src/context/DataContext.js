@@ -1,5 +1,6 @@
 import { createContext, useState, useEffect } from 'react';
-import useAxiosFetch from '../hooks/useAxiosFetch';
+//import useAxiosFetch from '../hooks/useAxiosFetch';
+import db from '../data/db.json';
 
 const DataContext = createContext({});
 
@@ -9,26 +10,26 @@ export const DataProvider = ({ children }) => {
     const [searchResults, setSearchResults] = useState([]);
     const [drinks, setDrinks] = useState([]);
     const [vendors, setVendors] = useState([]);
-    const { data:drinkData, fetchError, isLoading } = useAxiosFetch('http://localhost:35000/drinks');
-    const { data:vendorData, fetchError:fetchErrorVendors, isLoading:isLoadingVendors } = useAxiosFetch('http://localhost:35000/vendors');
+    //const { data:drinkData, fetchError, isLoading } = useAxiosFetch('http://localhost:35000/drinks');
+    //const { data:vendorData, fetchError:fetchErrorVendors, isLoading:isLoadingVendors } = useAxiosFetch('http://localhost:35000/vendors');
 
     const [isOnlyAtFair, setIsOnlyAtFair] = useState(false);
     const [isNew, setIsNew] = useState(false);
 
     useEffect(() => {
-        setDrinks(drinkData);
-        setVendors(vendorData);
-      }, [drinkData, vendorData])
+        setDrinks(db.drinks);
+        setVendors(db.vendors);
+      }, [])
 
     useEffect(() => {
         const filteredResults = drinks.filter((drink) =>
             (
-                (drink.drinkName).toLowerCase().includes(search.toLowerCase()) &&
+                (drink.name).toLowerCase().includes(search.toLowerCase()) &&
                 drink.isOnlyAtFair === isOnlyAtFair &&
                 drink.isNew === isNew
             )
         );
-        setSearchResults(filteredResults.sort((lhs,rhs)=>lhs.drinkName.localeCompare(rhs.drinkName)));
+        setSearchResults(filteredResults.sort((lhs,rhs)=>lhs.name.localeCompare(rhs.name)));
     }, [drinks, search, isOnlyAtFair, isNew])
 
     return (
@@ -39,7 +40,7 @@ export const DataProvider = ({ children }) => {
             drinks, setDrinks,
             isOnlyAtFair, setIsOnlyAtFair,
             isNew, setIsNew,
-            fetchError, isLoading,
+            //fetchError, isLoading,
 
             vendors, setVendors
         }}>

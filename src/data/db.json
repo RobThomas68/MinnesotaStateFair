@@ -2,7 +2,7 @@
     "drinks": [
         {
             "id": 0,
-            "drinkName": "Castle Danger Cream Ale",
+            "name": "Castle Danger Cream Ale",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -27,7 +27,7 @@
         },
         {
             "id": 1,
-            "drinkName": "Crook & Marker Margarita",
+            "name": "Crook & Marker Margarita",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -37,7 +37,7 @@
         },
         {
             "id": 2,
-            "drinkName": "Grain Belt Premium",
+            "name": "Grain Belt Premium",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -59,7 +59,7 @@
         },
         {
             "id": 3,
-            "drinkName": "Leinenkugel's Honey Weiss",
+            "name": "Leinenkugel's Honey Weiss",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -74,7 +74,7 @@
         },
         {
             "id": 4,
-            "drinkName": "Leinenkugel's Summer Shandy",
+            "name": "Leinenkugel's Summer Shandy",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -102,7 +102,7 @@
         },
         {
             "id": 5,
-            "drinkName": "Lift Bridge Farm Girl",
+            "name": "Lift Bridge Farm Girl",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -115,7 +115,7 @@
         },
         {
             "id": 6,
-            "drinkName": "Lift Bridge Mango Blonde",
+            "name": "Lift Bridge Mango Blonde",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -135,7 +135,7 @@
         },
         {
             "id": 7,
-            "drinkName": "Mike's Harder Lemonade",
+            "name": "Mike's Harder Lemonade",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -147,7 +147,7 @@
         },
         {
             "id": 8,
-            "drinkName": "Redbridge (gluten-free)",
+            "name": "Redbridge (gluten-free)",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -158,7 +158,7 @@
         },
         {
             "id": 9,
-            "drinkName": "REDD's Apple Ale",
+            "name": "REDD's Apple Ale",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -169,7 +169,7 @@
         },
         {
             "id": 10,
-            "drinkName": "Schell's LoCal Twist",
+            "name": "Schell's LoCal Twist",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -181,7 +181,7 @@
         },
         {
             "id": 11,
-            "drinkName": "Summit Extra Pale Ale",
+            "name": "Summit Extra Pale Ale",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -201,7 +201,7 @@
         },
         {
             "id": 12,
-            "drinkName": "Third Street Minnesota Gold Lager",
+            "name": "Third Street Minnesota Gold Lager",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -211,7 +211,7 @@
         },
         {
             "id": 13,
-            "drinkName": "White Claw Hard Seltzer Black Cherry",
+            "name": "White Claw Hard Seltzer Black Cherry",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": true,
@@ -228,7 +228,7 @@
         },
         {
             "id": 14,
-            "drinkName": "White Claw Hard Seltzer Mango",
+            "name": "White Claw Hard Seltzer Mango",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": true,
@@ -244,7 +244,7 @@
         },
         {
             "id": 15,
-            "drinkName": "612 Great Minnesota Citra-gether IPA",
+            "name": "612 Great Minnesota Citra-gether IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -254,7 +254,7 @@
         },
         {
             "id": 16,
-            "drinkName": "Bald Man Minnesota Mule Ale",
+            "name": "Bald Man Minnesota Mule Ale",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -264,7 +264,7 @@
         },
         {
             "id": 17,
-            "drinkName": "Cannon River Feisty Red",
+            "name": "Cannon River Feisty Red",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -274,7 +274,7 @@
         },
         {
             "id": 18,
-            "drinkName": "Cannon River Feisty White",
+            "name": "Cannon River Feisty White",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -284,7 +284,7 @@
         },
         {
             "id": 19,
-            "drinkName": "Cannon River Sogn Blush",
+            "name": "Cannon River Sogn Blush",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -295,7 +295,7 @@
         },
         {
             "id": 20,
-            "drinkName": "Deschutes Fresh Squeezed IPA",
+            "name": "Deschutes Fresh Squeezed IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -312,7 +312,7 @@
         },
         {
             "id": 21,
-            "drinkName": "Dreamsicle Hard Malt",
+            "name": "Dreamsicle Hard Malt",
             "isNew": false,
             "isOnlyAtFair": true,
             "isSeltzer": false,
@@ -322,7 +322,7 @@
         },
         {
             "id": 22,
-            "drinkName": "Fair State Big Doinks",
+            "name": "Fair State Big Doinks",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -332,7 +332,7 @@
         },
         {
             "id": 23,
-            "drinkName": "Fulton Lonely Blonde",
+            "name": "Fulton Lonely Blonde",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -349,7 +349,7 @@
         },
         {
             "id": 27,
-            "drinkName": "Lupulin Blue Razzmatazz",
+            "name": "Lupulin Blue Razzmatazz",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -359,7 +359,7 @@
         },
         {
             "id": 28,
-            "drinkName": "Mike's Hard Black Cherry Lemonade",
+            "name": "Mike's Hard Black Cherry Lemonade",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -373,7 +373,7 @@
         },
         {
             "id": 29,
-            "drinkName": "Mike's Hard Lemonade",
+            "name": "Mike's Hard Lemonade",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -388,7 +388,7 @@
         },
         {
             "id": 30,
-            "drinkName": "REDD's Wicked Apple Ale",
+            "name": "REDD's Wicked Apple Ale",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -399,7 +399,7 @@
         },
         {
             "id": 31,
-            "drinkName": "Schell's Oktoberfest",
+            "name": "Schell's Oktoberfest",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -411,7 +411,7 @@
         },
         {
             "id": 32,
-            "drinkName": "Smirnoff Ice Red, White & Berry",
+            "name": "Smirnoff Ice Red, White & Berry",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -422,7 +422,7 @@
         },
         {
             "id": 34,
-            "drinkName": "Surly Furious IPA",
+            "name": "Surly Furious IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -441,7 +441,7 @@
         },
         {
             "id": 35,
-            "drinkName": "Tin Whiskers Lowertown Lager",
+            "name": "Tin Whiskers Lowertown Lager",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -451,7 +451,7 @@
         },
         {
             "id": 36,
-            "drinkName": "Truly Spiked & Sparkling Wild Berry",
+            "name": "Truly Spiked & Sparkling Wild Berry",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -461,7 +461,7 @@
         },
         {
             "id": 37,
-            "drinkName": "Waconia Golden Cookies N Cream Ale",
+            "name": "Waconia Golden Cookies N Cream Ale",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -471,7 +471,7 @@
         },
         {
             "id": 38,
-            "drinkName": "Bent Paddle Toga Party Kanu",
+            "name": "Bent Paddle Toga Party Kanu",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -481,7 +481,7 @@
         },
         {
             "id": 41,
-            "drinkName": "Firestone Walker Mind Haza IPA",
+            "name": "Firestone Walker Mind Haza IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -491,7 +491,7 @@
         },
         {
             "id": 42,
-            "drinkName": "Golden Road Mango Cart",
+            "name": "Golden Road Mango Cart",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -501,7 +501,7 @@
         },
         {
             "id": 44,
-            "drinkName": "Gray Duck Bomba Juice Hard Seltzer",
+            "name": "Gray Duck Bomba Juice Hard Seltzer",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": true,
@@ -511,7 +511,7 @@
         },
         {
             "id": 45,
-            "drinkName": "Heinieken 0.0 Non-Alcoholic Beer",
+            "name": "Heinieken 0.0 Non-Alcoholic Beer",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -521,7 +521,7 @@
         },
         {
             "id": 46,
-            "drinkName": "Indeed Pomegranate Pils",
+            "name": "Indeed Pomegranate Pils",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -531,7 +531,7 @@
         },
         {
             "id": 47,
-            "drinkName": "Jack Daniel's Downhome Punch",
+            "name": "Jack Daniel's Downhome Punch",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -542,7 +542,7 @@
         },
         {
             "id": 48,
-            "drinkName": "Kona Big Wave Golden Ale",
+            "name": "Kona Big Wave Golden Ale",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -559,7 +559,7 @@
         },
         {
             "id": 50,
-            "drinkName": "Paulaner Grapefruit Radler",
+            "name": "Paulaner Grapefruit Radler",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -569,7 +569,7 @@
         },
         {
             "id": 51,
-            "drinkName": "Schell's Sangria",
+            "name": "Schell's Sangria",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -583,7 +583,7 @@
         },
         {
             "id": 53,
-            "drinkName": "Summit Oktoberfest",
+            "name": "Summit Oktoberfest",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -598,7 +598,7 @@
         },
         {
             "id": 55,
-            "drinkName": "Surly Tangerine Titan",
+            "name": "Surly Tangerine Titan",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -608,7 +608,7 @@
         },
         {
             "id": 56,
-            "drinkName": "Utepils Pontoon Afternoon",
+            "name": "Utepils Pontoon Afternoon",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -619,7 +619,7 @@
         },
         {
             "id": 59,
-            "drinkName": "Hamm's",
+            "name": "Hamm's",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -632,7 +632,7 @@
         },
         {
             "id": 63,
-            "drinkName": "White Claw Hard Seltzer",
+            "name": "White Claw Hard Seltzer",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": true,
@@ -648,7 +648,7 @@
         },
         {
             "id": 64,
-            "drinkName": "Bell's Two Hearted Ale",
+            "name": "Bell's Two Hearted Ale",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -659,7 +659,7 @@
         },
         {
             "id": 65,
-            "drinkName": "Burning Brothers Pyro (gluten-free)",
+            "name": "Burning Brothers Pyro (gluten-free)",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -669,7 +669,7 @@
         },
         {
             "id": 67,
-            "drinkName": "Cayman Jack Cocktails",
+            "name": "Cayman Jack Cocktails",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -679,7 +679,7 @@
         },
         {
             "id": 69,
-            "drinkName": "Fulton Hard Seltzer",
+            "name": "Fulton Hard Seltzer",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": true,
@@ -689,7 +689,7 @@
         },
         {
             "id": 71,
-            "drinkName": "Fulton OMG Seltzer Slushy",
+            "name": "Fulton OMG Seltzer Slushy",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": true,
@@ -699,7 +699,7 @@
         },
         {
             "id": 72,
-            "drinkName": "Fulton Prickly Pear IPA",
+            "name": "Fulton Prickly Pear IPA",
             "isNew": false,
             "isOnlyAtFair": true,
             "isSeltzer": false,
@@ -709,7 +709,7 @@
         },
         {
             "id": 73,
-            "drinkName": "Grain Belt Nordeast",
+            "name": "Grain Belt Nordeast",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -728,7 +728,7 @@
         },
         {
             "id": 75,
-            "drinkName": "Gray Duck Hard Seltzer",
+            "name": "Gray Duck Hard Seltzer",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": true,
@@ -738,7 +738,7 @@
         },
         {
             "id": 80,
-            "drinkName": "Ranch Water Hard Seltzer",
+            "name": "Ranch Water Hard Seltzer",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": true,
@@ -748,7 +748,7 @@
         },
         {
             "id": 81,
-            "drinkName": "Shiner Bock",
+            "name": "Shiner Bock",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -758,7 +758,7 @@
         },
         {
             "id": 85,
-            "drinkName": "Tipsy Tomato Bloody Mary Cocktail",
+            "name": "Tipsy Tomato Bloody Mary Cocktail",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -770,7 +770,7 @@
         },
         {
             "id": 86,
-            "drinkName": "Urban Growler Cowbell Cream Ale",
+            "name": "Urban Growler Cowbell Cream Ale",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -781,7 +781,7 @@
         },
         {
             "id": 88,
-            "drinkName": "Bent Brewstillery Celegrapetion Ale",
+            "name": "Bent Brewstillery Celegrapetion Ale",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -791,7 +791,7 @@
         },
         {
             "id": 89,
-            "drinkName": "Cannon River Mancini Levee Red",
+            "name": "Cannon River Mancini Levee Red",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -801,7 +801,7 @@
         },
         {
             "id": 90,
-            "drinkName": "Cannon River West 7th White",
+            "name": "Cannon River West 7th White",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -811,7 +811,7 @@
         },
         {
             "id": 93,
-            "drinkName": "Fulton Blood Orange Hard Seltzer",
+            "name": "Fulton Blood Orange Hard Seltzer",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": true,
@@ -821,7 +821,7 @@
         },
         {
             "id": 94,
-            "drinkName": "Grain Belt Blu",
+            "name": "Grain Belt Blu",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -834,7 +834,7 @@
         },
         {
             "id": 99,
-            "drinkName": "Peroni",
+            "name": "Peroni",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -844,7 +844,7 @@
         },
         {
             "id": 100,
-            "drinkName": "Rebel Hard Coffee",
+            "name": "Rebel Hard Coffee",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -854,7 +854,7 @@
         },
         {
             "id": 102,
-            "drinkName": "Sociable Cider Werks Rusy Chain Cranberry Apple (gluten-free)",
+            "name": "Sociable Cider Werks Rusy Chain Cranberry Apple (gluten-free)",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -864,7 +864,7 @@
         },
         {
             "id": 105,
-            "drinkName": "Aromatic Mike's Hard Lemonade Slushie",
+            "name": "Aromatic Mike's Hard Lemonade Slushie",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -874,7 +874,7 @@
         },
         {
             "id": 106,
-            "drinkName": "Buzzin Moscow Mule Slushie",
+            "name": "Buzzin Moscow Mule Slushie",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -884,7 +884,7 @@
         },
         {
             "id": 111,
-            "drinkName": "Sociable Cider Werks Beach Cruiser Hard Cider",
+            "name": "Sociable Cider Werks Beach Cruiser Hard Cider",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -894,7 +894,7 @@
         },
         {
             "id": 112,
-            "drinkName": "Sociable Cider Werks Guava Have It Hard Seltzer",
+            "name": "Sociable Cider Werks Guava Have It Hard Seltzer",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": true,
@@ -904,7 +904,7 @@
         },
         {
             "id": 113,
-            "drinkName": "Summit Berry Bazaar K\u00f6lsch-Style Ale",
+            "name": "Summit Berry Bazaar K\u00f6lsch-Style Ale",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -915,7 +915,7 @@
         },
         {
             "id": 114,
-            "drinkName": "Summit Cabin Crusher",
+            "name": "Summit Cabin Crusher",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -927,7 +927,7 @@
         },
         {
             "id": 117,
-            "drinkName": "TGI Fridays Cocktails Crafted to Go Moscow Mule",
+            "name": "TGI Fridays Cocktails Crafted to Go Moscow Mule",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -937,7 +937,7 @@
         },
         {
             "id": 122,
-            "drinkName": "Summit Keller Pils",
+            "name": "Summit Keller Pils",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -948,7 +948,7 @@
         },
         {
             "id": 124,
-            "drinkName": "Summit S\u00e1ga\u00a0IPA",
+            "name": "Summit S\u00e1ga\u00a0IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -962,7 +962,7 @@
         },
         {
             "id": 125,
-            "drinkName": "Summit Slugfest Juicy IPA",
+            "name": "Summit Slugfest Juicy IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -972,7 +972,7 @@
         },
         {
             "id": 126,
-            "drinkName": "Beaver Island Experimental Hard Iced Tea with Lemon",
+            "name": "Beaver Island Experimental Hard Iced Tea with Lemon",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -982,7 +982,7 @@
         },
         {
             "id": 127,
-            "drinkName": "Briar Blackberry Rhubarb Wine Cocktail",
+            "name": "Briar Blackberry Rhubarb Wine Cocktail",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -992,7 +992,7 @@
         },
         {
             "id": 129,
-            "drinkName": "Deschutes Squeezy Rider IPA",
+            "name": "Deschutes Squeezy Rider IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1002,7 +1002,7 @@
         },
         {
             "id": 130,
-            "drinkName": "FINNEGANS Irish Amber",
+            "name": "FINNEGANS Irish Amber",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1013,7 +1013,7 @@
         },
         {
             "id": 131,
-            "drinkName": "Garphish Lemmony Lemon Kins Pastry Ale",
+            "name": "Garphish Lemmony Lemon Kins Pastry Ale",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1023,7 +1023,7 @@
         },
         {
             "id": 133,
-            "drinkName": "Insight Orange Espresso Cream Ale",
+            "name": "Insight Orange Espresso Cream Ale",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1033,7 +1033,7 @@
         },
         {
             "id": 134,
-            "drinkName": "Lakefront La Gosa Rita (gluten-free)",
+            "name": "Lakefront La Gosa Rita (gluten-free)",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1043,7 +1043,7 @@
         },
         {
             "id": 135,
-            "drinkName": "Leinenkugel's Oktoberfest",
+            "name": "Leinenkugel's Oktoberfest",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1054,7 +1054,7 @@
         },
         {
             "id": 138,
-            "drinkName": "Lupulin Tropical Fun Pants",
+            "name": "Lupulin Tropical Fun Pants",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1067,7 +1067,7 @@
         },
         {
             "id": 139,
-            "drinkName": "New Belgium Dominga Mimosa Sour",
+            "name": "New Belgium Dominga Mimosa Sour",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1078,7 +1078,7 @@
         },
         {
             "id": 140,
-            "drinkName": "New Belgium Voodoo Ranger V2K IPA",
+            "name": "New Belgium Voodoo Ranger V2K IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1088,7 +1088,7 @@
         },
         {
             "id": 141,
-            "drinkName": "Parley Lake Wine",
+            "name": "Parley Lake Wine",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1098,7 +1098,7 @@
         },
         {
             "id": 143,
-            "drinkName": "Sociable Cider Werks Training Wheels Hazy Blueberry",
+            "name": "Sociable Cider Werks Training Wheels Hazy Blueberry",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1108,7 +1108,7 @@
         },
         {
             "id": 144,
-            "drinkName": "Summit Oasis Crusher Passion Fruit",
+            "name": "Summit Oasis Crusher Passion Fruit",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1118,7 +1118,7 @@
         },
         {
             "id": 145,
-            "drinkName": "Summit Triumphant Session IPA",
+            "name": "Summit Triumphant Session IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1128,7 +1128,7 @@
         },
         {
             "id": 146,
-            "drinkName": "Urban Growler \"Hans On\" IPA",
+            "name": "Urban Growler \"Hans On\" IPA",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1138,7 +1138,7 @@
         },
         {
             "id": 147,
-            "drinkName": "Utepils Receptional",
+            "name": "Utepils Receptional",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1149,7 +1149,7 @@
         },
         {
             "id": 148,
-            "drinkName": "Waconia Strawberry Lemonade Seltzer",
+            "name": "Waconia Strawberry Lemonade Seltzer",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": true,
@@ -1159,7 +1159,7 @@
         },
         {
             "id": 149,
-            "drinkName": "Warpigs Foggy Geezer Hazy IPA",
+            "name": "Warpigs Foggy Geezer Hazy IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1170,7 +1170,7 @@
         },
         {
             "id": 150,
-            "drinkName": "Castle Danger Honey Raspberry Wheat",
+            "name": "Castle Danger Honey Raspberry Wheat",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1180,7 +1180,7 @@
         },
         {
             "id": 151,
-            "drinkName": "Cayman Jack Cuban Mojito",
+            "name": "Cayman Jack Cuban Mojito",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1190,7 +1190,7 @@
         },
         {
             "id": 152,
-            "drinkName": "Cayman Jack Margarita",
+            "name": "Cayman Jack Margarita",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1202,7 +1202,7 @@
         },
         {
             "id": 153,
-            "drinkName": "Cayman Jack Moscow Mule",
+            "name": "Cayman Jack Moscow Mule",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1212,7 +1212,7 @@
         },
         {
             "id": 159,
-            "drinkName": "Modelo Especial",
+            "name": "Modelo Especial",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1224,7 +1224,7 @@
         },
         {
             "id": 160,
-            "drinkName": "Rasmelon Lemonade Slushy",
+            "name": "Rasmelon Lemonade Slushy",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1234,7 +1234,7 @@
         },
         {
             "id": 161,
-            "drinkName": "Rebel Hard Coffee Berry Crisp Latte",
+            "name": "Rebel Hard Coffee Berry Crisp Latte",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1244,7 +1244,7 @@
         },
         {
             "id": 162,
-            "drinkName": "Schell's Cherry-Go-Round",
+            "name": "Schell's Cherry-Go-Round",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1255,7 +1255,7 @@
         },
         {
             "id": 163,
-            "drinkName": "Schell's OAKtoberfest",
+            "name": "Schell's OAKtoberfest",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1266,7 +1266,7 @@
         },
         {
             "id": 164,
-            "drinkName": "Sociable Cider Werks Guava Pear at the Fair Slushy",
+            "name": "Sociable Cider Werks Guava Pear at the Fair Slushy",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1276,7 +1276,7 @@
         },
         {
             "id": 165,
-            "drinkName": "Sociable Cider Werks Minnesota Maple Mead",
+            "name": "Sociable Cider Werks Minnesota Maple Mead",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1286,7 +1286,7 @@
         },
         {
             "id": 166,
-            "drinkName": "Sociable Cider Werks Passion Berry Cider",
+            "name": "Sociable Cider Werks Passion Berry Cider",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1296,7 +1296,7 @@
         },
         {
             "id": 167,
-            "drinkName": "Sociable Cider Werks Pink Lemonade Slushy",
+            "name": "Sociable Cider Werks Pink Lemonade Slushy",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1306,7 +1306,7 @@
         },
         {
             "id": 168,
-            "drinkName": "Sociable Cider Werks Mimosa",
+            "name": "Sociable Cider Werks Mimosa",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1316,7 +1316,7 @@
         },
         {
             "id": 170,
-            "drinkName": "Surly LuLu's Juicy MN Midway Hazy",
+            "name": "Surly LuLu's Juicy MN Midway Hazy",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1326,7 +1326,7 @@
         },
         {
             "id": 174,
-            "drinkName": "White Claw Hard Seltzer Raspberry",
+            "name": "White Claw Hard Seltzer Raspberry",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": true,
@@ -1336,7 +1336,7 @@
         },
         {
             "id": 177,
-            "drinkName": "Schell's Cream Ale",
+            "name": "Schell's Cream Ale",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1346,7 +1346,7 @@
         },
         {
             "id": 180,
-            "drinkName": "Schell's Moondrift Hazy IPA",
+            "name": "Schell's Moondrift Hazy IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1356,7 +1356,7 @@
         },
         {
             "id": 184,
-            "drinkName": "Schell's Schandy",
+            "name": "Schell's Schandy",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1366,7 +1366,7 @@
         },
         {
             "id": 185,
-            "drinkName": "Schell's Blu Topper",
+            "name": "Schell's Blu Topper",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1376,7 +1376,7 @@
         },
         {
             "id": 186,
-            "drinkName": "Schell's Sangria Topper",
+            "name": "Schell's Sangria Topper",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1386,7 +1386,7 @@
         },
         {
             "id": 187,
-            "drinkName": "Schell's Choc'd Up Topper",
+            "name": "Schell's Choc'd Up Topper",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1396,7 +1396,7 @@
         },
         {
             "id": 188,
-            "drinkName": "Schell's Schandy Topper",
+            "name": "Schell's Schandy Topper",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1406,7 +1406,7 @@
         },
         {
             "id": 189,
-            "drinkName": "Bent Paddle Summer Luv'n Orange IPA",
+            "name": "Bent Paddle Summer Luv'n Orange IPA",
             "isNew": false,
             "isOnlyAtFair": true,
             "isSeltzer": false,
@@ -1416,7 +1416,7 @@
         },
         {
             "id": 190,
-            "drinkName": "Big Wood Caramel Apple Craft Seltzer",
+            "name": "Big Wood Caramel Apple Craft Seltzer",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": true,
@@ -1426,7 +1426,7 @@
         },
         {
             "id": 191,
-            "drinkName": "Big Wood Chocolate Chip Cookie Beer",
+            "name": "Big Wood Chocolate Chip Cookie Beer",
             "isNew": false,
             "isOnlyAtFair": true,
             "isSeltzer": false,
@@ -1436,7 +1436,7 @@
         },
         {
             "id": 194,
-            "drinkName": "Fair State Roselle",
+            "name": "Fair State Roselle",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1448,7 +1448,7 @@
         },
         {
             "id": 196,
-            "drinkName": "Indeed Pistachio Cream Ale",
+            "name": "Indeed Pistachio Cream Ale",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1458,7 +1458,7 @@
         },
         {
             "id": 201,
-            "drinkName": "O'Doul's Amber Non-Alcoholic Beer",
+            "name": "O'Doul's Amber Non-Alcoholic Beer",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1468,7 +1468,7 @@
         },
         {
             "id": 202,
-            "drinkName": "Sierra Nevada Hazy Little Thing IPA",
+            "name": "Sierra Nevada Hazy Little Thing IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1478,7 +1478,7 @@
         },
         {
             "id": 203,
-            "drinkName": "Smirnoff Ice Smash Red, White & Berry",
+            "name": "Smirnoff Ice Smash Red, White & Berry",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1488,7 +1488,7 @@
         },
         {
             "id": 206,
-            "drinkName": "Truly Energized Colada Slushy",
+            "name": "Truly Energized Colada Slushy",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1498,7 +1498,7 @@
         },
         {
             "id": 207,
-            "drinkName": "Twisted Tea",
+            "name": "Twisted Tea",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1508,7 +1508,7 @@
         },
         {
             "id": 208,
-            "drinkName": "Utepils Sk\u00f6lsch!",
+            "name": "Utepils Sk\u00f6lsch!",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1519,7 +1519,7 @@
         },
         {
             "id": 211,
-            "drinkName": "Leinenkugel's Berry Weiss",
+            "name": "Leinenkugel's Berry Weiss",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1529,7 +1529,7 @@
         },
         {
             "id": 212,
-            "drinkName": "Leinenkugel's Canoe Paddler Kolsch",
+            "name": "Leinenkugel's Canoe Paddler Kolsch",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1539,7 +1539,7 @@
         },
         {
             "id": 213,
-            "drinkName": "Leinenkugel's Collaboration Lager",
+            "name": "Leinenkugel's Collaboration Lager",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1549,7 +1549,7 @@
         },
         {
             "id": 215,
-            "drinkName": "Leinenkugel's Lemon Haze IPA",
+            "name": "Leinenkugel's Lemon Haze IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1559,7 +1559,7 @@
         },
         {
             "id": 217,
-            "drinkName": "Leinenkugel's Original",
+            "name": "Leinenkugel's Original",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1569,7 +1569,7 @@
         },
         {
             "id": 219,
-            "drinkName": "Country Ros\u00e9 Spritzer",
+            "name": "Country Ros\u00e9 Spritzer",
             "isNew": false,
             "isOnlyAtFair": true,
             "isSeltzer": false,
@@ -1579,7 +1579,7 @@
         },
         {
             "id": 221,
-            "drinkName": "Frozen Fruit Punch",
+            "name": "Frozen Fruit Punch",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1589,7 +1589,7 @@
         },
         {
             "id": 222,
-            "drinkName": "The Freehouse Ginger Shandy",
+            "name": "The Freehouse Ginger Shandy",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1599,7 +1599,7 @@
         },
         {
             "id": 224,
-            "drinkName": "Loon Juice Honeycrisp Cider",
+            "name": "Loon Juice Honeycrisp Cider",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1611,7 +1611,7 @@
         },
         {
             "id": 225,
-            "drinkName": "Pryes Hazy IPA",
+            "name": "Pryes Hazy IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1621,7 +1621,7 @@
         },
         {
             "id": 227,
-            "drinkName": "The Freehouse No. 13 Blueberry Blonde",
+            "name": "The Freehouse No. 13 Blueberry Blonde",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1631,7 +1631,7 @@
         },
         {
             "id": 235,
-            "drinkName": "Lift Bridge Hard Seltzer The Bomb",
+            "name": "Lift Bridge Hard Seltzer The Bomb",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": true,
@@ -1646,7 +1646,7 @@
         },
         {
             "id": 236,
-            "drinkName": "Lupulin Key Lime Hypezig",
+            "name": "Lupulin Key Lime Hypezig",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1659,7 +1659,7 @@
         },
         {
             "id": 237,
-            "drinkName": "Sociable Cider Werks Freewheeler",
+            "name": "Sociable Cider Werks Freewheeler",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1673,7 +1673,7 @@
         },
         {
             "id": 239,
-            "drinkName": "Surly Grapefruit Supreme",
+            "name": "Surly Grapefruit Supreme",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1688,7 +1688,7 @@
         },
         {
             "id": 278,
-            "drinkName": "Alexis Bailly Country Red",
+            "name": "Alexis Bailly Country Red",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1698,7 +1698,7 @@
         },
         {
             "id": 279,
-            "drinkName": "Alexis Bailly Country White",
+            "name": "Alexis Bailly Country White",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1708,7 +1708,7 @@
         },
         {
             "id": 280,
-            "drinkName": "Alexis Bailly Country Ros\u00e9",
+            "name": "Alexis Bailly Country Ros\u00e9",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1718,7 +1718,7 @@
         },
         {
             "id": 281,
-            "drinkName": "Alexis Bailly Country Sangria",
+            "name": "Alexis Bailly Country Sangria",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1728,7 +1728,7 @@
         },
         {
             "id": 282,
-            "drinkName": "Carlos Creek Wine",
+            "name": "Carlos Creek Wine",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1738,7 +1738,7 @@
         },
         {
             "id": 283,
-            "drinkName": "Wine Slushies",
+            "name": "Wine Slushies",
             "isNew": false,
             "isOnlyAtFair": true,
             "isSeltzer": false,
@@ -1748,7 +1748,7 @@
         },
         {
             "id": 292,
-            "drinkName": "Arizona Sunrise Hard Seltzer Cherry Punch",
+            "name": "Arizona Sunrise Hard Seltzer Cherry Punch",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": true,
@@ -1758,7 +1758,7 @@
         },
         {
             "id": 293,
-            "drinkName": "Arizona Sunrise Hard Seltzer Mucho Mango",
+            "name": "Arizona Sunrise Hard Seltzer Mucho Mango",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": true,
@@ -1768,7 +1768,7 @@
         },
         {
             "id": 301,
-            "drinkName": "New Belgium Voodoo Ranger Juicy Haze IPA",
+            "name": "New Belgium Voodoo Ranger Juicy Haze IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1778,7 +1778,7 @@
         },
         {
             "id": 302,
-            "drinkName": "Smirnoff Ice Grape",
+            "name": "Smirnoff Ice Grape",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1788,7 +1788,7 @@
         },
         {
             "id": 303,
-            "drinkName": "Smirnoff Ice Hurricane Punch",
+            "name": "Smirnoff Ice Hurricane Punch",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1798,7 +1798,7 @@
         },
         {
             "id": 305,
-            "drinkName": "Smirnoff Spiked Sparkling Seltzer Berry Lemonade",
+            "name": "Smirnoff Spiked Sparkling Seltzer Berry Lemonade",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": true,
@@ -1809,7 +1809,7 @@
         },
         {
             "id": 308,
-            "drinkName": "Bauhaus The Shandlot Golden Tea Edition",
+            "name": "Bauhaus The Shandlot Golden Tea Edition",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1819,7 +1819,7 @@
         },
         {
             "id": 309,
-            "drinkName": "Bent Brewstillery Sweat Back Together",
+            "name": "Bent Brewstillery Sweat Back Together",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1829,7 +1829,7 @@
         },
         {
             "id": 310,
-            "drinkName": "Bent Paddle Clasico Salted Lime Cream Ale",
+            "name": "Bent Paddle Clasico Salted Lime Cream Ale",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1839,7 +1839,7 @@
         },
         {
             "id": 311,
-            "drinkName": "Bent Paddle Cold Press Black Ale",
+            "name": "Bent Paddle Cold Press Black Ale",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1849,7 +1849,7 @@
         },
         {
             "id": 312,
-            "drinkName": "BlackStack Local 755 New England IPA",
+            "name": "BlackStack Local 755 New England IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1859,7 +1859,7 @@
         },
         {
             "id": 314,
-            "drinkName": "Eastlake Kirby Pucker Watermelon Paloma",
+            "name": "Eastlake Kirby Pucker Watermelon Paloma",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1869,7 +1869,7 @@
         },
         {
             "id": 315,
-            "drinkName": "Fair State Oktoberfest",
+            "name": "Fair State Oktoberfest",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1879,7 +1879,7 @@
         },
         {
             "id": 316,
-            "drinkName": "Fulton Lemonade Hard Seltzer",
+            "name": "Fulton Lemonade Hard Seltzer",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": true,
@@ -1889,7 +1889,7 @@
         },
         {
             "id": 318,
-            "drinkName": "Indeed Mexican Honey Light",
+            "name": "Indeed Mexican Honey Light",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1899,7 +1899,7 @@
         },
         {
             "id": 319,
-            "drinkName": "Indeed Mountain Brew",
+            "name": "Indeed Mountain Brew",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1909,7 +1909,7 @@
         },
         {
             "id": 322,
-            "drinkName": "Lift Bridge Mini Donut Beer",
+            "name": "Lift Bridge Mini Donut Beer",
             "isNew": false,
             "isOnlyAtFair": true,
             "isSeltzer": false,
@@ -1919,7 +1919,7 @@
         },
         {
             "id": 323,
-            "drinkName": "Modist and Dangerous Man MN Brew Together Peaches and Cream Milkshake IPA",
+            "name": "Modist and Dangerous Man MN Brew Together Peaches and Cream Milkshake IPA",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1929,7 +1929,7 @@
         },
         {
             "id": 324,
-            "drinkName": "Modist Dreamyard IPA",
+            "name": "Modist Dreamyard IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1939,7 +1939,7 @@
         },
         {
             "id": 325,
-            "drinkName": "Modist Tropical Smoothie Sour",
+            "name": "Modist Tropical Smoothie Sour",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1949,7 +1949,7 @@
         },
         {
             "id": 326,
-            "drinkName": "Steel Toe Size 7",
+            "name": "Steel Toe Size 7",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1959,7 +1959,7 @@
         },
         {
             "id": 328,
-            "drinkName": "Surly Grip and Rip IPA",
+            "name": "Surly Grip and Rip IPA",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1969,7 +1969,7 @@
         },
         {
             "id": 329,
-            "drinkName": "Sweetland Orchard\u00a0Cherry Rhubarb (gluten-free)",
+            "name": "Sweetland Orchard\u00a0Cherry Rhubarb (gluten-free)",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1979,7 +1979,7 @@
         },
         {
             "id": 330,
-            "drinkName": "Sweetland Orchard Minnesota Mule Cider (gluten-free)",
+            "name": "Sweetland Orchard Minnesota Mule Cider (gluten-free)",
             "isNew": false,
             "isOnlyAtFair": true,
             "isSeltzer": false,
@@ -1989,7 +1989,7 @@
         },
         {
             "id": 331,
-            "drinkName": "Utepils KFAN Unfiltered Blonde Ale",
+            "name": "Utepils KFAN Unfiltered Blonde Ale",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -1999,7 +1999,7 @@
         },
         {
             "id": 332,
-            "drinkName": "Wild State Pineapple Cider",
+            "name": "Wild State Pineapple Cider",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2009,7 +2009,7 @@
         },
         {
             "id": 333,
-            "drinkName": "312 Lemonade Shandy",
+            "name": "312 Lemonade Shandy",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2019,7 +2019,7 @@
         },
         {
             "id": 334,
-            "drinkName": "Allkind Hard Kombucha",
+            "name": "Allkind Hard Kombucha",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2029,7 +2029,7 @@
         },
         {
             "id": 335,
-            "drinkName": "Bent Brewstillery Blondie & Clyde",
+            "name": "Bent Brewstillery Blondie & Clyde",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2039,7 +2039,7 @@
         },
         {
             "id": 336,
-            "drinkName": "Big Wood Cotton Candy Milkshake IPA",
+            "name": "Big Wood Cotton Candy Milkshake IPA",
             "isNew": false,
             "isOnlyAtFair": true,
             "isSeltzer": false,
@@ -2049,7 +2049,7 @@
         },
         {
             "id": 337,
-            "drinkName": "Cannon River Flirty Fruity Bubbles",
+            "name": "Cannon River Flirty Fruity Bubbles",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2059,7 +2059,7 @@
         },
         {
             "id": 338,
-            "drinkName": "Cannon River Lavender Lemonade Bubble Trouble",
+            "name": "Cannon River Lavender Lemonade Bubble Trouble",
             "isNew": false,
             "isOnlyAtFair": true,
             "isSeltzer": false,
@@ -2069,7 +2069,7 @@
         },
         {
             "id": 339,
-            "drinkName": "Cannon River Mobster Mule Bubble Trouble",
+            "name": "Cannon River Mobster Mule Bubble Trouble",
             "isNew": false,
             "isOnlyAtFair": true,
             "isSeltzer": false,
@@ -2079,7 +2079,7 @@
         },
         {
             "id": 340,
-            "drinkName": "Cannon River Sparkling Edelweiss",
+            "name": "Cannon River Sparkling Edelweiss",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2089,7 +2089,7 @@
         },
         {
             "id": 341,
-            "drinkName": "Cannon River St. Pepin White",
+            "name": "Cannon River St. Pepin White",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2099,7 +2099,7 @@
         },
         {
             "id": 342,
-            "drinkName": "Cannon River Strawberry Mint Mojito",
+            "name": "Cannon River Strawberry Mint Mojito",
             "isNew": false,
             "isOnlyAtFair": true,
             "isSeltzer": false,
@@ -2109,7 +2109,7 @@
         },
         {
             "id": 343,
-            "drinkName": "Cannon River When Life Hands You Lemons-tini",
+            "name": "Cannon River When Life Hands You Lemons-tini",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2119,7 +2119,7 @@
         },
         {
             "id": 344,
-            "drinkName": "Lift Bridge 93X Brotherhood Lager",
+            "name": "Lift Bridge 93X Brotherhood Lager",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2129,7 +2129,7 @@
         },
         {
             "id": 348,
-            "drinkName": "Round Lake Brianna",
+            "name": "Round Lake Brianna",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2139,7 +2139,7 @@
         },
         {
             "id": 349,
-            "drinkName": "Round Lake Frontenac Gris",
+            "name": "Round Lake Frontenac Gris",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2149,7 +2149,7 @@
         },
         {
             "id": 350,
-            "drinkName": "Round Lake The Heron Red",
+            "name": "Round Lake The Heron Red",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2159,7 +2159,7 @@
         },
         {
             "id": 351,
-            "drinkName": "Sierra Nevada Wild Little Thing",
+            "name": "Sierra Nevada Wild Little Thing",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2169,7 +2169,7 @@
         },
         {
             "id": 352,
-            "drinkName": "Tipsy Tomato Spicy Bloody Mary Cocktail",
+            "name": "Tipsy Tomato Spicy Bloody Mary Cocktail",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2179,7 +2179,7 @@
         },
         {
             "id": 355,
-            "drinkName": "Cannon River Mango Sangria Wine Slushie",
+            "name": "Cannon River Mango Sangria Wine Slushie",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2189,7 +2189,7 @@
         },
         {
             "id": 357,
-            "drinkName": "Falconer's Lumberjack Hard Cider",
+            "name": "Falconer's Lumberjack Hard Cider",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2199,7 +2199,7 @@
         },
         {
             "id": 358,
-            "drinkName": "Falconer Vineyard Fros\u00e9 Wine Slushie",
+            "name": "Falconer Vineyard Fros\u00e9 Wine Slushie",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2209,7 +2209,7 @@
         },
         {
             "id": 359,
-            "drinkName": "Falconer Vineyard Snowy White",
+            "name": "Falconer Vineyard Snowy White",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2219,7 +2219,7 @@
         },
         {
             "id": 360,
-            "drinkName": "Forestedge Blueberry Pomegranate Wine Slushie",
+            "name": "Forestedge Blueberry Pomegranate Wine Slushie",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2229,7 +2229,7 @@
         },
         {
             "id": 361,
-            "drinkName": "Forestedge Kabekona Blush",
+            "name": "Forestedge Kabekona Blush",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2239,7 +2239,7 @@
         },
         {
             "id": 362,
-            "drinkName": "Forestedge Rhubarb/Raspberry Blend",
+            "name": "Forestedge Rhubarb/Raspberry Blend",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2249,7 +2249,7 @@
         },
         {
             "id": 363,
-            "drinkName": "Garvin Heights Petite Pearl",
+            "name": "Garvin Heights Petite Pearl",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2259,7 +2259,7 @@
         },
         {
             "id": 364,
-            "drinkName": "Garvin Heights Wildberry Bluff",
+            "name": "Garvin Heights Wildberry Bluff",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2269,7 +2269,7 @@
         },
         {
             "id": 365,
-            "drinkName": "Parley Lake Brianna Banana Breeze Wine Slushie",
+            "name": "Parley Lake Brianna Banana Breeze Wine Slushie",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2279,7 +2279,7 @@
         },
         {
             "id": 366,
-            "drinkName": "Parley Lake Brianna Breeze",
+            "name": "Parley Lake Brianna Breeze",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2289,7 +2289,7 @@
         },
         {
             "id": 367,
-            "drinkName": "Parley Lake Lake View White",
+            "name": "Parley Lake Lake View White",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2299,7 +2299,7 @@
         },
         {
             "id": 368,
-            "drinkName": "Round Lake Skinny Dipping Apple Wine",
+            "name": "Round Lake Skinny Dipping Apple Wine",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2309,7 +2309,7 @@
         },
         {
             "id": 369,
-            "drinkName": "Saint Croix Vineyards Frontenac",
+            "name": "Saint Croix Vineyards Frontenac",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2319,7 +2319,7 @@
         },
         {
             "id": 370,
-            "drinkName": "Saint Croix Vineyards Frontenac Blanc",
+            "name": "Saint Croix Vineyards Frontenac Blanc",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2329,7 +2329,7 @@
         },
         {
             "id": 371,
-            "drinkName": "Saint Croix Vineyards Peaches and Gris Wine Slushie",
+            "name": "Saint Croix Vineyards Peaches and Gris Wine Slushie",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2339,7 +2339,7 @@
         },
         {
             "id": 372,
-            "drinkName": "Winehaven Marquette Reserve",
+            "name": "Winehaven Marquette Reserve",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2349,7 +2349,7 @@
         },
         {
             "id": 373,
-            "drinkName": "Winehaven Raspberry Wine Slushie",
+            "name": "Winehaven Raspberry Wine Slushie",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2359,7 +2359,7 @@
         },
         {
             "id": 374,
-            "drinkName": "Winehaven Strawberry Rhubarb Wine",
+            "name": "Winehaven Strawberry Rhubarb Wine",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2369,7 +2369,7 @@
         },
         {
             "id": 375,
-            "drinkName": "Clawgarita",
+            "name": "Clawgarita",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2379,7 +2379,7 @@
         },
         {
             "id": 378,
-            "drinkName": "Glutenberg Blonde Ale (gluten-free)",
+            "name": "Glutenberg Blonde Ale (gluten-free)",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2389,7 +2389,7 @@
         },
         {
             "id": 380,
-            "drinkName": "Michelada",
+            "name": "Michelada",
             "isNew": false,
             "isOnlyAtFair": true,
             "isSeltzer": false,
@@ -2399,7 +2399,7 @@
         },
         {
             "id": 381,
-            "drinkName": "Original Beergarita",
+            "name": "Original Beergarita",
             "isNew": false,
             "isOnlyAtFair": true,
             "isSeltzer": false,
@@ -2409,7 +2409,7 @@
         },
         {
             "id": 385,
-            "drinkName": "Black Cherry Coco Berry Slushie",
+            "name": "Black Cherry Coco Berry Slushie",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2419,7 +2419,7 @@
         },
         {
             "id": 386,
-            "drinkName": "Cannon River Gunflint Red",
+            "name": "Cannon River Gunflint Red",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2429,7 +2429,7 @@
         },
         {
             "id": 387,
-            "drinkName": "Cannon River Sogn Blanc",
+            "name": "Cannon River Sogn Blanc",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2439,7 +2439,7 @@
         },
         {
             "id": 388,
-            "drinkName": "Castle Danger Orange Cream Ale",
+            "name": "Castle Danger Orange Cream Ale",
             "isNew": false,
             "isOnlyAtFair": true,
             "isSeltzer": false,
@@ -2449,7 +2449,7 @@
         },
         {
             "id": 389,
-            "drinkName": "Castle Danger Strawberry Cream Ale",
+            "name": "Castle Danger Strawberry Cream Ale",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2459,7 +2459,7 @@
         },
         {
             "id": 391,
-            "drinkName": "Fulton 300",
+            "name": "Fulton 300",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2469,7 +2469,7 @@
         },
         {
             "id": 393,
-            "drinkName": "Lakes & Legends Cotton Candy Hard Seltzer",
+            "name": "Lakes & Legends Cotton Candy Hard Seltzer",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": true,
@@ -2479,7 +2479,7 @@
         },
         {
             "id": 394,
-            "drinkName": "Lakes & Legends Homegrown Haze Hazy IPA",
+            "name": "Lakes & Legends Homegrown Haze Hazy IPA",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2489,7 +2489,7 @@
         },
         {
             "id": 399,
-            "drinkName": "Smithwick's",
+            "name": "Smithwick's",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2499,7 +2499,7 @@
         },
         {
             "id": 402,
-            "drinkName": "Alesmith Nut Brown Ale",
+            "name": "Alesmith Nut Brown Ale",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2509,7 +2509,7 @@
         },
         {
             "id": 403,
-            "drinkName": "Bear Republic Racer 5 IPA",
+            "name": "Bear Republic Racer 5 IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2519,7 +2519,7 @@
         },
         {
             "id": 404,
-            "drinkName": "Belching Beaver Peanut Butter Milk Stout",
+            "name": "Belching Beaver Peanut Butter Milk Stout",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2529,7 +2529,7 @@
         },
         {
             "id": 405,
-            "drinkName": "Blacklist Dill Pickle Ale",
+            "name": "Blacklist Dill Pickle Ale",
             "isNew": false,
             "isOnlyAtFair": true,
             "isSeltzer": false,
@@ -2539,7 +2539,7 @@
         },
         {
             "id": 407,
-            "drinkName": "Clown Shoes Galactica Imperial IPA",
+            "name": "Clown Shoes Galactica Imperial IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2549,7 +2549,7 @@
         },
         {
             "id": 408,
-            "drinkName": "Coronado Outboard Motor Beer",
+            "name": "Coronado Outboard Motor Beer",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2559,7 +2559,7 @@
         },
         {
             "id": 409,
-            "drinkName": "Coronado Weekend Vibes IPA",
+            "name": "Coronado Weekend Vibes IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2569,7 +2569,7 @@
         },
         {
             "id": 410,
-            "drinkName": "Excelsior Maple Bacon Brown",
+            "name": "Excelsior Maple Bacon Brown",
             "isNew": false,
             "isOnlyAtFair": true,
             "isSeltzer": false,
@@ -2579,7 +2579,7 @@
         },
         {
             "id": 411,
-            "drinkName": "Excelsior S'Mores Beer",
+            "name": "Excelsior S'Mores Beer",
             "isNew": false,
             "isOnlyAtFair": true,
             "isSeltzer": false,
@@ -2589,7 +2589,7 @@
         },
         {
             "id": 415,
-            "drinkName": "Gr\u00fcvi Non-Alcoholic IPA",
+            "name": "Gr\u00fcvi Non-Alcoholic IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2599,7 +2599,7 @@
         },
         {
             "id": 416,
-            "drinkName": "Lake of the Woods Channel Marker Lager",
+            "name": "Lake of the Woods Channel Marker Lager",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2609,7 +2609,7 @@
         },
         {
             "id": 417,
-            "drinkName": "Lake of the Woods Forgotten Lake Blueberry Ale",
+            "name": "Lake of the Woods Forgotten Lake Blueberry Ale",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2619,7 +2619,7 @@
         },
         {
             "id": 418,
-            "drinkName": "Lake of the Woods Lakeside Kolsch",
+            "name": "Lake of the Woods Lakeside Kolsch",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2629,7 +2629,7 @@
         },
         {
             "id": 419,
-            "drinkName": "Mankato Buoyed Up Mango Shandy",
+            "name": "Mankato Buoyed Up Mango Shandy",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2639,7 +2639,7 @@
         },
         {
             "id": 420,
-            "drinkName": "Mankato Campfire Lemon Shandy",
+            "name": "Mankato Campfire Lemon Shandy",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2649,7 +2649,7 @@
         },
         {
             "id": 421,
-            "drinkName": "Mankato Orange Solstice Shandy",
+            "name": "Mankato Orange Solstice Shandy",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2659,7 +2659,7 @@
         },
         {
             "id": 423,
-            "drinkName": "Mike's Hard Cranberry",
+            "name": "Mike's Hard Cranberry",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2669,7 +2669,7 @@
         },
         {
             "id": 425,
-            "drinkName": "Millstream German Pilsner",
+            "name": "Millstream German Pilsner",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2679,7 +2679,7 @@
         },
         {
             "id": 426,
-            "drinkName": "Millstream Oktoberfest",
+            "name": "Millstream Oktoberfest",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2689,7 +2689,7 @@
         },
         {
             "id": 427,
-            "drinkName": "Pipeworks Unicorn Double IPA",
+            "name": "Pipeworks Unicorn Double IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2699,7 +2699,7 @@
         },
         {
             "id": 429,
-            "drinkName": "Round Lake Northstar Fros\u00e9 Blanc",
+            "name": "Round Lake Northstar Fros\u00e9 Blanc",
             "isNew": false,
             "isOnlyAtFair": true,
             "isSeltzer": false,
@@ -2709,7 +2709,7 @@
         },
         {
             "id": 430,
-            "drinkName": "Round Lake Summer Sunset Fros\u00e9",
+            "name": "Round Lake Summer Sunset Fros\u00e9",
             "isNew": false,
             "isOnlyAtFair": true,
             "isSeltzer": false,
@@ -2719,7 +2719,7 @@
         },
         {
             "id": 431,
-            "drinkName": "Sociable Cider Werks Candy Apple Hard Cider",
+            "name": "Sociable Cider Werks Candy Apple Hard Cider",
             "isNew": false,
             "isOnlyAtFair": true,
             "isSeltzer": false,
@@ -2729,7 +2729,7 @@
         },
         {
             "id": 432,
-            "drinkName": "Sociable Cider Werks Raspberry Hard Cider",
+            "name": "Sociable Cider Werks Raspberry Hard Cider",
             "isNew": false,
             "isOnlyAtFair": true,
             "isSeltzer": false,
@@ -2739,7 +2739,7 @@
         },
         {
             "id": 434,
-            "drinkName": "Third Street Peach Tree Ale",
+            "name": "Third Street Peach Tree Ale",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2749,7 +2749,7 @@
         },
         {
             "id": 435,
-            "drinkName": "White Claw Hard Seltzer Hard Seltzer",
+            "name": "White Claw Hard Seltzer Hard Seltzer",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": true,
@@ -2759,7 +2759,7 @@
         },
         {
             "id": 436,
-            "drinkName": "Bent Paddle Kanu",
+            "name": "Bent Paddle Kanu",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2769,7 +2769,7 @@
         },
         {
             "id": 438,
-            "drinkName": "Clown Shoes Mango American Kolsch",
+            "name": "Clown Shoes Mango American Kolsch",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2779,7 +2779,7 @@
         },
         {
             "id": 439,
-            "drinkName": "Coronado Salty Crew Blonde Ale",
+            "name": "Coronado Salty Crew Blonde Ale",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2789,7 +2789,7 @@
         },
         {
             "id": 440,
-            "drinkName": "Deschutes Fresh Haze IPA",
+            "name": "Deschutes Fresh Haze IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2799,7 +2799,7 @@
         },
         {
             "id": 442,
-            "drinkName": "Excelsior Big Island Blond Ale",
+            "name": "Excelsior Big Island Blond Ale",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2809,7 +2809,7 @@
         },
         {
             "id": 443,
-            "drinkName": "Excelsior Strawberry Cream Ale",
+            "name": "Excelsior Strawberry Cream Ale",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2819,7 +2819,7 @@
         },
         {
             "id": 444,
-            "drinkName": "Fair State Hard Water Hibiscus + Orange Zest",
+            "name": "Fair State Hard Water Hibiscus + Orange Zest",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2829,7 +2829,7 @@
         },
         {
             "id": 445,
-            "drinkName": "Fair State Hard Water Lemongrass Ginger + Lemon",
+            "name": "Fair State Hard Water Lemongrass Ginger + Lemon",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2839,7 +2839,7 @@
         },
         {
             "id": 447,
-            "drinkName": "FINNEGANS Buddy Stout",
+            "name": "FINNEGANS Buddy Stout",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2849,7 +2849,7 @@
         },
         {
             "id": 449,
-            "drinkName": "Insight Waffle Dog Breakfast Ale",
+            "name": "Insight Waffle Dog Breakfast Ale",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2859,7 +2859,7 @@
         },
         {
             "id": 450,
-            "drinkName": "Insight Nordic Strawberry Blonde",
+            "name": "Insight Nordic Strawberry Blonde",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2869,7 +2869,7 @@
         },
         {
             "id": 453,
-            "drinkName": "Lift Bridge Hard Seltzer Northwoods Juice Box",
+            "name": "Lift Bridge Hard Seltzer Northwoods Juice Box",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": true,
@@ -2879,7 +2879,7 @@
         },
         {
             "id": 454,
-            "drinkName": "Lift Bridge Hard Seltzer St. Croix Berries",
+            "name": "Lift Bridge Hard Seltzer St. Croix Berries",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": true,
@@ -2889,7 +2889,7 @@
         },
         {
             "id": 457,
-            "drinkName": "Lupulin Lemon Meringue Pie Ale",
+            "name": "Lupulin Lemon Meringue Pie Ale",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2899,7 +2899,7 @@
         },
         {
             "id": 459,
-            "drinkName": "Mankato Triple Berry Cheesecake Lager",
+            "name": "Mankato Triple Berry Cheesecake Lager",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2909,7 +2909,7 @@
         },
         {
             "id": 460,
-            "drinkName": "Mankato Mad Butcher",
+            "name": "Mankato Mad Butcher",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2919,7 +2919,7 @@
         },
         {
             "id": 461,
-            "drinkName": "New Belgium Fat Tire Amber Ale",
+            "name": "New Belgium Fat Tire Amber Ale",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2929,7 +2929,7 @@
         },
         {
             "id": 463,
-            "drinkName": "New Belgium Voodoo Ranger IPA",
+            "name": "New Belgium Voodoo Ranger IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2939,7 +2939,7 @@
         },
         {
             "id": 464,
-            "drinkName": "Rebel Hard Coffee Bourbon Caramel Latte",
+            "name": "Rebel Hard Coffee Bourbon Caramel Latte",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2949,7 +2949,7 @@
         },
         {
             "id": 467,
-            "drinkName": "Smirnoff Ice",
+            "name": "Smirnoff Ice",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2959,7 +2959,7 @@
         },
         {
             "id": 468,
-            "drinkName": "Smirnoff Ice Raspberry",
+            "name": "Smirnoff Ice Raspberry",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2969,7 +2969,7 @@
         },
         {
             "id": 470,
-            "drinkName": "Smirnoff Spiked Sparkling Seltzer Raspberry Ros\u00e9",
+            "name": "Smirnoff Spiked Sparkling Seltzer Raspberry Ros\u00e9",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": true,
@@ -2979,7 +2979,7 @@
         },
         {
             "id": 475,
-            "drinkName": "Surly Mapping the Multiverse Hazy IPA",
+            "name": "Surly Mapping the Multiverse Hazy IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2989,7 +2989,7 @@
         },
         {
             "id": 476,
-            "drinkName": "Third Street Sun Setter Blueberry Shandy",
+            "name": "Third Street Sun Setter Blueberry Shandy",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -2999,7 +2999,7 @@
         },
         {
             "id": 478,
-            "drinkName": "Urban Growler One Way Fair",
+            "name": "Urban Growler One Way Fair",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -3009,7 +3009,7 @@
         },
         {
             "id": 481,
-            "drinkName": "Bauhaus Bolo Blue: Tropical Punch Hard Seltzer",
+            "name": "Bauhaus Bolo Blue: Tropical Punch Hard Seltzer",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": true,
@@ -3019,7 +3019,7 @@
         },
         {
             "id": 486,
-            "drinkName": "Fulton Sweet Child of Vine",
+            "name": "Fulton Sweet Child of Vine",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -3029,7 +3029,7 @@
         },
         {
             "id": 488,
-            "drinkName": "Insight Raspberry Pineapple Tart Wheat",
+            "name": "Insight Raspberry Pineapple Tart Wheat",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -3039,7 +3039,7 @@
         },
         {
             "id": 491,
-            "drinkName": "Lift Bridge Key Lime Pie",
+            "name": "Lift Bridge Key Lime Pie",
             "isNew": false,
             "isOnlyAtFair": true,
             "isSeltzer": false,
@@ -3049,7 +3049,7 @@
         },
         {
             "id": 493,
-            "drinkName": "Lupulin Hooey IPA",
+            "name": "Lupulin Hooey IPA",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -3059,7 +3059,7 @@
         },
         {
             "id": 498,
-            "drinkName": "Paulaner Grapefruit-Radler",
+            "name": "Paulaner Grapefruit-Radler",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -3069,7 +3069,7 @@
         },
         {
             "id": 501,
-            "drinkName": "Surly Caribbean Dream Passion Fruit Tart Ale",
+            "name": "Surly Caribbean Dream Passion Fruit Tart Ale",
             "isNew": true,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -3079,7 +3079,7 @@
         },
         {
             "id": 503,
-            "drinkName": "Surly Hell",
+            "name": "Surly Hell",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -3089,7 +3089,7 @@
         },
         {
             "id": 504,
-            "drinkName": "Truly Spiked & Sparkling Hard Seltzer",
+            "name": "Truly Spiked & Sparkling Hard Seltzer",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": true,
@@ -3099,7 +3099,7 @@
         },
         {
             "id": 505,
-            "drinkName": "Waconia Chocolate Peanut Butter Porter",
+            "name": "Waconia Chocolate Peanut Butter Porter",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
@@ -3109,7 +3109,7 @@
         },
         {
             "id": 506,
-            "drinkName": "Winehaven Wine",
+            "name": "Winehaven Wine",
             "isNew": false,
             "isOnlyAtFair": false,
             "isSeltzer": false,
