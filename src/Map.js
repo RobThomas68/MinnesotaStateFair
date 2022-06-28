@@ -29,6 +29,7 @@ const Map = () => {
             positionOptions: {
                 enableHighAccuracy: true,
             },
+            watchPosition: true,
             userDecisionTimeout: 5000,
         });
 
@@ -40,9 +41,13 @@ const Map = () => {
                 {coords && (
                     <Marker position={[coords.latitude, coords.longitude]}>
                         <Popup>
-                            <p>{coords.altitude}</p>
-                            <p>{coords.heading}</p>
-                            <p>{coords.speed}</p>
+                            <p>latitude:{coords.latitude}</p>
+                            <p>longitude:{coords.longitude}</p>
+                            <p>altitude:{coords.altitude}</p>
+                            <p>heading:{coords.heading}</p>
+                            <p>speed:{coords.speed}</p>
+                            <p>accuracy:{coords.accuracy}</p>
+                            <p>timestamp:{coords.timestamp}</p>
                         </Popup>
                     </Marker>
                 )}
