@@ -2,10 +2,15 @@ import { useParams, Link } from "react-router-dom";
 import { useContext } from "react";
 import DataContext from "./context/DataContext";
 
+import { BsStarFill, BsStar } from 'react-icons/bs'
+
 const DrinkPage = () => {
-    const { drinks, vendors } = useContext(DataContext);
+    const { drinks, vendors, isFavorite, onFavoriteClick } = useContext(DataContext);
     const { id } = useParams();
     const drink = drinks.find((drink) => drink.id.toString() === id);
+
+    const handleDelete = (id) => {
+    }
 
     return (
         <main className="PostPage">
@@ -13,6 +18,8 @@ const DrinkPage = () => {
                 {drink && (
                     <>
                         <h2>{drink.name}</h2>
+                        {isFavorite(drink)  && <BsStarFill onClick={() => onFavoriteClick(drink)} role="button" tabIndex="0" />}
+                        {!isFavorite(drink) && <BsStar     onClick={() => onFavoriteClick(drink)} role="button" tabIndex="0" />}
                         <p>New:{drink.isNew.toString()}</p>
                         <p>Only At Fair:{drink.isOnlyAtFair.toString()}</p>
                         <p>Vendors:{drink.vendorIDs.toString()}</p>

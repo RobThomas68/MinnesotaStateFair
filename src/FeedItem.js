@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import DataContext from "./context/DataContext";
+import { BsStarFill, BsStar } from 'react-icons/bs'
 
 const FeedItem = ({ feedItem }) => {
-    const { vendors } = useContext(DataContext);
+    const { vendors, isFavorite, onFavoriteClick } = useContext(DataContext);
     const getVendor = (id) => {
         return vendors.find((vendor) => vendor.id === id).name;
     };
@@ -17,6 +18,8 @@ const FeedItem = ({ feedItem }) => {
                 {/* <p>{feedItem.vendorIDs.reduce((str,id) => `${str} ${getVendor(id)}`, '')}</p> */}
                 <p>{itemVendors.join(",")}</p>
             </Link>
+            {isFavorite(feedItem)  && <BsStarFill onClick={() => onFavoriteClick(feedItem)} role="button" tabIndex="0" />}
+            {!isFavorite(feedItem) && <BsStar     onClick={() => onFavoriteClick(feedItem)} role="button" tabIndex="0" />}
         </article>
     );
 };
