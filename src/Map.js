@@ -1,8 +1,9 @@
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import L from "leaflet";
-
 import { useContext } from "react";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { useGeolocated } from "react-geolocated";
 import DataContext from "./context/DataContext";
+
+import L from "leaflet";
 
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
@@ -14,6 +15,8 @@ L.Icon.Default.mergeOptions({
 const Map = () => {
     const center = [44.98106, -93.174351];
     const zoom = 20;
+    const attribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+    const url = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
 
     const { favorites } = useContext(DataContext);
 
@@ -21,13 +24,28 @@ const Map = () => {
         favorite.hasOwnProperty("latitude")
     );
 
+    const { coords, isGeolocationAvailable, isGeolocationEnabled } =
+        useGeolocated({
+            positionOptions: {
+                enableHighAccuracy: true,
+            },
+            userDecisionTimeout: 5000,
+        });
+
     return (
         <main className="Map">
             <MapContainer center={center} zoom={zoom} scrollWheelZoom={false}>
-                <TileLayer
-                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                />
+                <TileLayer attribution={attribution} url={url} />
+
+                {coords && (
+                    <Marker position={[coords.latitude, coords.longitude]}>
+                        <Popup>
+                            <p>{coords.altitude}</p>
+                            <p>{coords.heading}</p>
+                            <p>{coords.speed}</p>
+                        </Popup>
+                    </Marker>
+                )}
 
                 {favs.map((f) => (
                     <Marker key={f.id} position={[f.latitude, f.longitude]}>
