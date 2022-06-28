@@ -12,14 +12,18 @@ const FeedItem = ({ feedItem }) => {
 
     return (
         <article className="post">
-            <Link to={`/drink/${feedItem.id}`}>
-                <h3>{feedItem.name}</h3>
-                <p style={{whiteSpace: 'pre-wrap', overflowWrap:'break-word'}}>{feedItem.vendorIDs.toString()}</p>
-                {/* <p>{feedItem.vendorIDs.reduce((str,id) => `${str} ${getVendor(id)}`, '')}</p> */}
-                <p>{itemVendors.join(",")}</p>
-            </Link>
-            {isFavorite(feedItem)  && <BsStarFill onClick={() => onFavoriteClick(feedItem)} role="button" tabIndex="0" />}
-            {!isFavorite(feedItem) && <BsStar     onClick={() => onFavoriteClick(feedItem)} role="button" tabIndex="0" />}
+                <div className="postHeader">
+                    <Link to={`/drink/${feedItem.id}`}>
+                        <h3>{feedItem.name}</h3>
+                    </Link>
+                    <div className="push">
+                        {isFavorite(feedItem)  && <BsStarFill onClick={() => onFavoriteClick(feedItem)} role="button" tabIndex="0" />}
+                        {!isFavorite(feedItem) && <BsStar     onClick={() => onFavoriteClick(feedItem)} role="button" tabIndex="0" />}
+                    </div>
+                </div>
+
+                {/* <p>{feedItem.vendorIDs.join(', ')}</p> */}
+                <p>{itemVendors.join(', ')}</p>
         </article>
     );
 };

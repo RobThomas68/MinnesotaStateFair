@@ -8,13 +8,16 @@ const VendorFeedItem = ({ feedItem }) => {
 
     return (
         <article className="post">
-            <h3>{feedItem.name}</h3>
+            <div className="postHeader">
+                <h3>{feedItem.name}</h3>
+                <div className="push">
+                    {isFavorite(feedItem)  && <BsStarFill onClick={() => onFavoriteClick(feedItem)} role="button" tabIndex="0" />}
+                    {!isFavorite(feedItem) && <BsStar     onClick={() => onFavoriteClick(feedItem)} role="button" tabIndex="0" />}
+                </div>
+            </div>
             <p>{feedItem.id}</p>
             <p>{feedItem.directions}</p>
             <p>({feedItem.latitude},{feedItem.longitude})</p>
-            {isFavorite(feedItem)  && <BsStarFill onClick={() => onFavoriteClick(feedItem)} role="button" tabIndex="0" />}
-            {!isFavorite(feedItem) && <BsStar     onClick={() => onFavoriteClick(feedItem)} role="button" tabIndex="0" />}
-
         </article>
     );
 };

@@ -9,17 +9,18 @@ const DrinkPage = () => {
     const { id } = useParams();
     const drink = drinks.find((drink) => drink.id.toString() === id);
 
-    const handleDelete = (id) => {
-    }
-
     return (
         <main className="PostPage">
             <article className="post">
                 {drink && (
                     <>
-                        <h2>{drink.name}</h2>
-                        {isFavorite(drink)  && <BsStarFill onClick={() => onFavoriteClick(drink)} role="button" tabIndex="0" />}
-                        {!isFavorite(drink) && <BsStar     onClick={() => onFavoriteClick(drink)} role="button" tabIndex="0" />}
+                        <div className="postHeader">
+                            <h2>{drink.name}</h2>
+                            <div className="push">
+                                {isFavorite(drink)  && <BsStarFill onClick={() => onFavoriteClick(drink)} role="button" tabIndex="0" />}
+                                {!isFavorite(drink) && <BsStar     onClick={() => onFavoriteClick(drink)} role="button" tabIndex="0" />}
+                            </div>
+                        </div>
                         <p>New:{drink.isNew.toString()}</p>
                         <p>Only At Fair:{drink.isOnlyAtFair.toString()}</p>
                         <p>Vendors:{drink.vendorIDs.toString()}</p>

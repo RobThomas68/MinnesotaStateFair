@@ -76,10 +76,10 @@ body {
   align-items: flex-start;
 }
 
-.searchForm {
+/* .searchForm {
   width: 80%;
   padding: 1rem 0 0 0.75rem;
-}
+} */
 
 .searchForm input[type="text"] {
   font-family: 'Open Sans', sans-serif;
@@ -169,6 +169,15 @@ body {
 
 .postBody {
   margin: 1rem 0;
+}
+
+.postHeader {
+  display: flex;
+  flex-direction:row;
+}
+
+.push {
+  margin-left: auto;
 }
 
 .newPostForm {
