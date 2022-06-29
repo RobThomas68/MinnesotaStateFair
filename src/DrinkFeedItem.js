@@ -17,8 +17,11 @@ const FeedItem = ({ feedItem }) => {
                         <h3>{feedItem.name}</h3>
                     </Link>
                     <div className="push">
-                        {isFavorite(feedItem)  && <BsStarFill onClick={() => onFavoriteClick(feedItem)} role="button" tabIndex="0" />}
-                        {!isFavorite(feedItem) && <BsStar     onClick={() => onFavoriteClick(feedItem)} role="button" tabIndex="0" />}
+                        {
+                            isFavorite(feedItem) ?
+                                <BsStarFill onClick={() => onFavoriteClick(feedItem)} role="button" tabIndex="0" /> :
+                                <BsStar     onClick={() => onFavoriteClick(feedItem)} role="button" tabIndex="0" />
+                        }
                     </div>
                 </div>
 

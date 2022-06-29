@@ -4,7 +4,7 @@ import DataContext from "./context/DataContext";
 
 import { BsStarFill, BsStar } from 'react-icons/bs'
 
-const DrinkPage = () => {
+const DrinkDetails = () => {
     const { drinks, vendors, isFavorite, onFavoriteClick } = useContext(DataContext);
     const { id } = useParams();
     const drink = drinks.find((drink) => drink.id.toString() === id);
@@ -52,4 +52,4 @@ const DrinkPage = () => {
     );
 };
 
-export default DrinkPage;
+export default DrinkDetails;

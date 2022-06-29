@@ -1,4 +1,4 @@
-import Feed from "./Feed";
+import DrinkFeed from "./DrinkFeed";
 
 import { useContext } from "react";
 import DataContext from "./context/DataContext";
@@ -23,8 +23,8 @@ const Drinks = () => {
     };
 
     return (
-        <main className="Drinks">
-            <div>
+        <>
+            <div className="searchBar">
                 <form
                     className="searchForm"
                     onSubmit={(e) => e.preventDefault()}
@@ -54,12 +54,14 @@ const Drinks = () => {
                 <label htmlFor="new">New</label>
             </div>
 
-            {searchResults.length ? (
-                <Feed feedItems={searchResults} />
-            ) : (
-                <p style={{ marginTop: "2rem" }}>No drinks to display.</p>
-            )}
-        </main>
+            <main className="Drinks">
+                {searchResults.length ? (
+                    <DrinkFeed feedItems={searchResults} />
+                ) : (
+                    <p style={{ marginTop: "2rem" }}>No drinks to display.</p>
+                )}
+            </main>
+        </>
     );
 };
 
