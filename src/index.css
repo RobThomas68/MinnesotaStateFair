@@ -76,12 +76,27 @@ body {
   align-items: flex-start;
 }
 
+.searchBar
+{
+  width: 100%;
+  padding: .25rem;
+  background-color: #444;
+  color: #fff;
+}
+
+.searchBar input[type="checkbox"] {
+  margin-left: 20%;
+}
+
+.searchBar label {
+  margin-left: .5rem;
+}
 /* .searchForm {
   width: 80%;
   padding: 1rem 0 0 0.75rem;
 } */
 
-.searchForm input[type="text"] {
+ .searchForm input[type="text"] {
   font-family: 'Open Sans', sans-serif;
   width: 100%;
   min-height: 48px;
@@ -118,6 +133,10 @@ body {
   text-decoration: none;
 }
 
+.Nav li a.active {
+  color: #66d8f5;
+}
+
 .Nav li:hover,
 .Nav li:focus,
 .Nav li:hover a,
@@ -131,7 +150,7 @@ body {
   cursor: pointer;
 }
 
-.Home, .NewPost, .PostPage, .About, .Missing, .Favorites, .Food, .Drinks, .Vendors, .Map {
+.Home, .NewPost, .PostPage, .About, .Missing, .Favorites, .Foods, .Drinks, .Vendors, .Map {
   width: 100%;
   flex-grow: 1;
   padding: 1rem;
@@ -263,14 +282,14 @@ body {
     color: #333;
   }
 
-  .searchForm {
+  /* .searchForm {
     width: 50%;
     padding: .5rem 0;
   }
 
   .searchForm input[type="text"] {
     margin-left: 0.5rem;
-  }
+  } */
 
   .newPostForm textarea {
     height: 300px;

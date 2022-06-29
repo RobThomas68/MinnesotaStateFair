@@ -11,8 +11,8 @@ const Favorites = () => {
     } = useContext(DataContext);
 
     return (
-        <main className="Favorites">
-            <div>
+        <>
+            <div className="searchBar">
                 <form
                     className="searchForm"
                     onSubmit={(e) => e.preventDefault()}
@@ -27,13 +27,14 @@ const Favorites = () => {
                     />
                 </form>
             </div>
-
-            {favoriteSearchResults.length ? (
-                <FavoriteFeed feedItems={favoriteSearchResults} />
-            ) : (
-                <p style={{ marginTop: "2rem" }}>No favorites to display.</p>
-            )}
-        </main>
+            <main className="Favorites">
+                {favoriteSearchResults.length ? (
+                    <FavoriteFeed feedItems={favoriteSearchResults} />
+                ) : (
+                    <p style={{ marginTop: "2rem" }}>No favorites to display.</p>
+                )}
+            </main>
+        </>
     );
 };
 

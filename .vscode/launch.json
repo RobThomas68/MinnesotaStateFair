@@ -12,15 +12,12 @@
                 "--remote-debugging-port=9222"
             ],
             "url": "c:\\Users\\rthomas\\.vscode\\extensions\\ms-edgedevtools.vscode-edge-devtools-2.0.0\\out\\startpage\\index.html",
-            "presentation": {
-                "hidden": true
-            }
         },
         {
             "type": "edge",
             "request": "launch",
             "name": "Launch Edge against localhost",
-            "url": "http://localhost:24228",
+            "url": "http://localhost:3000",
             "webRoot": "${workspaceFolder}"
         }
     ]

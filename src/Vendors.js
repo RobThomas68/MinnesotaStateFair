@@ -11,8 +11,8 @@ const Vendors = () => {
     } = useContext(DataContext);
 
     return (
-        <main className="Vendors">
-            <div>
+        <>
+            <div className="searchBar">
                 <form
                     className="searchForm"
                     onSubmit={(e) => e.preventDefault()}
@@ -27,13 +27,14 @@ const Vendors = () => {
                     />
                 </form>
             </div>
-
-            {vendorSearchResults.length ? (
-                <VendorFeed feedItems={vendorSearchResults} />
-            ) : (
-                <p style={{ marginTop: "2rem" }}>No vendors to display.</p>
-            )}
-        </main>
+            <main className="Vendors">
+                {vendorSearchResults.length ? (
+                    <VendorFeed feedItems={vendorSearchResults} />
+                ) : (
+                    <p style={{ marginTop: "2rem" }}>No vendors to display.</p>
+                )}
+            </main>
+        </>
     );
 };
 

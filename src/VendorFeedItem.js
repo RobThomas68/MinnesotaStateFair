@@ -11,8 +11,11 @@ const VendorFeedItem = ({ feedItem }) => {
             <div className="postHeader">
                 <h3>{feedItem.name}</h3>
                 <div className="push">
-                    {isFavorite(feedItem)  && <BsStarFill onClick={() => onFavoriteClick(feedItem)} role="button" tabIndex="0" />}
-                    {!isFavorite(feedItem) && <BsStar     onClick={() => onFavoriteClick(feedItem)} role="button" tabIndex="0" />}
+                    {
+                        isFavorite(feedItem) ?
+                            <BsStarFill onClick={() => onFavoriteClick(feedItem)} role="button" tabIndex="0" /> :
+                            <BsStar     onClick={() => onFavoriteClick(feedItem)} role="button" tabIndex="0" />
+                    }
                 </div>
             </div>
             <p>{feedItem.id}</p>

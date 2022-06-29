@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup, Circle, ScaleControl } from "react-leaflet";
 import { useGeolocated } from "react-geolocated";
 import DataContext from "./context/DataContext";
 
@@ -12,6 +12,8 @@ L.Icon.Default.mergeOptions({
     shadowUrl: require("leaflet/dist/images/marker-shadow.png"),
 });
 
+
+
 const Map = () => {
     const center = [44.98106, -93.174351];
     const zoom = 20;
@@ -23,6 +25,19 @@ const Map = () => {
     const favs = favorites.filter((favorite) =>
         favorite.hasOwnProperty("latitude")
     );
+
+    const formatTimestamp = (s) => {
+        return new Date(s*1000).toISOString();
+    }
+
+    const markerIconGreen = new L.Icon({
+        iconRetinaUrl: require("./resources/images/leaflet-color-markers/marker-icon-2x-green.png"),
+        iconUrl: require("./resources/images/leaflet-color-markers/marker-icon-green.png"),
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [4, 41],
+      });
 
     const { coords, isGeolocationAvailable, isGeolocationEnabled } =
         useGeolocated({
@@ -37,23 +52,30 @@ const Map = () => {
         <main className="Map">
             <MapContainer center={center} zoom={zoom} scrollWheelZoom={false}>
                 <TileLayer attribution={attribution} url={url} />
+                <ScaleControl></ScaleControl>
 
                 {coords && (
-                    <Marker position={[coords.latitude, coords.longitude]}>
-                        <Popup>
-                            <p>latitude:{coords.latitude}</p>
-                            <p>longitude:{coords.longitude}</p>
-                            <p>altitude:{coords.altitude}</p>
-                            <p>heading:{coords.heading}</p>
-                            <p>speed:{coords.speed}</p>
-                            <p>accuracy:{coords.accuracy}</p>
-                            <p>timestamp:{coords.timestamp}</p>
-                        </Popup>
-                    </Marker>
+                    <>
+                        <Marker position={[coords.latitude, coords.longitude]}>
+                            <Popup>
+                                <p>latitude:{coords.latitude}</p>
+                                <p>longitude:{coords.longitude}</p>
+                                <p>altitude:{coords.altitude}</p>
+                                <p>heading:{coords.heading}</p>
+                                <p>speed:{coords.speed}</p>
+                                <p>accuracy:{coords.accuracy}</p>
+                                {coords.timestamp && <p>timestamp:{formatTimestamp(coords.timestamp)}</p>}
+                            </Popup>
+                        </Marker>
+
+                        <Circle center={[coords.latitude, coords.longitude]} radius={10} />
+                        <Circle center={[coords.latitude, coords.longitude]} radius={coords.accuracy} />
+                    </>
+
                 )}
 
                 {favs.map((f) => (
-                    <Marker key={f.id} position={[f.latitude, f.longitude]}>
+                    <Marker key={f.id} position={[f.latitude, f.longitude]} icon={markerIconGreen}>
                         <Popup>
                             <h4>{f.name}</h4>
                         </Popup>

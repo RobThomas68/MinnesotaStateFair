@@ -1,9 +1,8 @@
 import Layout from './Layout';
-import Home from './Home';
 import Favorites from './Favorites';
-import Food from './Food';
+import Foods from './Foods';
 import Drinks from './Drinks';
-import DrinkPage from './DrinkPage';
+import DrinkDetails from './DrinkDetails';
 import Vendors from './Vendors';
 import Map from './Map';
 import Missing from './Missing';
@@ -16,11 +15,11 @@ function App() {
     <DataProvider>
       <Routes>
         <Route path="/" element={<Layout />} >
-          <Route index element={<Home />} />
+          <Route index element={<Favorites />} />
           <Route path="favorites" element={<Favorites />} />
-          <Route path="food" element={<Food />} />
+          <Route path="foods" element={<Foods />} />
           <Route path="drinks" element={<Drinks />} />
-          <Route path="drink/:id" element={<DrinkPage/>} />
+          <Route path="drink/:id" element={<DrinkDetails/>} />
           <Route path="vendors" element={<Vendors />} />
           <Route path="map" element={<Map />} />
           <Route path="*" element={<Missing />} />
