@@ -150,7 +150,7 @@ body {
   cursor: pointer;
 }
 
-.Home, .NewPost, .PostPage, .About, .Missing, .Favorites, .Foods, .Drinks, .Vendors, .Map {
+.Home, .NewPost, .PostPage, .About, .Missing, .Favorites, .Foods, .Drinks, .Vendors, .Map, .Lab, .Missing, .Settings, .About {
   width: 100%;
   flex-grow: 1;
   padding: 1rem;
