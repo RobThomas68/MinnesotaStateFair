@@ -75,11 +75,6 @@ body {
   align-items: flex-start;
 }
 
-.Nav li:nth-child(6) {
-  /* background-color: green; */
-  margin-left: 40%;
-}
-
 .searchBar
 {
   width: 100%;
