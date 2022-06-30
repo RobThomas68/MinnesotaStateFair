@@ -5,9 +5,9 @@ import DataContext from "./context/DataContext";
 
 const Drinks = () => {
     const {
-        searchResults,
-        search,
-        setSearch,
+        drinkSearchResults,
+        drinkSearch,
+        setDrinkSearch,
         isOnlyAtFair,
         setIsOnlyAtFair,
         isNew,
@@ -34,8 +34,8 @@ const Drinks = () => {
                         id="search"
                         type="text"
                         placeholder="Search Drinks"
-                        value={search}
-                        onChange={(e) => setSearch(e.target.value)}
+                        value={drinkSearch}
+                        onChange={(e) => setDrinkSearch(e.target.value)}
                     />
                 </form>
                 <input
@@ -55,8 +55,8 @@ const Drinks = () => {
             </div>
 
             <main className="Drinks">
-                {searchResults.length ? (
-                    <DrinkFeed feedItems={searchResults} />
+                {drinkSearchResults.length ? (
+                    <DrinkFeed feedItems={drinkSearchResults} />
                 ) : (
                     <p style={{ marginTop: "2rem" }}>No drinks to display.</p>
                 )}

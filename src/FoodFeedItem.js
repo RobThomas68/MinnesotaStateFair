@@ -3,8 +3,11 @@ import { useContext } from "react";
 import DataContext from "./context/DataContext";
 import { BsStarFill, BsStar } from 'react-icons/bs'
 
-const VendorFeedItem = ({ feedItem }) => {
-    const { isFavorite, onFavoriteClick } = useContext(DataContext);
+const FoodFeedItem = ({ feedItem }) => {
+    const { vendors, isFavorite, onFavoriteClick } = useContext(DataContext);
+    const getVendor = (id) => {
+        return vendors.find((vendor) => vendor.id === id).name;
+    };
 
     return (
         <article className="post">
@@ -18,11 +21,9 @@ const VendorFeedItem = ({ feedItem }) => {
                     }
                 </div>
             </div>
-            {/* <p>{feedItem.id}</p> */}
-            <p>{feedItem.directions}</p>
-            {/* <p>({feedItem.latitude},{feedItem.longitude})</p> */}
+            <p>{getVendor(feedItem.vendorID)}</p>
         </article>
     );
 };
 
-export default VendorFeedItem;
+export default FoodFeedItem;

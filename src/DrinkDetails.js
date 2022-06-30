@@ -7,7 +7,7 @@ import { BsStarFill, BsStar } from 'react-icons/bs'
 const DrinkDetails = () => {
     const { drinks, vendors, isFavorite, onFavoriteClick } = useContext(DataContext);
     const { id } = useParams();
-    const drink = drinks.find((drink) => drink.id.toString() === id);
+    const drink = drinks.find((drink) => drink.id === id);
 
     return (
         <main className="PostPage">
@@ -23,7 +23,7 @@ const DrinkDetails = () => {
                         </div>
                         <p>New:{drink.isNew.toString()}</p>
                         <p>Only At Fair:{drink.isOnlyAtFair.toString()}</p>
-                        <p>Vendors:{drink.vendorIDs.toString()}</p>
+                        <p>Vendors:{drink.vendorIDs.join(', ')}</p>
 
                         <ul>
                             {drink.vendorIDs.map(function (id) {

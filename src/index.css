@@ -47,7 +47,7 @@ body {
 .Header, .Footer {
   width: 100%;
   background-color: #66d8f5;
-  padding: 1rem;
+  padding: 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,7 +62,6 @@ body {
 }
 
 .Footer {
-  padding: 0.75rem;
   display: grid;
   place-content: center;
 }
@@ -74,6 +73,11 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+}
+
+.Nav li:nth-child(6) {
+  /* background-color: green; */
+  margin-left: 40%;
 }
 
 .searchBar

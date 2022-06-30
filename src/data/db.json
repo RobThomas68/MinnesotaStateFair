@@ -1,11 +1,10 @@
 {
     "drinks": [
         {
-            "id": 0,
+            "id": "1000",
             "name": "Castle Danger Cream Ale",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "113.1",
                 "186.1",
@@ -26,21 +25,19 @@
             ]
         },
         {
-            "id": 1,
+            "id": "1001",
             "name": "Crook & Marker Margarita",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "113.1"
             ]
         },
         {
-            "id": 2,
+            "id": "1002",
             "name": "Grain Belt Premium",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "113.1",
                 "127.1",
@@ -58,11 +55,10 @@
             ]
         },
         {
-            "id": 3,
+            "id": "1003",
             "name": "Leinenkugel's Honey Weiss",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "113.1",
                 "237.1",
@@ -73,11 +69,10 @@
             ]
         },
         {
-            "id": 4,
+            "id": "1004",
             "name": "Leinenkugel's Summer Shandy",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "113.1",
                 "127.1",
@@ -101,11 +96,10 @@
             ]
         },
         {
-            "id": 5,
+            "id": "1005",
             "name": "Lift Bridge Farm Girl",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "113.1",
                 "383.1",
@@ -114,11 +108,10 @@
             ]
         },
         {
-            "id": 6,
+            "id": "1006",
             "name": "Lift Bridge Mango Blonde",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "113.1",
                 "127.1",
@@ -134,11 +127,10 @@
             ]
         },
         {
-            "id": 7,
+            "id": "1007",
             "name": "Mike's Harder Lemonade",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "113.1",
                 "33.1",
@@ -146,33 +138,30 @@
             ]
         },
         {
-            "id": 8,
+            "id": "1008",
             "name": "Redbridge (gluten-free)",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "113.1",
                 "781.1"
             ]
         },
         {
-            "id": 9,
+            "id": "1009",
             "name": "REDD's Apple Ale",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "113.1",
                 "830.1"
             ]
         },
         {
-            "id": 10,
+            "id": "1010",
             "name": "Schell's LoCal Twist",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "113.1",
                 "305.1",
@@ -180,11 +169,10 @@
             ]
         },
         {
-            "id": 11,
+            "id": "1011",
             "name": "Summit Extra Pale Ale",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "113.1",
                 "127.1",
@@ -200,21 +188,19 @@
             ]
         },
         {
-            "id": 12,
+            "id": "1012",
             "name": "Third Street Minnesota Gold Lager",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "113.1"
             ]
         },
         {
-            "id": 13,
+            "id": "1013",
             "name": "White Claw Hard Seltzer Black Cherry",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": true,
             "vendorIDs": [
                 "113.1",
                 "324.1",
@@ -227,11 +213,10 @@
             ]
         },
         {
-            "id": 14,
+            "id": "1014",
             "name": "White Claw Hard Seltzer Mango",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": true,
             "vendorIDs": [
                 "113.1",
                 "324.1",
@@ -243,62 +228,56 @@
             ]
         },
         {
-            "id": 15,
+            "id": "1015",
             "name": "612 Great Minnesota Citra-gether IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "127.1"
             ]
         },
         {
-            "id": 16,
+            "id": "1016",
             "name": "Bald Man Minnesota Mule Ale",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "127.1"
             ]
         },
         {
-            "id": 17,
+            "id": "1017",
             "name": "Cannon River Feisty Red",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "127.1"
             ]
         },
         {
-            "id": 18,
+            "id": "1018",
             "name": "Cannon River Feisty White",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "127.1"
             ]
         },
         {
-            "id": 19,
+            "id": "1019",
             "name": "Cannon River Sogn Blush",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "127.1",
                 "605.1"
             ]
         },
         {
-            "id": 20,
+            "id": "1020",
             "name": "Deschutes Fresh Squeezed IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "127.1",
                 "186.1",
@@ -311,31 +290,28 @@
             ]
         },
         {
-            "id": 21,
+            "id": "1021",
             "name": "Dreamsicle Hard Malt",
             "isNew": false,
             "isOnlyAtFair": true,
-            "isSeltzer": false,
             "vendorIDs": [
                 "127.1"
             ]
         },
         {
-            "id": 22,
+            "id": "1022",
             "name": "Fair State Big Doinks",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "127.1"
             ]
         },
         {
-            "id": 23,
+            "id": "1023",
             "name": "Fulton Lonely Blonde",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "127.1",
                 "218.1",
@@ -348,21 +324,19 @@
             ]
         },
         {
-            "id": 27,
+            "id": "1027",
             "name": "Lupulin Blue Razzmatazz",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "127.1"
             ]
         },
         {
-            "id": 28,
+            "id": "1028",
             "name": "Mike's Hard Black Cherry Lemonade",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "127.1",
                 "444.1",
@@ -372,11 +346,10 @@
             ]
         },
         {
-            "id": 29,
+            "id": "1029",
             "name": "Mike's Hard Lemonade",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "127.1",
                 "237.1",
@@ -387,22 +360,20 @@
             ]
         },
         {
-            "id": 30,
+            "id": "1030",
             "name": "REDD's Wicked Apple Ale",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "127.1",
                 "94.1"
             ]
         },
         {
-            "id": 31,
+            "id": "1031",
             "name": "Schell's Oktoberfest",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "127.1",
                 "324.2",
@@ -410,22 +381,20 @@
             ]
         },
         {
-            "id": 32,
+            "id": "1032",
             "name": "Smirnoff Ice Red, White & Berry",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "127.1",
                 "588.1"
             ]
         },
         {
-            "id": 34,
+            "id": "1034",
             "name": "Surly Furious IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "127.1",
                 "186.1",
@@ -440,112 +409,101 @@
             ]
         },
         {
-            "id": 35,
+            "id": "1035",
             "name": "Tin Whiskers Lowertown Lager",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "127.1"
             ]
         },
         {
-            "id": 36,
+            "id": "1036",
             "name": "Truly Spiked & Sparkling Wild Berry",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "127.1"
             ]
         },
         {
-            "id": 37,
+            "id": "1037",
             "name": "Waconia Golden Cookies N Cream Ale",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "127.1"
             ]
         },
         {
-            "id": 38,
+            "id": "1038",
             "name": "Bent Paddle Toga Party Kanu",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "186.1"
             ]
         },
         {
-            "id": 41,
+            "id": "1041",
             "name": "Firestone Walker Mind Haza IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "186.1"
             ]
         },
         {
-            "id": 42,
+            "id": "1042",
             "name": "Golden Road Mango Cart",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "186.1"
             ]
         },
         {
-            "id": 44,
+            "id": "1044",
             "name": "Gray Duck Bomba Juice Hard Seltzer",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": true,
             "vendorIDs": [
                 "186.1"
             ]
         },
         {
-            "id": 45,
+            "id": "1045",
             "name": "Heinieken 0.0 Non-Alcoholic Beer",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "186.1"
             ]
         },
         {
-            "id": 46,
+            "id": "1046",
             "name": "Indeed Pomegranate Pils",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "186.1"
             ]
         },
         {
-            "id": 47,
+            "id": "1047",
             "name": "Jack Daniel's Downhome Punch",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "186.1",
                 "33.1"
             ]
         },
         {
-            "id": 48,
+            "id": "1048",
             "name": "Kona Big Wave Golden Ale",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "186.1",
                 "218.1",
@@ -558,21 +516,19 @@
             ]
         },
         {
-            "id": 50,
+            "id": "1050",
             "name": "Paulaner Grapefruit Radler",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "186.1"
             ]
         },
         {
-            "id": 51,
+            "id": "1051",
             "name": "Schell's Sangria",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "186.1",
                 "255.1",
@@ -582,11 +538,10 @@
             ]
         },
         {
-            "id": 53,
+            "id": "1053",
             "name": "Summit Oktoberfest",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "186.1",
                 "237.1",
@@ -597,32 +552,29 @@
             ]
         },
         {
-            "id": 55,
+            "id": "1055",
             "name": "Surly Tangerine Titan",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "186.1"
             ]
         },
         {
-            "id": 56,
+            "id": "1056",
             "name": "Utepils Pontoon Afternoon",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "186.1",
                 "830.1"
             ]
         },
         {
-            "id": 59,
+            "id": "1059",
             "name": "Hamm's",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "218.1",
                 "237.1",
@@ -631,11 +583,10 @@
             ]
         },
         {
-            "id": 63,
+            "id": "1063",
             "name": "White Claw Hard Seltzer",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": true,
             "vendorIDs": [
                 "218.1",
                 "237.1",
@@ -647,72 +598,65 @@
             ]
         },
         {
-            "id": 64,
+            "id": "1064",
             "name": "Bell's Two Hearted Ale",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "237.1",
                 "94.1"
             ]
         },
         {
-            "id": 65,
+            "id": "1065",
             "name": "Burning Brothers Pyro (gluten-free)",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "237.1"
             ]
         },
         {
-            "id": 67,
+            "id": "1067",
             "name": "Cayman Jack Cocktails",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "237.1"
             ]
         },
         {
-            "id": 69,
+            "id": "1069",
             "name": "Fulton Hard Seltzer",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": true,
             "vendorIDs": [
                 "237.1"
             ]
         },
         {
-            "id": 71,
+            "id": "1071",
             "name": "Fulton OMG Seltzer Slushy",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": true,
             "vendorIDs": [
                 "237.1"
             ]
         },
         {
-            "id": 72,
+            "id": "1072",
             "name": "Fulton Prickly Pear IPA",
             "isNew": false,
             "isOnlyAtFair": true,
-            "isSeltzer": false,
             "vendorIDs": [
                 "237.1"
             ]
         },
         {
-            "id": 73,
+            "id": "1073",
             "name": "Grain Belt Nordeast",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "237.1",
                 "255.1",
@@ -727,41 +671,37 @@
             ]
         },
         {
-            "id": 75,
+            "id": "1075",
             "name": "Gray Duck Hard Seltzer",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": true,
             "vendorIDs": [
                 "237.1"
             ]
         },
         {
-            "id": 80,
+            "id": "1080",
             "name": "Ranch Water Hard Seltzer",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": true,
             "vendorIDs": [
                 "237.1"
             ]
         },
         {
-            "id": 81,
+            "id": "1081",
             "name": "Shiner Bock",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "237.1"
             ]
         },
         {
-            "id": 85,
+            "id": "1085",
             "name": "Tipsy Tomato Bloody Mary Cocktail",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "237.1",
                 "282.1",
@@ -769,62 +709,56 @@
             ]
         },
         {
-            "id": 86,
+            "id": "1086",
             "name": "Urban Growler Cowbell Cream Ale",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "237.1",
                 "830.1"
             ]
         },
         {
-            "id": 88,
+            "id": "1088",
             "name": "Bent Brewstillery Celegrapetion Ale",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "255.1"
             ]
         },
         {
-            "id": 89,
+            "id": "1089",
             "name": "Cannon River Mancini Levee Red",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "255.1"
             ]
         },
         {
-            "id": 90,
+            "id": "1090",
             "name": "Cannon River West 7th White",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "255.1"
             ]
         },
         {
-            "id": 93,
+            "id": "1093",
             "name": "Fulton Blood Orange Hard Seltzer",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": true,
             "vendorIDs": [
                 "255.1"
             ]
         },
         {
-            "id": 94,
+            "id": "1094",
             "name": "Grain Belt Blu",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "255.1",
                 "324.1",
@@ -833,92 +767,83 @@
             ]
         },
         {
-            "id": 99,
+            "id": "1099",
             "name": "Peroni",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "255.1"
             ]
         },
         {
-            "id": 100,
+            "id": "1100",
             "name": "Rebel Hard Coffee",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "255.1"
             ]
         },
         {
-            "id": 102,
+            "id": "1102",
             "name": "Sociable Cider Werks Rusy Chain Cranberry Apple (gluten-free)",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "255.1"
             ]
         },
         {
-            "id": 105,
+            "id": "1105",
             "name": "Aromatic Mike's Hard Lemonade Slushie",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "282.1"
             ]
         },
         {
-            "id": 106,
+            "id": "1106",
             "name": "Buzzin Moscow Mule Slushie",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "282.1"
             ]
         },
         {
-            "id": 111,
+            "id": "1111",
             "name": "Sociable Cider Werks Beach Cruiser Hard Cider",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "282.1"
             ]
         },
         {
-            "id": 112,
+            "id": "1112",
             "name": "Sociable Cider Werks Guava Have It Hard Seltzer",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": true,
             "vendorIDs": [
                 "282.1"
             ]
         },
         {
-            "id": 113,
+            "id": "1113",
             "name": "Summit Berry Bazaar K\u00f6lsch-Style Ale",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "282.1",
                 "282.2"
             ]
         },
         {
-            "id": 114,
+            "id": "1114",
             "name": "Summit Cabin Crusher",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "282.1",
                 "282.2",
@@ -926,32 +851,29 @@
             ]
         },
         {
-            "id": 117,
+            "id": "1117",
             "name": "TGI Fridays Cocktails Crafted to Go Moscow Mule",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "282.1"
             ]
         },
         {
-            "id": 122,
+            "id": "1122",
             "name": "Summit Keller Pils",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "282.2",
                 "324.1"
             ]
         },
         {
-            "id": 124,
+            "id": "1124",
             "name": "Summit S\u00e1ga\u00a0IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "282.2",
                 "422.1",
@@ -961,103 +883,93 @@
             ]
         },
         {
-            "id": 125,
+            "id": "1125",
             "name": "Summit Slugfest Juicy IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "282.2"
             ]
         },
         {
-            "id": 126,
+            "id": "1126",
             "name": "Beaver Island Experimental Hard Iced Tea with Lemon",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "305.1"
             ]
         },
         {
-            "id": 127,
+            "id": "1127",
             "name": "Briar Blackberry Rhubarb Wine Cocktail",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "305.1"
             ]
         },
         {
-            "id": 129,
+            "id": "1129",
             "name": "Deschutes Squeezy Rider IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "305.1"
             ]
         },
         {
-            "id": 130,
+            "id": "1130",
             "name": "FINNEGANS Irish Amber",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "305.1",
                 "745.1"
             ]
         },
         {
-            "id": 131,
+            "id": "1131",
             "name": "Garphish Lemmony Lemon Kins Pastry Ale",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "305.1"
             ]
         },
         {
-            "id": 133,
+            "id": "1133",
             "name": "Insight Orange Espresso Cream Ale",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "305.1"
             ]
         },
         {
-            "id": 134,
+            "id": "1134",
             "name": "Lakefront La Gosa Rita (gluten-free)",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "305.1"
             ]
         },
         {
-            "id": 135,
+            "id": "1135",
             "name": "Leinenkugel's Oktoberfest",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "305.1",
                 "377.1"
             ]
         },
         {
-            "id": 138,
+            "id": "1138",
             "name": "Lupulin Tropical Fun Pants",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "305.1",
                 "588.1",
@@ -1066,134 +978,121 @@
             ]
         },
         {
-            "id": 139,
+            "id": "1139",
             "name": "New Belgium Dominga Mimosa Sour",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "305.1",
                 "830.1"
             ]
         },
         {
-            "id": 140,
+            "id": "1140",
             "name": "New Belgium Voodoo Ranger V2K IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "305.1"
             ]
         },
         {
-            "id": 141,
+            "id": "1141",
             "name": "Parley Lake Wine",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "305.1"
             ]
         },
         {
-            "id": 143,
+            "id": "1143",
             "name": "Sociable Cider Werks Training Wheels Hazy Blueberry",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "305.1"
             ]
         },
         {
-            "id": 144,
+            "id": "1144",
             "name": "Summit Oasis Crusher Passion Fruit",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "305.1"
             ]
         },
         {
-            "id": 145,
+            "id": "1145",
             "name": "Summit Triumphant Session IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "305.1"
             ]
         },
         {
-            "id": 146,
+            "id": "1146",
             "name": "Urban Growler \"Hans On\" IPA",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "305.1"
             ]
         },
         {
-            "id": 147,
+            "id": "1147",
             "name": "Utepils Receptional",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "305.1",
                 "830.1"
             ]
         },
         {
-            "id": 148,
+            "id": "1148",
             "name": "Waconia Strawberry Lemonade Seltzer",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": true,
             "vendorIDs": [
                 "305.1"
             ]
         },
         {
-            "id": 149,
+            "id": "1149",
             "name": "Warpigs Foggy Geezer Hazy IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "305.1",
                 "60.1"
             ]
         },
         {
-            "id": 150,
+            "id": "1150",
             "name": "Castle Danger Honey Raspberry Wheat",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "324.1"
             ]
         },
         {
-            "id": 151,
+            "id": "1151",
             "name": "Cayman Jack Cuban Mojito",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "324.1"
             ]
         },
         {
-            "id": 152,
+            "id": "1152",
             "name": "Cayman Jack Margarita",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "324.1",
                 "33.1",
@@ -1201,21 +1100,19 @@
             ]
         },
         {
-            "id": 153,
+            "id": "1153",
             "name": "Cayman Jack Moscow Mule",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "324.1"
             ]
         },
         {
-            "id": 159,
+            "id": "1159",
             "name": "Modelo Especial",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "324.1",
                 "33.1",
@@ -1223,223 +1120,201 @@
             ]
         },
         {
-            "id": 160,
+            "id": "1160",
             "name": "Rasmelon Lemonade Slushy",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "324.1"
             ]
         },
         {
-            "id": 161,
+            "id": "1161",
             "name": "Rebel Hard Coffee Berry Crisp Latte",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "324.1"
             ]
         },
         {
-            "id": 162,
+            "id": "1162",
             "name": "Schell's Cherry-Go-Round",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "324.1",
                 "324.2"
             ]
         },
         {
-            "id": 163,
+            "id": "1163",
             "name": "Schell's OAKtoberfest",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "324.1",
                 "324.2"
             ]
         },
         {
-            "id": 164,
+            "id": "1164",
             "name": "Sociable Cider Werks Guava Pear at the Fair Slushy",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "324.1"
             ]
         },
         {
-            "id": 165,
+            "id": "1165",
             "name": "Sociable Cider Werks Minnesota Maple Mead",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "324.1"
             ]
         },
         {
-            "id": 166,
+            "id": "1166",
             "name": "Sociable Cider Werks Passion Berry Cider",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "324.1"
             ]
         },
         {
-            "id": 167,
+            "id": "1167",
             "name": "Sociable Cider Werks Pink Lemonade Slushy",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "324.1"
             ]
         },
         {
-            "id": 168,
+            "id": "1168",
             "name": "Sociable Cider Werks Mimosa",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "324.1"
             ]
         },
         {
-            "id": 170,
+            "id": "1170",
             "name": "Surly LuLu's Juicy MN Midway Hazy",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "324.1"
             ]
         },
         {
-            "id": 174,
+            "id": "1174",
             "name": "White Claw Hard Seltzer Raspberry",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": true,
             "vendorIDs": [
                 "324.1"
             ]
         },
         {
-            "id": 177,
+            "id": "1177",
             "name": "Schell's Cream Ale",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "324.2"
             ]
         },
         {
-            "id": 180,
+            "id": "1180",
             "name": "Schell's Moondrift Hazy IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "324.2"
             ]
         },
         {
-            "id": 184,
+            "id": "1184",
             "name": "Schell's Schandy",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "324.2"
             ]
         },
         {
-            "id": 185,
+            "id": "1185",
             "name": "Schell's Blu Topper",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "324.2"
             ]
         },
         {
-            "id": 186,
+            "id": "1186",
             "name": "Schell's Sangria Topper",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "324.2"
             ]
         },
         {
-            "id": 187,
+            "id": "1187",
             "name": "Schell's Choc'd Up Topper",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "324.2"
             ]
         },
         {
-            "id": 188,
+            "id": "1188",
             "name": "Schell's Schandy Topper",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "324.2"
             ]
         },
         {
-            "id": 189,
+            "id": "1189",
             "name": "Bent Paddle Summer Luv'n Orange IPA",
             "isNew": false,
             "isOnlyAtFair": true,
-            "isSeltzer": false,
             "vendorIDs": [
                 "33.1"
             ]
         },
         {
-            "id": 190,
+            "id": "1190",
             "name": "Big Wood Caramel Apple Craft Seltzer",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": true,
             "vendorIDs": [
                 "33.1"
             ]
         },
         {
-            "id": 191,
+            "id": "1191",
             "name": "Big Wood Chocolate Chip Cookie Beer",
             "isNew": false,
             "isOnlyAtFair": true,
-            "isSeltzer": false,
             "vendorIDs": [
                 "33.1"
             ]
         },
         {
-            "id": 194,
+            "id": "1194",
             "name": "Fair State Roselle",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "33.1",
                 "383.1",
@@ -1447,162 +1322,146 @@
             ]
         },
         {
-            "id": 196,
+            "id": "1196",
             "name": "Indeed Pistachio Cream Ale",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "33.1"
             ]
         },
         {
-            "id": 201,
+            "id": "1201",
             "name": "O'Doul's Amber Non-Alcoholic Beer",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "33.1"
             ]
         },
         {
-            "id": 202,
+            "id": "1202",
             "name": "Sierra Nevada Hazy Little Thing IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "33.1"
             ]
         },
         {
-            "id": 203,
+            "id": "1203",
             "name": "Smirnoff Ice Smash Red, White & Berry",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "33.1"
             ]
         },
         {
-            "id": 206,
+            "id": "1206",
             "name": "Truly Energized Colada Slushy",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "33.1"
             ]
         },
         {
-            "id": 207,
+            "id": "1207",
             "name": "Twisted Tea",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "33.1"
             ]
         },
         {
-            "id": 208,
+            "id": "1208",
             "name": "Utepils Sk\u00f6lsch!",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "33.1",
                 "383.1"
             ]
         },
         {
-            "id": 211,
+            "id": "1211",
             "name": "Leinenkugel's Berry Weiss",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "377.1"
             ]
         },
         {
-            "id": 212,
+            "id": "1212",
             "name": "Leinenkugel's Canoe Paddler Kolsch",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "377.1"
             ]
         },
         {
-            "id": 213,
+            "id": "1213",
             "name": "Leinenkugel's Collaboration Lager",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "377.1"
             ]
         },
         {
-            "id": 215,
+            "id": "1215",
             "name": "Leinenkugel's Lemon Haze IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "377.1"
             ]
         },
         {
-            "id": 217,
+            "id": "1217",
             "name": "Leinenkugel's Original",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "377.1"
             ]
         },
         {
-            "id": 219,
+            "id": "1219",
             "name": "Country Ros\u00e9 Spritzer",
             "isNew": false,
             "isOnlyAtFair": true,
-            "isSeltzer": false,
             "vendorIDs": [
                 "383.1"
             ]
         },
         {
-            "id": 221,
+            "id": "1221",
             "name": "Frozen Fruit Punch",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "383.1"
             ]
         },
         {
-            "id": 222,
+            "id": "1222",
             "name": "The Freehouse Ginger Shandy",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "383.1"
             ]
         },
         {
-            "id": 224,
+            "id": "1224",
             "name": "Loon Juice Honeycrisp Cider",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "383.1",
                 "60.1",
@@ -1610,31 +1469,28 @@
             ]
         },
         {
-            "id": 225,
+            "id": "1225",
             "name": "Pryes Hazy IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "383.1"
             ]
         },
         {
-            "id": 227,
+            "id": "1227",
             "name": "The Freehouse No. 13 Blueberry Blonde",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "383.1"
             ]
         },
         {
-            "id": 235,
+            "id": "1235",
             "name": "Lift Bridge Hard Seltzer The Bomb",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": true,
             "vendorIDs": [
                 "422.1",
                 "422.2",
@@ -1645,11 +1501,10 @@
             ]
         },
         {
-            "id": 236,
+            "id": "1236",
             "name": "Lupulin Key Lime Hypezig",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "422.1",
                 "422.2",
@@ -1658,11 +1513,10 @@
             ]
         },
         {
-            "id": 237,
+            "id": "1237",
             "name": "Sociable Cider Werks Freewheeler",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "422.1",
                 "422.2",
@@ -1672,11 +1526,10 @@
             ]
         },
         {
-            "id": 239,
+            "id": "1239",
             "name": "Surly Grapefruit Supreme",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "422.1",
                 "422.2",
@@ -1687,1435 +1540,1504 @@
             ]
         },
         {
-            "id": 278,
+            "id": "1278",
             "name": "Alexis Bailly Country Red",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "423.1"
             ]
         },
         {
-            "id": 279,
+            "id": "1279",
             "name": "Alexis Bailly Country White",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "423.1"
             ]
         },
         {
-            "id": 280,
+            "id": "1280",
             "name": "Alexis Bailly Country Ros\u00e9",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "423.1"
             ]
         },
         {
-            "id": 281,
+            "id": "1281",
             "name": "Alexis Bailly Country Sangria",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "423.1"
             ]
         },
         {
-            "id": 282,
+            "id": "1282",
             "name": "Carlos Creek Wine",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "423.1"
             ]
         },
         {
-            "id": 283,
+            "id": "1283",
             "name": "Wine Slushies",
             "isNew": false,
             "isOnlyAtFair": true,
-            "isSeltzer": false,
             "vendorIDs": [
                 "423.1"
             ]
         },
         {
-            "id": 292,
+            "id": "1292",
             "name": "Arizona Sunrise Hard Seltzer Cherry Punch",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": true,
             "vendorIDs": [
                 "588.1"
             ]
         },
         {
-            "id": 293,
+            "id": "1293",
             "name": "Arizona Sunrise Hard Seltzer Mucho Mango",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": true,
             "vendorIDs": [
                 "588.1"
             ]
         },
         {
-            "id": 301,
+            "id": "1301",
             "name": "New Belgium Voodoo Ranger Juicy Haze IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "588.1"
             ]
         },
         {
-            "id": 302,
+            "id": "1302",
             "name": "Smirnoff Ice Grape",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "588.1"
             ]
         },
         {
-            "id": 303,
+            "id": "1303",
             "name": "Smirnoff Ice Hurricane Punch",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "588.1"
             ]
         },
         {
-            "id": 305,
+            "id": "1305",
             "name": "Smirnoff Spiked Sparkling Seltzer Berry Lemonade",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": true,
             "vendorIDs": [
                 "588.1",
                 "830.1"
             ]
         },
         {
-            "id": 308,
+            "id": "1308",
             "name": "Bauhaus The Shandlot Golden Tea Edition",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "59.1"
             ]
         },
         {
-            "id": 309,
+            "id": "1309",
             "name": "Bent Brewstillery Sweat Back Together",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "59.1"
             ]
         },
         {
-            "id": 310,
+            "id": "1310",
             "name": "Bent Paddle Clasico Salted Lime Cream Ale",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "59.1"
             ]
         },
         {
-            "id": 311,
+            "id": "1311",
             "name": "Bent Paddle Cold Press Black Ale",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "59.1"
             ]
         },
         {
-            "id": 312,
+            "id": "1312",
             "name": "BlackStack Local 755 New England IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "59.1"
             ]
         },
         {
-            "id": 314,
+            "id": "1314",
             "name": "Eastlake Kirby Pucker Watermelon Paloma",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "59.1"
             ]
         },
         {
-            "id": 315,
+            "id": "1315",
             "name": "Fair State Oktoberfest",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "59.1"
             ]
         },
         {
-            "id": 316,
+            "id": "1316",
             "name": "Fulton Lemonade Hard Seltzer",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": true,
             "vendorIDs": [
                 "59.1"
             ]
         },
         {
-            "id": 318,
+            "id": "1318",
             "name": "Indeed Mexican Honey Light",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "59.1"
             ]
         },
         {
-            "id": 319,
+            "id": "1319",
             "name": "Indeed Mountain Brew",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "59.1"
             ]
         },
         {
-            "id": 322,
+            "id": "1322",
             "name": "Lift Bridge Mini Donut Beer",
             "isNew": false,
             "isOnlyAtFair": true,
-            "isSeltzer": false,
             "vendorIDs": [
                 "59.1"
             ]
         },
         {
-            "id": 323,
+            "id": "1323",
             "name": "Modist and Dangerous Man MN Brew Together Peaches and Cream Milkshake IPA",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "59.1"
             ]
         },
         {
-            "id": 324,
+            "id": "1324",
             "name": "Modist Dreamyard IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "59.1"
             ]
         },
         {
-            "id": 325,
+            "id": "1325",
             "name": "Modist Tropical Smoothie Sour",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "59.1"
             ]
         },
         {
-            "id": 326,
+            "id": "1326",
             "name": "Steel Toe Size 7",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "59.1"
             ]
         },
         {
-            "id": 328,
+            "id": "1328",
             "name": "Surly Grip and Rip IPA",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "59.1"
             ]
         },
         {
-            "id": 329,
+            "id": "1329",
             "name": "Sweetland Orchard\u00a0Cherry Rhubarb (gluten-free)",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "59.1"
             ]
         },
         {
-            "id": 330,
+            "id": "1330",
             "name": "Sweetland Orchard Minnesota Mule Cider (gluten-free)",
             "isNew": false,
             "isOnlyAtFair": true,
-            "isSeltzer": false,
             "vendorIDs": [
                 "59.1"
             ]
         },
         {
-            "id": 331,
+            "id": "1331",
             "name": "Utepils KFAN Unfiltered Blonde Ale",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "59.1"
             ]
         },
         {
-            "id": 332,
+            "id": "1332",
             "name": "Wild State Pineapple Cider",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "59.1"
             ]
         },
         {
-            "id": 333,
+            "id": "1333",
             "name": "312 Lemonade Shandy",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "60.1"
             ]
         },
         {
-            "id": 334,
+            "id": "1334",
             "name": "Allkind Hard Kombucha",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "60.1"
             ]
         },
         {
-            "id": 335,
+            "id": "1335",
             "name": "Bent Brewstillery Blondie & Clyde",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "60.1"
             ]
         },
         {
-            "id": 336,
+            "id": "1336",
             "name": "Big Wood Cotton Candy Milkshake IPA",
             "isNew": false,
             "isOnlyAtFair": true,
-            "isSeltzer": false,
             "vendorIDs": [
                 "60.1"
             ]
         },
         {
-            "id": 337,
+            "id": "1337",
             "name": "Cannon River Flirty Fruity Bubbles",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "60.1"
             ]
         },
         {
-            "id": 338,
+            "id": "1338",
             "name": "Cannon River Lavender Lemonade Bubble Trouble",
             "isNew": false,
             "isOnlyAtFair": true,
-            "isSeltzer": false,
             "vendorIDs": [
                 "60.1"
             ]
         },
         {
-            "id": 339,
+            "id": "1339",
             "name": "Cannon River Mobster Mule Bubble Trouble",
             "isNew": false,
             "isOnlyAtFair": true,
-            "isSeltzer": false,
             "vendorIDs": [
                 "60.1"
             ]
         },
         {
-            "id": 340,
+            "id": "1340",
             "name": "Cannon River Sparkling Edelweiss",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "60.1"
             ]
         },
         {
-            "id": 341,
+            "id": "1341",
             "name": "Cannon River St. Pepin White",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "60.1"
             ]
         },
         {
-            "id": 342,
+            "id": "1342",
             "name": "Cannon River Strawberry Mint Mojito",
             "isNew": false,
             "isOnlyAtFair": true,
-            "isSeltzer": false,
             "vendorIDs": [
                 "60.1"
             ]
         },
         {
-            "id": 343,
+            "id": "1343",
             "name": "Cannon River When Life Hands You Lemons-tini",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "60.1"
             ]
         },
         {
-            "id": 344,
+            "id": "1344",
             "name": "Lift Bridge 93X Brotherhood Lager",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "60.1"
             ]
         },
         {
-            "id": 348,
+            "id": "1348",
             "name": "Round Lake Brianna",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "60.1"
             ]
         },
         {
-            "id": 349,
+            "id": "1349",
             "name": "Round Lake Frontenac Gris",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "60.1"
             ]
         },
         {
-            "id": 350,
+            "id": "1350",
             "name": "Round Lake The Heron Red",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "60.1"
             ]
         },
         {
-            "id": 351,
+            "id": "1351",
             "name": "Sierra Nevada Wild Little Thing",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "60.1"
             ]
         },
         {
-            "id": 352,
+            "id": "1352",
             "name": "Tipsy Tomato Spicy Bloody Mary Cocktail",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "60.1"
             ]
         },
         {
-            "id": 355,
+            "id": "1355",
             "name": "Cannon River Mango Sangria Wine Slushie",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "605.1"
             ]
         },
         {
-            "id": 357,
+            "id": "1357",
             "name": "Falconer's Lumberjack Hard Cider",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "605.1"
             ]
         },
         {
-            "id": 358,
+            "id": "1358",
             "name": "Falconer Vineyard Fros\u00e9 Wine Slushie",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "605.1"
             ]
         },
         {
-            "id": 359,
+            "id": "1359",
             "name": "Falconer Vineyard Snowy White",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "605.1"
             ]
         },
         {
-            "id": 360,
+            "id": "1360",
             "name": "Forestedge Blueberry Pomegranate Wine Slushie",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "605.1"
             ]
         },
         {
-            "id": 361,
+            "id": "1361",
             "name": "Forestedge Kabekona Blush",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "605.1"
             ]
         },
         {
-            "id": 362,
+            "id": "1362",
             "name": "Forestedge Rhubarb/Raspberry Blend",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "605.1"
             ]
         },
         {
-            "id": 363,
+            "id": "1363",
             "name": "Garvin Heights Petite Pearl",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "605.1"
             ]
         },
         {
-            "id": 364,
+            "id": "1364",
             "name": "Garvin Heights Wildberry Bluff",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "605.1"
             ]
         },
         {
-            "id": 365,
+            "id": "1365",
             "name": "Parley Lake Brianna Banana Breeze Wine Slushie",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "605.1"
             ]
         },
         {
-            "id": 366,
+            "id": "1366",
             "name": "Parley Lake Brianna Breeze",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "605.1"
             ]
         },
         {
-            "id": 367,
+            "id": "1367",
             "name": "Parley Lake Lake View White",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "605.1"
             ]
         },
         {
-            "id": 368,
+            "id": "1368",
             "name": "Round Lake Skinny Dipping Apple Wine",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "605.1"
             ]
         },
         {
-            "id": 369,
+            "id": "1369",
             "name": "Saint Croix Vineyards Frontenac",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "605.1"
             ]
         },
         {
-            "id": 370,
+            "id": "1370",
             "name": "Saint Croix Vineyards Frontenac Blanc",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "605.1"
             ]
         },
         {
-            "id": 371,
+            "id": "1371",
             "name": "Saint Croix Vineyards Peaches and Gris Wine Slushie",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "605.1"
             ]
         },
         {
-            "id": 372,
+            "id": "1372",
             "name": "Winehaven Marquette Reserve",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "605.1"
             ]
         },
         {
-            "id": 373,
+            "id": "1373",
             "name": "Winehaven Raspberry Wine Slushie",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "605.1"
             ]
         },
         {
-            "id": 374,
+            "id": "1374",
             "name": "Winehaven Strawberry Rhubarb Wine",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "605.1"
             ]
         },
         {
-            "id": 375,
+            "id": "1375",
             "name": "Clawgarita",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "698.1"
             ]
         },
         {
-            "id": 378,
+            "id": "1378",
             "name": "Glutenberg Blonde Ale (gluten-free)",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "698.1"
             ]
         },
         {
-            "id": 380,
+            "id": "1380",
             "name": "Michelada",
             "isNew": false,
             "isOnlyAtFair": true,
-            "isSeltzer": false,
             "vendorIDs": [
                 "698.1"
             ]
         },
         {
-            "id": 381,
+            "id": "1381",
             "name": "Original Beergarita",
             "isNew": false,
             "isOnlyAtFair": true,
-            "isSeltzer": false,
             "vendorIDs": [
                 "698.1"
             ]
         },
         {
-            "id": 385,
+            "id": "1385",
             "name": "Black Cherry Coco Berry Slushie",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "745.1"
             ]
         },
         {
-            "id": 386,
+            "id": "1386",
             "name": "Cannon River Gunflint Red",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "745.1"
             ]
         },
         {
-            "id": 387,
+            "id": "1387",
             "name": "Cannon River Sogn Blanc",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "745.1"
             ]
         },
         {
-            "id": 388,
+            "id": "1388",
             "name": "Castle Danger Orange Cream Ale",
             "isNew": false,
             "isOnlyAtFair": true,
-            "isSeltzer": false,
             "vendorIDs": [
                 "745.1"
             ]
         },
         {
-            "id": 389,
+            "id": "1389",
             "name": "Castle Danger Strawberry Cream Ale",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "745.1"
             ]
         },
         {
-            "id": 391,
+            "id": "1391",
             "name": "Fulton 300",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "745.1"
             ]
         },
         {
-            "id": 393,
+            "id": "1393",
             "name": "Lakes & Legends Cotton Candy Hard Seltzer",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": true,
             "vendorIDs": [
                 "745.1"
             ]
         },
         {
-            "id": 394,
+            "id": "1394",
             "name": "Lakes & Legends Homegrown Haze Hazy IPA",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "745.1"
             ]
         },
         {
-            "id": 399,
+            "id": "1399",
             "name": "Smithwick's",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "745.1"
             ]
         },
         {
-            "id": 402,
+            "id": "1402",
             "name": "Alesmith Nut Brown Ale",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 403,
+            "id": "1403",
             "name": "Bear Republic Racer 5 IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 404,
+            "id": "1404",
             "name": "Belching Beaver Peanut Butter Milk Stout",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 405,
+            "id": "1405",
             "name": "Blacklist Dill Pickle Ale",
             "isNew": false,
             "isOnlyAtFair": true,
-            "isSeltzer": false,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 407,
+            "id": "1407",
             "name": "Clown Shoes Galactica Imperial IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 408,
+            "id": "1408",
             "name": "Coronado Outboard Motor Beer",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 409,
+            "id": "1409",
             "name": "Coronado Weekend Vibes IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 410,
+            "id": "1410",
             "name": "Excelsior Maple Bacon Brown",
             "isNew": false,
             "isOnlyAtFair": true,
-            "isSeltzer": false,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 411,
+            "id": "1411",
             "name": "Excelsior S'Mores Beer",
             "isNew": false,
             "isOnlyAtFair": true,
-            "isSeltzer": false,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 415,
+            "id": "1415",
             "name": "Gr\u00fcvi Non-Alcoholic IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 416,
+            "id": "1416",
             "name": "Lake of the Woods Channel Marker Lager",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 417,
+            "id": "1417",
             "name": "Lake of the Woods Forgotten Lake Blueberry Ale",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 418,
+            "id": "1418",
             "name": "Lake of the Woods Lakeside Kolsch",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 419,
+            "id": "1419",
             "name": "Mankato Buoyed Up Mango Shandy",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 420,
+            "id": "1420",
             "name": "Mankato Campfire Lemon Shandy",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 421,
+            "id": "1421",
             "name": "Mankato Orange Solstice Shandy",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 423,
+            "id": "1423",
             "name": "Mike's Hard Cranberry",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 425,
+            "id": "1425",
             "name": "Millstream German Pilsner",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 426,
+            "id": "1426",
             "name": "Millstream Oktoberfest",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 427,
+            "id": "1427",
             "name": "Pipeworks Unicorn Double IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 429,
+            "id": "1429",
             "name": "Round Lake Northstar Fros\u00e9 Blanc",
             "isNew": false,
             "isOnlyAtFair": true,
-            "isSeltzer": false,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 430,
+            "id": "1430",
             "name": "Round Lake Summer Sunset Fros\u00e9",
             "isNew": false,
             "isOnlyAtFair": true,
-            "isSeltzer": false,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 431,
+            "id": "1431",
             "name": "Sociable Cider Werks Candy Apple Hard Cider",
             "isNew": false,
             "isOnlyAtFair": true,
-            "isSeltzer": false,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 432,
+            "id": "1432",
             "name": "Sociable Cider Werks Raspberry Hard Cider",
             "isNew": false,
             "isOnlyAtFair": true,
-            "isSeltzer": false,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 434,
+            "id": "1434",
             "name": "Third Street Peach Tree Ale",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 435,
+            "id": "1435",
             "name": "White Claw Hard Seltzer Hard Seltzer",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": true,
             "vendorIDs": [
                 "781.1"
             ]
         },
         {
-            "id": 436,
+            "id": "1436",
             "name": "Bent Paddle Kanu",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "830.1"
             ]
         },
         {
-            "id": 438,
+            "id": "1438",
             "name": "Clown Shoes Mango American Kolsch",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "830.1"
             ]
         },
         {
-            "id": 439,
+            "id": "1439",
             "name": "Coronado Salty Crew Blonde Ale",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "830.1"
             ]
         },
         {
-            "id": 440,
+            "id": "1440",
             "name": "Deschutes Fresh Haze IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "830.1"
             ]
         },
         {
-            "id": 442,
+            "id": "1442",
             "name": "Excelsior Big Island Blond Ale",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "830.1"
             ]
         },
         {
-            "id": 443,
+            "id": "1443",
             "name": "Excelsior Strawberry Cream Ale",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "830.1"
             ]
         },
         {
-            "id": 444,
+            "id": "1444",
             "name": "Fair State Hard Water Hibiscus + Orange Zest",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "830.1"
             ]
         },
         {
-            "id": 445,
+            "id": "1445",
             "name": "Fair State Hard Water Lemongrass Ginger + Lemon",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "830.1"
             ]
         },
         {
-            "id": 447,
+            "id": "1447",
             "name": "FINNEGANS Buddy Stout",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "830.1"
             ]
         },
         {
-            "id": 449,
+            "id": "1449",
             "name": "Insight Waffle Dog Breakfast Ale",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "830.1"
             ]
         },
         {
-            "id": 450,
+            "id": "1450",
             "name": "Insight Nordic Strawberry Blonde",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "830.1"
             ]
         },
         {
-            "id": 453,
+            "id": "1453",
             "name": "Lift Bridge Hard Seltzer Northwoods Juice Box",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": true,
             "vendorIDs": [
                 "830.1"
             ]
         },
         {
-            "id": 454,
+            "id": "1454",
             "name": "Lift Bridge Hard Seltzer St. Croix Berries",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": true,
             "vendorIDs": [
                 "830.1"
             ]
         },
         {
-            "id": 457,
+            "id": "1457",
             "name": "Lupulin Lemon Meringue Pie Ale",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "830.1"
             ]
         },
         {
-            "id": 459,
+            "id": "1459",
             "name": "Mankato Triple Berry Cheesecake Lager",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "830.1"
             ]
         },
         {
-            "id": 460,
+            "id": "1460",
             "name": "Mankato Mad Butcher",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "830.1"
             ]
         },
         {
-            "id": 461,
+            "id": "1461",
             "name": "New Belgium Fat Tire Amber Ale",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "830.1"
             ]
         },
         {
-            "id": 463,
+            "id": "1463",
             "name": "New Belgium Voodoo Ranger IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "830.1"
             ]
         },
         {
-            "id": 464,
+            "id": "1464",
             "name": "Rebel Hard Coffee Bourbon Caramel Latte",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "830.1"
             ]
         },
         {
-            "id": 467,
+            "id": "1467",
             "name": "Smirnoff Ice",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "830.1"
             ]
         },
         {
-            "id": 468,
+            "id": "1468",
             "name": "Smirnoff Ice Raspberry",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "830.1"
             ]
         },
         {
-            "id": 470,
+            "id": "1470",
             "name": "Smirnoff Spiked Sparkling Seltzer Raspberry Ros\u00e9",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": true,
             "vendorIDs": [
                 "830.1"
             ]
         },
         {
-            "id": 475,
+            "id": "1475",
             "name": "Surly Mapping the Multiverse Hazy IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "830.1"
             ]
         },
         {
-            "id": 476,
+            "id": "1476",
             "name": "Third Street Sun Setter Blueberry Shandy",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "830.1"
             ]
         },
         {
-            "id": 478,
+            "id": "1478",
             "name": "Urban Growler One Way Fair",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "830.1"
             ]
         },
         {
-            "id": 481,
+            "id": "1481",
             "name": "Bauhaus Bolo Blue: Tropical Punch Hard Seltzer",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": true,
             "vendorIDs": [
                 "94.1"
             ]
         },
         {
-            "id": 486,
+            "id": "1486",
             "name": "Fulton Sweet Child of Vine",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "94.1"
             ]
         },
         {
-            "id": 488,
+            "id": "1488",
             "name": "Insight Raspberry Pineapple Tart Wheat",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "94.1"
             ]
         },
         {
-            "id": 491,
+            "id": "1491",
             "name": "Lift Bridge Key Lime Pie",
             "isNew": false,
             "isOnlyAtFair": true,
-            "isSeltzer": false,
             "vendorIDs": [
                 "94.1"
             ]
         },
         {
-            "id": 493,
+            "id": "1493",
             "name": "Lupulin Hooey IPA",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "94.1"
             ]
         },
         {
-            "id": 498,
+            "id": "1498",
             "name": "Paulaner Grapefruit-Radler",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "94.1"
             ]
         },
         {
-            "id": 501,
+            "id": "1501",
             "name": "Surly Caribbean Dream Passion Fruit Tart Ale",
             "isNew": true,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "94.1"
             ]
         },
         {
-            "id": 503,
+            "id": "1503",
             "name": "Surly Hell",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "94.1"
             ]
         },
         {
-            "id": 504,
+            "id": "1504",
             "name": "Truly Spiked & Sparkling Hard Seltzer",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": true,
             "vendorIDs": [
                 "94.1"
             ]
         },
         {
-            "id": 505,
+            "id": "1505",
             "name": "Waconia Chocolate Peanut Butter Porter",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "94.1"
             ]
         },
         {
-            "id": 506,
+            "id": "1506",
             "name": "Winehaven Wine",
             "isNew": false,
             "isOnlyAtFair": false,
-            "isSeltzer": false,
             "vendorIDs": [
                 "94.1"
             ]
+        }
+    ],
+    "foods": [
+        {
+            "id": "2000",
+            "vendorID": "209.1",
+            "name": "Banh Minn Bun and Banh Minn Bowl",
+            "excerpt": "Inspired by Vietnamese cuisine, a sausage made with a variety of Asian seasonings, served in a crusty baguette smeared with a Sriracha sauce and topped with shredded and pickled carrot, radish, chopped jalape\u00f1o and a sprig of fresh cilantro. The bun-less bowl starts with a five-grain blend and is topped with shredded and pickled carrot, radish, Asian slaw, chopped jalape\u00f1o, sausage slices, cilantro and a drizzle of Sriracha sauce.",
+            "description": "Inspired by Vietnamese cuisine, a sausage made with a variety of Asian seasonings, served in a crusty baguette smeared with a Sriracha sauce and topped with shredded and pickled carrot, radish, chopped jalape\u00f1o and a sprig of fresh cilantro. The bun-less bowl starts with a five-grain blend and is topped with shredded and pickled carrot, radish, Asian slaw, chopped jalape\u00f1o, sausage slices, cilantro and a drizzle of Sriracha sauce."
+        },
+        {
+            "id": "2001",
+            "vendorID": "781.1",
+            "name": "Bison Bites",
+            "excerpt": "A North Woods spin on ravioli with ground bison, braised fennel, portobello mushrooms and fresh basil wrapped in classic egg dough, deep-fried and served with a sweet bourbon sauce with a little kick.",
+            "description": "A North Woods spin on ravioli with ground bison, braised fennel, portobello mushrooms and fresh basil wrapped in classic egg dough, deep-fried and served with a sweet bourbon sauce with a little kick."
+        },
+        {
+            "id": "2002",
+            "vendorID": "553.1",
+            "name": "Blue Raspberry Blitzed",
+            "excerpt": "Traditional hand pie filled with a raspberry, blueberry and apple blend infused with UV Blue Vodka and topped with cotton candy sugar.",
+            "description": "Traditional hand pie filled with a raspberry, blueberry and apple blend infused with UV Blue Vodka and topped with cotton candy sugar."
+        },
+        {
+            "id": "2003",
+            "vendorID": "383.1",
+            "name": "Buffalo Chicken Doughscuit",
+            "excerpt": "Fluffy biscuit-style doughnuts stuffed with shredded chicken, glazed with a sweet & spicy buffalo icing, and topped with crispy bacon bits.",
+            "description": "Fluffy biscuit-style doughnuts stuffed with shredded chicken, glazed with a sweet & spicy buffalo icing, and topped with crispy bacon bits."
+        },
+        {
+            "id": "2004",
+            "vendorID": "440.1",
+            "name": "Caramelized Banana Pudding",
+            "excerpt": "Layers of homemade vanilla pudding, fresh bananas, toasted 'nilla wafers, caramelized cocoa crispy cereal, caramel sauce and fresh whipped cream.",
+            "description": "Layers of homemade vanilla pudding, fresh bananas, toasted 'nilla wafers, caramelized cocoa crispy cereal, caramel sauce and fresh whipped cream."
+        },
+        {
+            "id": "2005",
+            "vendorID": "706.2",
+            "name": "ChoriPop",
+            "excerpt": "Chorizo by The Herbivorous Butcher dipped in a classic corndog batter, deep-fried on-a-stick with choice of avocado salsa or mole sauce drizzled on top or on the side. Served with Mexican BBQ chips. (Vegan) (Aug. 26-31 only) *New vendor",
+            "description": "Chorizo by The Herbivorous Butcher dipped in a classic corndog batter, deep-fried on-a-stick with choice of avocado salsa or mole sauce drizzled on top or on the side. Served with Mexican BBQ chips. (Vegan). This new vendor is also serving deep-fried cheese or chicken tamales and horchata soft-serve milkshakes and cones. (At the fair Aug. 26-31 only)"
+        },
+        {
+            "id": "2006",
+            "vendorID": "127.1",
+            "name": "Cracklin Prime Nachos",
+            "excerpt": "Deep-fried chicharr\u00f3n covered in prime rib slices, \u00a1Que Bueno! nacho cheese, pico de gallo and green onion slices.",
+            "description": "Deep-fried chicharr\u00f3n covered in prime rib slices, \u00a1Que Bueno! nacho cheese, pico de gallo and green onion slices."
+        },
+        {
+            "id": "2007",
+            "vendorID": "763.1",
+            "name": "Cucumber Jalape\u00f1o Limeade",
+            "excerpt": "Limeade made with juiced Minnesota-grown cucumbers and jalape\u00f1o syrup, served with a cucumber slice.",
+            "description": "Limeade made with juiced Minnesota-grown cucumbers and jalape\u00f1o syrup, served with a cucumber slice."
+        },
+        {
+            "id": "2008",
+            "vendorID": "324.1",
+            "name": "Dual Berry Shortcake",
+            "excerpt": "Strawberries and blueberries over a sugar-coated Betty & Earl\u2019s biscuit, topped with whipped cream and balsamic glaze.",
+            "description": "Strawberries and blueberries over a sugar-coated Betty & Earl\u2019s biscuit, topped with whipped cream and balsamic glaze."
+        },
+        {
+            "id": "2009",
+            "vendorID": "706.1",
+            "name": "Esquites",
+            "excerpt": "Mexican street corn off-the-cob topped with mayonnaise, Cotija cheese and pequin chile powder. (Sept. 1-6)",
+            "description": "Mexican street corn off-the-cob topped with mayonnaise, Cotija cheese and pequin chile powder. Returning to the Midtown Global Market booth for the first time since 2013, Los Ocampo\u2019s new menu also includes Mango On-a-Stick; Elote; Mexican Tacos with an al pastor, carne asada or veggie option; Coca Mexicana; and Aqua de Horchata. (At the fair Sept. 1-6 only)"
+        },
+        {
+            "id": "2010",
+            "vendorID": "605.1",
+            "name": "Fudge & Fruit!",
+            "excerpt": "Fresh strawberries and fudge brownies dipped in wine-infused dark chocolate, drizzled with wine-infused white chocolate and served on-a-stick.",
+            "description": "Fresh strawberries and fudge brownies dipped in wine-infused dark chocolate, drizzled with wine-infused white chocolate and served on-a-stick."
+        },
+        {
+            "id": "2011",
+            "vendorID": "186.1",
+            "name": "Greek Stuffed Ravioli",
+            "excerpt": "Mediterranean pastry dough stuffed with cream cheese, tzatziki sauce, mozzarella cheese, pepperoncini, tomato, gyro meat and Dino\u2019s Greek seasoning, deep-fried and drizzled with roasted garlic butter.",
+            "description": "Mediterranean pastry dough stuffed with cream cheese, tzatziki sauce, mozzarella cheese, pepperoncini, tomato, gyro meat and Dino\u2019s Greek seasoning, deep-fried and drizzled with roasted garlic butter."
+        },
+        {
+            "id": "2012",
+            "vendorID": "830.1",
+            "name": "Island Hopper",
+            "excerpt": "Hollowed-out half-pineapple filled with charbroiled chicken glazed with teriyaki sauce and served with steamy white rice and pineapple chunks, topped with green onions and sesame seeds.",
+            "description": "Hollowed-out half-pineapple filled with charbroiled chicken glazed with teriyaki sauce and served with steamy white rice and pineapple chunks, topped with green onions and sesame seeds."
+        },
+        {
+            "id": "2013",
+            "vendorID": "68.1",
+            "name": "Jumbo Donut Sundae",
+            "excerpt": "A jumbo frosted yeast-raised donut available in a variety of flavors, topped with vanilla soft-serve ice cream, hot fudge and blend of sprinkles. *New Vendor",
+            "description": "A jumbo frosted yeast-raised donut available in a variety of flavors, topped with vanilla soft-serve ice cream, hot fudge and blend of sprinkles. Specializing in hand-cut, yeast-raised donuts, Fluffy\u2019s menu options also include a variety of icings, butter cream frostings, fillings and toppings."
+        },
+        {
+            "id": "2014",
+            "vendorID": "67.1",
+            "name": "Kerala Fried Chicken Kati Roll",
+            "excerpt": "Marinated, battered and fried chicken tenders wrapped in paratha (layered flatbread) with chutneys and slaw.",
+            "description": "Marinated, battered and fried chicken tenders wrapped in paratha with chutneys and slaw. A fan favorite in the Midtown Global Market booth in years past, Hot Indian has a new home of its own in the Food Building and will be at the fair all 12 days! Their menu will also include Paneer Pakora (new food in 2021, gluten-free), Butter Chicken Samosas (halal), Sweet Veg Samosas (vegan), Bhel Puri (vegan) and Mango Lassi."
+        },
+        {
+            "id": "2015",
+            "vendorID": "255.1",
+            "name": "La Floretta",
+            "excerpt": "Oven-roasted cauliflower florets seasoned with Iron Range herbs and spices and served with Calabrian sweet chili sauce. (Gluten-free, vegan)",
+            "description": "Oven-roasted cauliflower florets seasoned with Iron Range herbs and spices and served with Calabrian sweet chili sauce. (Gluten-free, vegan)"
+        },
+        {
+            "id": "2016",
+            "vendorID": "218.1",
+            "name": "The Naughty Biscuit",
+            "excerpt": "Smoked pork belly topped with beer cheese sauce, arugula, pickled red onions and candied jalape\u00f1os served on a buttermilk biscuit.",
+            "description": "Smoked pork belly topped with beer cheese sauce, arugula, pickled red onions and candied jalape\u00f1os served on a buttermilk biscuit."
+        },
+        {
+            "id": "2017",
+            "vendorID": "250.1",
+            "name": "Nordic Waffles \u2013 Chicken & Macaroni Nordic Waffle and I-Scream Waffle Sandwich",
+            "excerpt": "Two new fresh-made waffle wraps: A Southern-fried spicy chicken drummy and cheesy macaroni, finished with a drizzle of honey on a warm Nordic waffle; and a classic ice cream cookie sandwich, crunchy kettle corn and chocolate drizzle dusted with sprinkles all wrapped in a Nordic waffle.",
+            "description": "Two new fresh-made waffle wraps: A Southern-fried spicy chicken drummy and cheesy macaroni, finished with a drizzle of honey on a warm Nordic waffle; and a classic ice cream cookie sandwich, crunchy kettle corn and chocolate drizzle dusted with sprinkles all wrapped in a Nordic waffle."
+        },
+        {
+            "id": "2018",
+            "vendorID": "67.1",
+            "name": "Paneer Pakora",
+            "excerpt": "Seasoned paneer cheese cubes fried in a gluten-free batter and served with tomato butter. (Gluten-free)",
+            "description": "Seasoned paneer cheese cubes fried in a gluten-free batter and served with tomato butter. (Gluten-free). A fan favorite in the Midtown Global Market booth in years past, Hot Indian has a new home of its own in the Food Building and will be at the fair all 12 days! Their menu will also include the Kerala Fried Chicken Kati Roll (new food in 2021), Butter Chicken Samosas (halal), Sweet Veg Samosas (vegan), Bhel Puri (vegan) and Mango Lassi."
+        },
+        {
+            "id": "2019",
+            "vendorID": "911.1",
+            "name": "Pizza Lucy",
+            "excerpt": "Sausage patty topped with pizza sauce, pepperoni and mozzarella cheese, stuffed in homemade Green Mill pizza dough, and topped with Italian seasonings, cheese and crumbled pepperoni.",
+            "description": "Sausage patty topped with pizza sauce, pepperoni and mozzarella cheese, stuffed in homemade Green Mill pizza dough, and topped with Italian seasonings, cheese and crumbled pepperoni."
+        },
+        {
+            "id": "2020",
+            "vendorID": "70.1",
+            "name": "Sashimi Tuna Tacos",
+            "excerpt": "Crisp wonton shells filled with ahi tuna, avocado and sesame soy. Thai slaw with peanut dressing, pickled ginger and wasabi served on the side. *New Vendor",
+            "description": "Crisp wonton shells filled with ahi tuna, avocado and sesame soy. Thai slaw with peanut dressing, pickled ginger and wasabi served on the side."
+        },
+        {
+            "id": "2021",
+            "vendorID": "60.1",
+            "name": "Sidecar Sandwich",
+            "excerpt": "Thick-cut cognac-infused bacon smothered with Cointreau and citrus marmalade, layered with melted havarti, smoked Gouda and aged cheddar, served on toasted sourdough bread and garnished with fresh orange slices.",
+            "description": "Thick-cut cognac-infused bacon smothered with Cointreau and citrus marmalade, layered with melted havarti, smoked Gouda and aged cheddar, served on toasted sourdough bread and garnished with fresh orange slices."
+        },
+        {
+            "id": "2022",
+            "vendorID": "364.1",
+            "name": "S\u2019Mores Funnel Cake",
+            "excerpt": "Graham cracker funnel cake topped with marshmallow, milk chocolate chunks and more graham cracker bits.",
+            "description": "Graham cracker funnel cake topped with marshmallow, milk chocolate chunks and more graham cracker bits."
+        },
+        {
+            "id": "2023",
+            "vendorID": "220.1",
+            "name": "Summer Lakes Beverages in 3 varieties: Wedge-Hammer, Lake Storm Lemonade and Bama! Lemon Sweet Tea",
+            "excerpt": "These 2021 State Fair-exclusive mocktails are all gluten-free and vegan. *New vendor",
+            "description": "The Wedge-Hammer (gf, v) is fresh ginger, orange and other citrus juices, zest, sparkling water and simple syrup. Lake Storm Lemonade (gf, v) is lavender-infused lemon and other citrus juices, zest, sparkling water and simple syrup. Bama! Lemon Sweet Tea (gf, v) is fresh brewed tea, fresh lemon and other citrus juices, zest, sparkling water and simple syrup. Debuting their mocktails at this year\u2019s fair, Summer Lakes Beverage\u2019s new menu also features the Bootleg (gf), Luna Paloma (gf), Fresh Press Margarita (gf, v) and Fresh Press Jalape\u00f1o Margarita (gf, v). Mixes by the bottle to make cocktails at home will also be for sale. gf (gluten-free); v (vegan)"
+        },
+        {
+            "id": "2024",
+            "vendorID": "33.1",
+            "name": "Waffle Burger",
+            "excerpt": "Quarter-pound bacon cheeseburger served between two maple-infused candied sweet crunch waffles with a side of maple syrup.",
+            "description": "Quarter-pound bacon cheeseburger served between two maple-infused candied sweet crunch waffles with a side of maple syrup."
+        },
+        {
+            "id": "2025",
+            "vendorID": "809.1",
+            "name": "Variety of Hummus Bowls",
+            "excerpt": "The selection includes: Hummus bi lahme (minced beef shawarma, lemon sauce, parsley, pine nuts, sumac); Chili Baba (garlic chili oil, kimchi, scallions, za\u2019atar); Falafelicious (falafel, fried eggplant, warm chickpeas, pickled cabbage, Arabic pickles, tahini, sumac); Dilly Dilly (dill pickle hummus, dill pickles, cheese curds, crispy onions; Truffle (truffle hummus, roasted wild mushrooms, pine nuts); and more. *New Vendor",
+            "description": "Choose from a variety of hummus bowls, including: Creamy, dreamy traditional (warm chickpeas, herbs, pine nuts, extra virgin olive oil); Hummus bi lahme (minced beef shawarma, lemon sauce, parsley, pine nuts, sumac); Chili Baba (garlic chili oil, kimchi, scallions, za\u2019atar); Falafelicious (falafel, fried eggplant, warm chickpeas, pickled cabbage, Arabic pickles, tahini, sumac); Dilly Dilly (dill pickle hummus, dill pickles, cheese curds, crispy onions; Truffle (truffle hummus, roasted wild mushrooms, pine nuts); Baba Gone Wild (create your own from a long list of ingredients); and more. Served with warm or fried pita. (Vegan, vegetarian and gluten-free options available). Plus Baba\u2019s Baklava for dessert (crumbled baklava, pistachio, rose water syrup)."
+        },
+        {
+            "id": "2026",
+            "vendorID": "602.1",
+            "name": "Blueberry Mini Donuts, Cajun Cheese Curds",
+            "excerpt": "Featuring brand-new blueberry mini donuts, plus classic cheese curds in Cajun (new to the fair!), ranch, garlic and original flavors. *New Vendor",
+            "description": "This new vendor will feature brand-new blueberry mini donuts, plus classic cheese curds in Cajun (new to the fair!), ranch, garlic and original flavors."
+        },
+        {
+            "id": "2027",
+            "vendorID": "876.1",
+            "name": "Gluten-Free Corndogs, Funnel Cakes and Cheese Curds",
+            "excerpt": "Serving gluten-free corndogs, funnel cakes and cheese curds. Funnel cakes are available in strawberries and cream and apple pie flavors or with powdered sugar, cinnamon or chocolate topping choices. *New Vendor",
+            "description": "This new vendor will feature gluten-free corndogs and funnel cakes (both available in egg- and dairy-free options) and cheese curds (nut-free). Funnel cakes are available in strawberries and cream and apple pie flavors or with powdered sugar, cinnamon or chocolate topping choices."
+        },
+        {
+            "id": "2028",
+            "vendorID": "882.1",
+            "name": "Banana Split On-A-Stick and Ice Cream Creations",
+            "excerpt": "Soft serve ice cream in a variety of flavors served in cones and cups and as shakes, sundaes and floats. Plus, banana split on-a-stick, frozen banana on-a-stick and cheesecake on-a-stick - all dipped in chocolate. *New Vendor",
+            "description": "This new vendor features soft serve ice cream in a variety of flavors served in cones and cups and as shakes, sundaes and floats. Plus, banana split on-a-stick, frozen banana on-a-stick and cheesecake on-a-stick - all dipped in chocolate."
+        },
+        {
+            "id": "2029",
+            "vendorID": "874.1",
+            "name": "Hand-Spun Cotton Candy with Toppings, Fresh-Pressed Watermelon Juice",
+            "excerpt": "More than 30 dye-free and natural flavors of handspun cotton candy clouds made with organic cane sugar, plus fresh-pressed watermelon juice. *New Vendor",
+            "description": "This new vendor features more than 30 dye-free and natural flavors of handspun cotton candy clouds made with organic cane sugar. Sprinkles and cookie/toppings bar optional. Glow cones and glow buckets of cotton candy available at dusk. Also offering fresh-pressed watermelon juice garnished with a watermelon gummy skewer and an edible straw.\u000b\u000b*New Vendor"
         }
     ],
     "vendors": [

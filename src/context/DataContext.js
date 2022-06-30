@@ -23,13 +23,17 @@ export const DataProvider = ({ children }) => {
             setFavorites(favs);
         } else {
             const favs = [...favorites, item];
+            let id = undefined;
             if (
                 item.hasOwnProperty("vendorIDs") &&
                 item.vendorIDs.length === 1
             ) {
-                const vendor = vendors.find(
-                    (vendor) => vendor.id.toString() === item.vendorIDs[0]
-                );
+                id = item.vendorIDs[0];
+            } else if (item.hasOwnProperty("vendorID")) {
+                id = item.vendorID;
+            }
+            if (id) {
+                const vendor = vendors.find((vendor) => vendor.id === id);
                 if (vendor && !isFavorite(vendor)) {
                     favs.push(vendor);
                 }
@@ -38,9 +42,14 @@ export const DataProvider = ({ children }) => {
         }
     };
 
+    // ---------- Foods ----------
+    const [foodSearch, setFoodSearch] = useState("");
+    const [foodSearchResults, setFoodSearchResults] = useState([]);
+    const [foods, setFoods] = useState([]);
+
     // ---------- Drinks ----------
-    const [search, setSearch] = useState("");
-    const [searchResults, setSearchResults] = useState([]);
+    const [drinkSearch, setDrinkSearch] = useState("");
+    const [drinkSearchResults, setDrinkSearchResults] = useState([]);
     const [drinks, setDrinks] = useState([]);
     const [isOnlyAtFair, setIsOnlyAtFair] = useState(false);
     const [isNew, setIsNew] = useState(false);
@@ -62,27 +71,40 @@ export const DataProvider = ({ children }) => {
     }, [favorites, favoriteSearch]);
 
     useEffect(() => {
+        setFoods(db.foods);
         setDrinks(db.drinks);
         setVendors(db.vendors);
     }, []);
+
+    // ---------- Foods ----------
+    useEffect(() => {
+        const filteredResults = foods.filter(
+            (food) =>
+                food.name.toLowerCase().includes(foodSearch.toLowerCase())
+        );
+        setFoodSearchResults(
+            filteredResults.sort((lhs, rhs) => lhs.name.localeCompare(rhs.name))
+        );
+    }, [foods, foodSearch]);
 
     // ---------- Drinks ----------
     useEffect(() => {
         const filteredResults = drinks.filter(
             (drink) =>
-                drink.name.toLowerCase().includes(search.toLowerCase()) &&
+                drink.name.toLowerCase().includes(drinkSearch.toLowerCase()) &&
                 drink.isOnlyAtFair === isOnlyAtFair &&
                 drink.isNew === isNew
         );
-        setSearchResults(
+        setDrinkSearchResults(
             filteredResults.sort((lhs, rhs) => lhs.name.localeCompare(rhs.name))
         );
-    }, [drinks, search, isOnlyAtFair, isNew]);
+    }, [drinks, drinkSearch, isOnlyAtFair, isNew]);
 
     // ---------- Vendors ----------
     useEffect(() => {
-        const filteredResults = vendors.filter((vendor) =>
-            vendor.name.toLowerCase().includes(vendorSearch.toLowerCase())
+        const filteredResults = vendors.filter(
+            (vendor) =>
+                vendor.name.toLowerCase().includes(vendorSearch.toLowerCase())
         );
         setVendorSearchResults(
             filteredResults.sort((lhs, rhs) => lhs.name.localeCompare(rhs.name))
@@ -99,10 +121,15 @@ export const DataProvider = ({ children }) => {
                 isFavorite,
                 onFavoriteClick,
 
-                search,
-                setSearch,
-                searchResults,
+                foodSearch,
+                setFoodSearch,
+                foodSearchResults,
+                foods,
+                setFoods,
 
+                drinkSearch,
+                setDrinkSearch,
+                drinkSearchResults,
                 drinks,
                 setDrinks,
                 isOnlyAtFair,
