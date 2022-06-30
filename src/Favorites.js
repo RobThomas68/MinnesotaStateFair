@@ -20,7 +20,7 @@ const Favorites = () => {
                     <label htmlFor="search">Search Vendors</label>
                     <input
                         id="search"
-                        type="text"
+                        type="search"
                         placeholder="Search Favorites"
                         value={favoriteSearch}
                         onChange={(e) => setFavoriteSearch(e.target.value)}

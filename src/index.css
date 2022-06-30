@@ -100,7 +100,7 @@ body {
   padding: 1rem 0 0 0.75rem;
 } */
 
- .searchForm input[type="text"] {
+.searchForm input[type="search"] {
   font-family: 'Open Sans', sans-serif;
   width: 100%;
   min-height: 48px;

@@ -20,7 +20,7 @@ const Foods = () => {
                     <label htmlFor="search">Search Foods</label>
                     <input
                         id="search"
-                        type="text"
+                        type="search"
                         placeholder="Search Foods"
                         value={foodSearch}
                         onChange={(e) => setFoodSearch(e.target.value)}
