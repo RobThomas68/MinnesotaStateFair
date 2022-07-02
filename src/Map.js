@@ -1,8 +1,9 @@
 import { useContext } from "react";
-import { MapContainer, TileLayer, Marker, Popup, Circle, ScaleControl } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup, Circle, ScaleControl, useMap } from "react-leaflet";
 import { useGeolocated } from "react-geolocated";
 import DataContext from "./context/DataContext";
-
+import { IconContext } from "react-icons";
+import { MdGpsFixed } from 'react-icons/md';
 import L from "leaflet";
 
 delete L.Icon.Default.prototype._getIconUrl;
@@ -12,6 +13,37 @@ L.Icon.Default.mergeOptions({
     shadowUrl: require("leaflet/dist/images/marker-shadow.png"),
 });
 
+
+// Classes used by Leaflet to position controls
+const POSITION_CLASSES = {
+    bottomleft: 'leaflet-bottom leaflet-left',
+    bottomright: 'leaflet-bottom leaflet-right',
+    topleft: 'leaflet-top leaflet-left',
+    topright: 'leaflet-top leaflet-right',
+  }
+
+function FlyToControl({ position }) {
+    const parentMap = useMap();
+    const positionClass = (position && POSITION_CLASSES[position]) || POSITION_CLASSES.topright;
+
+    const flyTo = () =>
+    {
+        const pos = [30.3377, -81.4065];
+        parentMap.flyTo(pos);
+    }
+
+    return (
+      <div className={positionClass}>
+        <div className="leaflet-bar leaflet-control">
+            <a href="#" onClick={flyTo} title="Fly To" role="button" aria-label="Fly To">
+                <IconContext.Provider value={{ style: { fontSize: '22px', verticalAlign: 'text-top'} }}>
+                    <MdGpsFixed />
+                </IconContext.Provider>
+            </a>
+        </div>
+      </div>
+    )
+  }
 
 
 const Map = () => {
@@ -81,6 +113,7 @@ const Map = () => {
                         </Popup>
                     </Marker>
                 ))}
+                <FlyToControl position="topright" />
             </MapContainer>
         </main>
     );
