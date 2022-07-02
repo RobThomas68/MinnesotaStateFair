@@ -6,6 +6,7 @@ import { IconContext } from "react-icons";
 import { MdGpsFixed } from 'react-icons/md';
 import L from "leaflet";
 
+
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
     iconRetinaUrl: require("leaflet/dist/images/marker-icon-2x.png"),
@@ -36,7 +37,7 @@ function FlyToControl({ position }) {
       <div className={positionClass}>
         <div className="leaflet-bar leaflet-control">
             <a href="#" onClick={flyTo} title="Fly To" role="button" aria-label="Fly To">
-                <IconContext.Provider value={{ style: { fontSize: '22px', verticalAlign: 'text-top'} }}>
+                <IconContext.Provider value={{ style: { fontSize: '18px', verticalAlign: 'text-top'} }}>
                     <MdGpsFixed />
                 </IconContext.Provider>
             </a>
