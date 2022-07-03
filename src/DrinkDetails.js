@@ -5,10 +5,13 @@ import DataContext from "./context/DataContext";
 import { BsStarFill, BsStar } from 'react-icons/bs'
 
 const DrinkDetails = () => {
-    const { drinks, vendors, isFavorite, onFavoriteClick } = useContext(DataContext);
+    const { drinks, vendors, itemToVendors, isFavorite, onFavoriteClick } = useContext(DataContext);
     const { id } = useParams();
     const drink = drinks.find((drink) => drink.id === id);
-
+    const getVendor = (i) => {
+        return vendors.find((vendor) => vendor.id === i);
+    };
+    const itemVendors = itemToVendors.find((item) => item.id === id).vendorIDs
     return (
         <main className="PostPage">
             <article className="post">
@@ -23,10 +26,8 @@ const DrinkDetails = () => {
                         </div>
                         <p>New:{drink.isNew.toString()}</p>
                         <p>Only At Fair:{drink.isOnlyAtFair.toString()}</p>
-                        <p>Vendors:{drink.vendorIDs.join(', ')}</p>
-
                         <ul>
-                            {drink.vendorIDs.map(function (id) {
+                            {itemVendors.map(function (id) {
                                 const vendor = vendors.find((vendor) => vendor.id === id);
 
                                     return (

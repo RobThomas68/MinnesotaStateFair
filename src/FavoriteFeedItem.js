@@ -4,7 +4,7 @@ import DataContext from "./context/DataContext";
 import { BsStarFill, BsStar } from 'react-icons/bs'
 
 const FavoriteFeedItem = ({ feedItem }) => {
-    const { isFavorite, onFavoriteClick } = useContext(DataContext);
+    const { vendorFavoriteItemNames, isFavorite, onFavoriteClick } = useContext(DataContext);
 
     return (
         <article className="post">
@@ -18,9 +18,8 @@ const FavoriteFeedItem = ({ feedItem }) => {
                     }
                 </div>
             </div>
-
-            {feedItem.hasOwnProperty('directions') && <p>{feedItem.directions}</p>}
-
+            {feedItem.hasOwnProperty('directions') && <p className="directions">{feedItem.directions}</p>}
+            {<p>{vendorFavoriteItemNames(feedItem.id).join(', ')}</p>}
         </article>
     );
 };

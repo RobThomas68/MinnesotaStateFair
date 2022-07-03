@@ -18,9 +18,7 @@ const VendorFeedItem = ({ feedItem }) => {
                     }
                 </div>
             </div>
-            {/* <p>{feedItem.id}</p> */}
-            <p>{feedItem.directions}</p>
-            {/* <p>({feedItem.latitude},{feedItem.longitude})</p> */}
+            <p className="directions">{feedItem.directions}</p>
         </article>
     );
 };

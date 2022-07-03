@@ -4,10 +4,7 @@ import DataContext from "./context/DataContext";
 import { BsStarFill, BsStar } from 'react-icons/bs'
 
 const FoodFeedItem = ({ feedItem }) => {
-    const { vendors, isFavorite, onFavoriteClick } = useContext(DataContext);
-    const getVendor = (id) => {
-        return vendors.find((vendor) => vendor.id === id).name;
-    };
+    const { itemVendorNames, isFavorite, onFavoriteClick } = useContext(DataContext);
 
     return (
         <article className="post">
@@ -21,7 +18,7 @@ const FoodFeedItem = ({ feedItem }) => {
                     }
                 </div>
             </div>
-            <p>{getVendor(feedItem.vendorID)}</p>
+            <p>{itemVendorNames(feedItem.id).join(', ')}</p>
         </article>
     );
 };

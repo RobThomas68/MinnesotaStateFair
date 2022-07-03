@@ -198,6 +198,10 @@ body {
   margin-left: auto;
 }
 
+.directions {
+  font-size: 0.75rem;
+}
+
 .newPostForm {
   display: flex;
   flex-direction: column;

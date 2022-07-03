@@ -4,6 +4,7 @@ import db from "../data/db.json";
 const DataContext = createContext({});
 
 export const DataProvider = ({ children }) => {
+
     // ---------- Favorites ----------
     const [favorites, setFavorites] = useState(
         JSON.parse(localStorage.getItem("favorites")) || []
@@ -23,17 +24,12 @@ export const DataProvider = ({ children }) => {
             setFavorites(favs);
         } else {
             const favs = [...favorites, item];
-            let id = undefined;
+            const vendorIDs = itemToVendors.find((i) => i.id === item.id).vendorIDs
             if (
-                item.hasOwnProperty("vendorIDs") &&
-                item.vendorIDs.length === 1
+                vendorIDs &&
+                vendorIDs.length === 1
             ) {
-                id = item.vendorIDs[0];
-            } else if (item.hasOwnProperty("vendorID")) {
-                id = item.vendorID;
-            }
-            if (id) {
-                const vendor = vendors.find((vendor) => vendor.id === id);
+                const vendor = vendors.find((vendor) => vendor.id === vendorIDs[0]);
                 if (vendor && !isFavorite(vendor)) {
                     favs.push(vendor);
                 }
@@ -59,6 +55,10 @@ export const DataProvider = ({ children }) => {
     const [vendorSearchResults, setVendorSearchResults] = useState([]);
     const [vendors, setVendors] = useState([]);
 
+    // ---------- Lookups ----------
+    const [itemToVendors, setItemToVendors] = useState([]);
+    const [vendorToItems, setVendorToItems] = useState([]);
+
     useEffect(() => {
         localStorage.setItem("favorites", JSON.stringify(favorites));
 
@@ -74,6 +74,8 @@ export const DataProvider = ({ children }) => {
         setFoods(db.foods);
         setDrinks(db.drinks);
         setVendors(db.vendors);
+        setItemToVendors(db.itemToVendors);
+        setVendorToItems(db.vendorToItems);
     }, []);
 
     // ---------- Foods ----------
@@ -111,6 +113,19 @@ export const DataProvider = ({ children }) => {
         );
     }, [vendors, vendorSearch]);
 
+
+    // ---------- Item To Vendor Lookups ----------
+    const getVendorName = (id) => { return vendors.find((vendor) => vendor.id === id).name; };
+    const itemVendorNames = (id) => { return itemToVendors.find((item) => item.id === id).vendorIDs.map((id) => getVendorName(id)); }
+
+    // ---------- Vendor To Item Lookups ----------
+    const getItemVendorIDs = (id) => {
+        const item = vendorToItems.find((vendor) => vendor.id === id);
+        return item ? item.itemIDs : [];
+   }
+   const vendorFavorites = (id) => { return favorites.filter((favorite) => getItemVendorIDs(id).includes(favorite.id)); }
+   const vendorFavoriteItemNames = (id) => { return vendorFavorites(id).map((favorite) => favorite.name); }
+
     return (
         <DataContext.Provider
             value={{
@@ -142,6 +157,12 @@ export const DataProvider = ({ children }) => {
                 vendorSearchResults,
                 vendors,
                 setVendors,
+
+                itemToVendors,
+                vendorToItems,
+
+                itemVendorNames,
+                vendorFavoriteItemNames,
             }}
         >
             {children}
