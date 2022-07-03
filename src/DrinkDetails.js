@@ -8,9 +8,6 @@ const DrinkDetails = () => {
     const { drinks, vendors, itemToVendors, isFavorite, onFavoriteClick } = useContext(DataContext);
     const { id } = useParams();
     const drink = drinks.find((drink) => drink.id === id);
-    const getVendor = (i) => {
-        return vendors.find((vendor) => vendor.id === i);
-    };
     const itemVendors = itemToVendors.get(id).vendorIDs;
     return (
         <main className="PostPage">
