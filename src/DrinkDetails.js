@@ -11,7 +11,7 @@ const DrinkDetails = () => {
     const getVendor = (i) => {
         return vendors.find((vendor) => vendor.id === i);
     };
-    const itemVendors = itemToVendors.find((item) => item.id === id).vendorIDs
+    const itemVendors = itemToVendors.get(id).vendorIDs;
     return (
         <main className="PostPage">
             <article className="post">
@@ -24,17 +24,17 @@ const DrinkDetails = () => {
                                 {!isFavorite(drink) && <BsStar     onClick={() => onFavoriteClick(drink)} role="button" tabIndex="0" />}
                             </div>
                         </div>
-                        <p>New:{drink.isNew.toString()}</p>
-                        <p>Only At Fair:{drink.isOnlyAtFair.toString()}</p>
+                        {/* <p>New:{drink.isNew.toString()}</p> */}
+                        {/* <p>Only At Fair:{drink.isOnlyAtFair.toString()}</p> */}
                         <ul>
                             {itemVendors.map(function (id) {
                                 const vendor = vendors.find((vendor) => vendor.id === id);
 
                                     return (
                                         <li key={id}>
-                                            {vendor && <p>{vendor.id}-{vendor.name}</p>}
+                                            {vendor && <p>{vendor.name}</p>}
                                             {vendor && <p>{vendor.directions}</p>}
-                                            {vendor && <p>({vendor.latitude},{vendor.longitude})</p>}
+                                            {/* {vendor && <p>({vendor.latitude},{vendor.longitude})</p>} */}
                                         </li>
                                     );
                             })}

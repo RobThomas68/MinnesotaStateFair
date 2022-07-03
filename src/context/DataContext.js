@@ -24,7 +24,7 @@ export const DataProvider = ({ children }) => {
             setFavorites(favs);
         } else {
             const favs = [...favorites, item];
-            const vendorIDs = itemToVendors.find((i) => i.id === item.id).vendorIDs
+            const vendorIDs = itemToVendors.get(item.id).vendorIDs;
             if (
                 vendorIDs &&
                 vendorIDs.length === 1
@@ -74,8 +74,8 @@ export const DataProvider = ({ children }) => {
         setFoods(db.foods);
         setDrinks(db.drinks);
         setVendors(db.vendors);
-        setItemToVendors(db.itemToVendors);
-        setVendorToItems(db.vendorToItems);
+        setItemToVendors(new Map(db.itemToVendors.map((obj) => [obj.id, obj])));
+        setVendorToItems(new Map(db.vendorToItems.map((obj) => [obj.id, obj])));
     }, []);
 
     // ---------- Foods ----------
@@ -116,12 +116,11 @@ export const DataProvider = ({ children }) => {
 
     // ---------- Item To Vendor Lookups ----------
     const getVendorName = (id) => { return vendors.find((vendor) => vendor.id === id).name; };
-    const itemVendorNames = (id) => { return itemToVendors.find((item) => item.id === id).vendorIDs.map((id) => getVendorName(id)); }
+    const itemVendorNames = (id) => { return itemToVendors.get(id).vendorIDs.map((id) => getVendorName(id)); }
 
     // ---------- Vendor To Item Lookups ----------
     const getItemVendorIDs = (id) => {
-        const item = vendorToItems.find((vendor) => vendor.id === id);
-        return item ? item.itemIDs : [];
+        return vendorToItems.has(id) ? vendorToItems.get(id).itemIDs : [];
    }
    const vendorFavorites = (id) => { return favorites.filter((favorite) => getItemVendorIDs(id).includes(favorite.id)); }
    const vendorFavoriteItemNames = (id) => { return vendorFavorites(id).map((favorite) => favorite.name); }
