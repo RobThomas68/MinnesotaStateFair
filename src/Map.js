@@ -46,16 +46,16 @@ function FlyToControl({ position }) {
     )
   }
 
-
+  
 const Map = () => {
+    const { favorites, vendorFavoriteItemNames } = useContext(DataContext);
+
     const center = [44.98106, -93.174351];
     const zoom = 20;
     const attribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
     const url = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
 
-    const { favorites } = useContext(DataContext);
-
-    const favs = favorites.filter((favorite) =>
+    const favoritesToMap = favorites.filter((favorite) =>
         favorite.hasOwnProperty("latitude")
     );
 
@@ -107,10 +107,13 @@ const Map = () => {
 
                 )}
 
-                {favs.map((f) => (
-                    <Marker key={f.id} position={[f.latitude, f.longitude]} icon={markerIconGreen}>
+                {favoritesToMap.map((f, index) => (
+                    <Marker key={index} position={[f.latitude, f.longitude]} icon={markerIconGreen}>
                         <Popup>
                             <h4>{f.name}</h4>
+                            <ul>
+                                {vendorFavoriteItemNames(f.id).map((name) => <li>{name}</li>)}
+                            </ul>
                         </Popup>
                     </Marker>
                 ))}
