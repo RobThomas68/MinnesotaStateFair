@@ -24,7 +24,7 @@ export const DataProvider = ({ children }) => {
             setFavorites(favs);
         } else {
             const favs = [...favorites, item];
-            const vendorIDs = itemToVendors.get(item.id).vendorIDs;
+            const vendorIDs = itemToVendors.has(item.id) && itemToVendors.get(item.id).vendorIDs;
             if (
                 vendorIDs &&
                 vendorIDs.length === 1
