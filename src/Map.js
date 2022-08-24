@@ -29,7 +29,7 @@ function FlyToControl({ position }) {
 
     const flyTo = () =>
     {
-        const pos = [30.3377, -81.4065];
+        const pos = [44.98, -93.17];
         parentMap.flyTo(pos);
     }
 
@@ -46,7 +46,7 @@ function FlyToControl({ position }) {
     )
   }
 
-  
+
 const Map = () => {
     const { favorites, vendorFavoriteItemNames } = useContext(DataContext);
 
