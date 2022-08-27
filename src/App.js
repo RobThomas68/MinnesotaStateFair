@@ -25,9 +25,6 @@ function App() {
           <Route path="drink/:id" element={<DrinkDetails/>} />
           <Route path="vendors" element={<Vendors />} />
           <Route path="map" element={<Map />} />
-          <Route path="lab" element={<Lab />} />
-          <Route path="settings" element={<Settings />} />
-          <Route path="about" element={<About />} />
           <Route path="*" element={<Missing />} />
         </Route>
       </Routes>
