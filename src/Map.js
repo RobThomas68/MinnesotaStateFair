@@ -112,7 +112,7 @@ const Map = () => {
                         <Popup>
                             <h4>{f.name}</h4>
                             <ul>
-                                {vendorFavoriteItemNames(f.id).map((name) => <li>{name}</li>)}
+                                {vendorFavoriteItemNames(f.id).map((name, index) => <li key={index}>{name}</li>)}
                             </ul>
                         </Popup>
                     </Marker>
